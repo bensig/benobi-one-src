@@ -5,6 +5,9 @@ thumbnail = "images/benobi-one.png"
 description = "projects"
 +++
 
+This is a list of the major projects I have worked on since 2013. Until Sense Chat, all of my projects were 100% self-funded.
+
+---------------------------
 
 ## 2019 - Sense (EOS) Chat
 
