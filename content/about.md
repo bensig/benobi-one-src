@@ -14,7 +14,7 @@ I strongly believe that privacy is a natural right of humans. I don't personally
 
 The biggest thrill for me is strategy planning, but also working with a team of people who are passionate and brilliant - and who are always asking "what more can I do?" Startups require a special breed of person who is a unicorn in and of themselves - real rockstars of life. It's pretty magical when I find people that are able to work at the same level of intensity and interest that I can bring to a team.
 
-Growing up, my dad was a CEO of a few companies... I always used to laugh that he ran our household like a business. For example got paid for completing individual chores. Bob is also a marketing and merchandising genius. I'm always impressed by the way he really understands consumers and products in general. 
+Growing up, my dad was a CEO of a few companies... I  used to laugh that he ran our household like a business - for example, I got paid for completing individual chores. Bob is also a marketing and merchandising genius. I'm always impressed by the way he really understands consumers and products in general. My mom challenged me to think about what I could do for other people. She always asks (rhetorically) "What are we here for? To help people, that's what." I would say that a large part of my career has been helping other people. 
 
 Business has provided me some amazing adventures, I have lived in NYC, San Francisco, Atlanta (breifly), and Los Angeles. I’ve learned a lot from diversity - I have been to Japan several times for a few weeks each and I really love it there because of how people treat one another with so much respect..
 

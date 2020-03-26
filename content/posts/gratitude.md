@@ -1,7 +1,7 @@
 +++ 
 date = "2020-03-25"
 title = "Gratitude"
-slug = "creating-a-new-theme" 
+slug = "gratitude" 
 tags = []
 categories = []
 +++

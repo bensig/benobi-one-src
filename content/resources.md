@@ -1,11 +1,9 @@
 +++
-title = "Resources"
+title = "Web resources and great projects"
 slug = "resources"
 thumbnail = "images/benobi-one.png"
 description = "resources"
 +++
-
-# Web resources and great projects.
 
 This is a list of resources that I find useful / interesting.
 
