@@ -85,10 +85,12 @@ pygmentsUseClasses = true
     url = "https://www.linkedin.com/in/bensig/"
 [[params.social]]
     name = "Medium"
+    icon = "fab fa-medium"
     weight = 4
     url = "https://medium.com/@bensig/"
 [[params.social]]
     name = "angel.co"
+    icon = "fab fa-angellist"
     weight = 5
     url = "https://angel.co/bensig/"
 
