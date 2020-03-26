@@ -1,0 +1,130 @@
+baseURL = "https://benobi.one/"
+languageCode = "en-us"
+title = "benobi.one"
+theme = "hugo-coder-portfolio"
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+# disqusShortname = "yourdiscussshortname"
+
+# https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[markup]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+    plainIDAnchors = true
+    hrefTargetBlank = true
+
+[params]
+    author = "benobi.one"
+    description = "Ben Sigman - security, engineering, and product leadership."
+    keywords = "blog,developer,personal"
+    info = "Ben Sigman - security, engineering, and product leadership."
+    avatarurl = "images/unicornvision.jpg"
+    footercontent = "benobi.one"
+    fixedbarContent = "Let's keep the internet safe and free?→"
+    fixedbarContentAfter = "You're a good human."
+
+    hideCredits = true
+    hideCopyright = true
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = false
+    enableFacebookShare = false
+    enableHatenaShare = false
+    enableLineShare = false
+    enableLinkedInShare = false
+    enableenableEFFDonate = true
+
+   thumbnail = "images/benobi-one.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/bensig/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/bensig/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/bensig/"
+[[params.social]]
+    name = "Medium"
+    weight = 4
+    url = "https://medium.com/@bensig/"
+[[params.social]]
+    name = "angel.co"
+    weight = 5
+    url = "https://angel.co/bensig/"
+
+
+
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Benobi.one"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Benobi.one"
+            info = "SECURITY, ENGINEERING, AND PRODUCT LEADERSHIP"
+            description = "Benobi.one's personal website"
+            keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
