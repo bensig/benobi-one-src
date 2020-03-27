@@ -108,6 +108,6 @@ pygmentsUseClasses = true
                 weight = 4
                 url = "resources"
             [[languages.en.menu.main]]
-                name = "Contact me"
+                name = "Contact"
                 weight = 5
                 url = "contact"

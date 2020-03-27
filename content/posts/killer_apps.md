@@ -1,6 +1,6 @@
 +++ 
 date = "2020-03-26"
-title = "Kiler Apps"
+title = "Killer Apps"
 slug = "killer-apps" 
 tags = []
 categories = []
