@@ -1,7 +1,7 @@
 +++ 
 draft = true
 date = 2020-03-27T02:27:29-07:00
-title = "Hugo Deployment to Github and Plesk via Webhook"
+title = "JAMstack Hugo Deployment to Github and Netlify"
 slug = "" 
 tags = []
 categories = []
@@ -38,11 +38,8 @@ cd public && git add . && git commit -m "$1" && git push
 
 I put that script into my $PATH and made it executable by my user and now I am able to easily commit and deploy my changes to Github by typing:`commit-push-hugo.sh commit-message` from within my Hugo src repo root.
 
-## Plesk webhook for auto deployment
-That's great if you want to host on Github pages and you can stop right there and have a great site... But I like to use Plesk for all my web hosting. 
+## Netlify deployment
 
-Plesk allows you to setup your Github remote repo as a source for httpdocs and they have a handy webhook. 
+Part of my choice for using Hugo was that I had wanted to check out this new decentralized web deployment called [JAMstack](https://jamstack.org/). This site has no central webserver. It runs completely on a CDN. The free CDN I'm using is provided by [Netlify](https://netlify.com). Netlify is a CDN for static html files specifically designed for JAMstack. I added my html repo as a source for the site's code. It is also possible to setup Netlify to run your Hugo deploy script. 
 
-I configured this webhook to be triggered by a push on the html repo. Now when I make changes to my site, I can preview them locally by starting my hugo server in vscode and then running a single command to deploy to Github which triggers a webhook on my Plesk server - Voila! Simple Hugo deployment! 
-
-If there is anything I can do better or if you have any quesitons about this setup please feel free to reach out to me on [Twitter](https://twitter.com/bensig).
+If you have any quesitons or comments about this setup please feel free to reach out to me on [Twitter](https://twitter.com/bensig).
