@@ -1,7 +1,7 @@
 +++ 
 draft = true
 date = 2020-03-28T02:48:50-07:00
-title = "Very Simple Animated GIFs in XCode"
+title = "Animated GIFs in Swift Xcode"
 slug = "" 
 tags = []
 categories = []
