@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-03-29T14:46:59-07:00
 title = "Defending the Product Roadmap"
 slug = "" 

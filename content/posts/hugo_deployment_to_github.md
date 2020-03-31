@@ -1,7 +1,7 @@
 +++ 
-draft = true
+draft = false
 date = 2020-03-27T02:27:29-07:00
-title = "JAMstack Hugo Deployment to Github and Netlify"
+title = "JAMstack Serverless Hugo Deployment"
 slug = "" 
 tags = []
 categories = []

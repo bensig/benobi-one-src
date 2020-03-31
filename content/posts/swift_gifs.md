@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-03-28T02:48:50-07:00
 title = "Animated GIFs in Swift Xcode"
 slug = "" 

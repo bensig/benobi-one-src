@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-03-29T21:09:13-07:00
 title = "Latency Race Privacy Policy"
 slug = "" 
