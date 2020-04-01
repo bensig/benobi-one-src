@@ -34,18 +34,18 @@ Here are the 15 steps I took to create this app:
 I knew I wanted to build a simple app with a simple purpose: measure latency and simply say if the connection is "good" or "bad" based on the latency of the phone. 
 
 ## 1. Spec
-    I still started by writing [a spec document](https://docs.google.com/document/d/1rqlgZ5ClwZSInaQxrjPydO7HCDxAnex98CSCuDp4h6w/) which outlines how the app will function. I put user stories in this format:
+I still started by writing [a spec document](https://docs.google.com/document/d/1rqlgZ5ClwZSInaQxrjPydO7HCDxAnex98CSCuDp4h6w/) which outlines how the app will function. I put user stories in this format:
 
-    "As a user, I want to do X so that I can Y." 
+"As a user, I want to do X so that I can Y." 
 
 ## 2. Wire
-    I built wireframes in XD. You can see the wireframes on the spec document. They were super low fidelity. Just enough to get the idea across and to understand where things would fit on the screen generally. This answers questions that you may not have thought about in the spec: 
-     * Should there be a button? 
-     * Does a user need a place to find help?
+I built wireframes in XD. You can see the wireframes on the spec document. They were super low fidelity. Just enough to get the idea across and to understand where things would fit on the screen generally. This answers questions that you may not have thought about in the spec: 
+ * Should there be a button? 
+ * Does a user need a place to find help?
 
 ## 3. Design
 
-    In this case, I chose two images to be placeholders. I got them edited so that they were the same size and I could easily use them in the app. I put them in Preview and resized, then exported them to PNG files.
+In this case, I chose two images to be placeholders. I got them edited so that they were the same size and I could easily use them in the app. I put them in Preview and resized, then exported them to PNG files.
 
 ## 4. Code Functions
 
