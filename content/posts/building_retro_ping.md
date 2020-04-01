@@ -1,12 +1,12 @@
 +++ 
 draft = false
 date = 2020-03-31T22:40:30-07:00
-title = "Retro Ping App"
+title = "Building a Simple iOS App: Retro Ping App"
 slug = "" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Step-by-step story of how I built my first iOS app in Swift."
 +++
 
 I built a mobile app this weekend in Swift. I'm very happy with the end product and I have already tested it out with a few friends.
