@@ -7,7 +7,7 @@ tags = ["apple, apps, review, rejection"]
 categories = []
 thumbnail = "images/benobi-one.png"
 description = ""
-disclosure = []
+disclosure = ""
 +++
 
 There are dozens of reasons you might get rejected by the Apple App Review Team - your metadata might have issues, your screenshots might not have the correct placement of the WiFi or battery symbols, or they might just think your app is boring! I have personally had apps rejected and I have also helped friends navigate app rejections. If your app gets rejected, do not give up! Depending on the reviewer, you might get different results for the same app. For example, when I submitted my first update today for Retro Ping, the update was rejected. 
