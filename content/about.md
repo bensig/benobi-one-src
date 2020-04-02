@@ -8,7 +8,7 @@ description = "about"
 
 Curiousity is an art form itself. I've always been a very curious person. I love to learn about people and I love to learn new tricks. My main interests are: internet philosophy, blockchain, building consumer apps, linux \ web security, air quality, dogs, chess, and astrology. 
 
-Before going full-force into building products in 2017, I ran a technology consulting company that I started back in college. The consulting company took me on many adventures and introduced me to many great people - it's still profitable and being run by my business partner today! Now, I work at a VC-backed startup that also raised money through an ICO. 
+I am driven by the act of creation. Before going full-time into creating products in 2017, I ran a technology consulting company that I started back in college. The consulting company took me on many adventures and introduced me to many great people - it's still profitable and being run by my business partner today! Now, I work at a VC-backed startup that also raised money through an ICO. 
 
 I strongly believe that privacy is a natural right of humans. I don't personally have much to hide, but it seems to me that hiding our patterns makes us less predictable and less easily controlled. I had a dream that it is my mission in life to protect the internet - it gets to be free, safe, and fun.
 
