@@ -36,7 +36,7 @@ Three things I plan to work on this year: buying a cabin in the woods, getting m
 
 This is a site to showcase some of the things I have been working on for the past few years. 
 
-I decided to build it using [Hugo]( {{< relref "posts/../posts/hugo_deployment_to_github" >}}) since it seemed like something fun and new to learn... A jedi must always be learning new tricks. 
+I decided to build it using [Hugo]( {{< relref "posts/hugo_deployment_to_github" >}}) since it seemed like something fun and new to learn... A jedi must always be learning new tricks. 
 
 I am planning to use this site to share some of my thoughts about different things I am interested in. If you want to learn more about me check out my [blog]( {{< relref "posts" >}}).
 
