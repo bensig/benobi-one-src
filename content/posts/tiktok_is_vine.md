@@ -25,7 +25,7 @@ TikTok allegedly began as Musical.ly back in 2014. Musical.ly was a Shanghai-bas
 
 TikTok are many security and privacy concerns which I will not go into depth about here - but I did want to quickly note that [Musical.ly (TikTok) was sued by the FTC in 2019 for violating children's privacy laws](https://www.ftc.gov/news-events/press-releases/2019/02/video-social-networking-app-musically-agrees-settle-ftc).
 
-## Vine, is clearly a predecessor to TikTok. What did they have in common? 
+## TikTok / Vine Commonalities 
 
 * Short-form skit videos that are addictive and viral - check. 
 * Tons of youth making videos and sharing them - check. 
