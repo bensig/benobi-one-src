@@ -9,7 +9,7 @@ thumbnail = "images/benobi-one.png"
 description = ""
 +++
 
-Writing spec documents is an important aspect of building a product. Even if I am not working with a team, it's very useful as a tool to think through all of my product interactions and explain how they will work. If you cannot explain it very simply, then you will not be able to build it.
+Writing spec documents is an important aspect of building a product. As I wrote about in [my post about building a simple iOS app](https://benobi.one/posts/building_retro_ping/), even if I am building an app myself - I start with a specification document. it's very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!
 
 In addition, with a team, it's a very useful way to get feedback and "buy-in" from your team. If you cannot convince your team that something should be built a certian way, then you probably should not be building it. 
 
