@@ -17,6 +17,8 @@ It definitely meets all 3 of the killer app criteria in the [formula for killer 
 
 It also has [Krueger's 3 ingredients for a successful app that I wrote about this weekend](https://benobi.one/posts/killer_apps_mvp/): free to use, mobile-first, and rewarding/fun. 
 
+There are a few things that I really like about TikTok. One of them is that I do not need an account to see content. Downloading the app, I enjoy content immediately before creating an account - this is very refreshing. I also really like that the app has a constant full screen experience on my iPhone XS Max. It has a big screen and I really like that the app has no constraints on the content. I also really like how simple it is. They did a good job with the screen button layouts. I'm a fan of minimal interfaces.
+
 ## History of TikTok
 
 TikTok allegedly began as Musical.ly back in 2014. Musical.ly was a Shanghai-based app that made it simple for users to record lip synch videos. It turns out that TikTok acquired Musical.ly in 2017. Digging a little deeper, I learned that Musical.ly itself was [actually a pivot from an educational video platform](https://en.wikipedia.org/wiki/Musical.ly). The founders had a little money left after their education started and they decided to launch an entertainment app intead. This is a testament to [the tenacity it takes to build a product which I wrote about last week](https://benobi.one/posts/gardening_apps/). Now - 6 years later - TikTok is one of the most popular apps in the world.
