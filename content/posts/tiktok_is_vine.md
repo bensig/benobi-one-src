@@ -7,7 +7,6 @@ tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
 description = ""
-disclosure = []
 +++
 
 Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has been connecting users from both countries - and just about everywhere in-between. TikTok has taken over. 
