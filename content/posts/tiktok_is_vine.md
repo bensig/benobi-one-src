@@ -41,7 +41,7 @@ For content creators, the coronavirus has leveled the playing field. You don't n
 
 Meanwhile, millions of people around the world are on lockdown - staring at their "mobile" phones all day - looking into their black mirrors for new ways to experience the outside world... so TikTok is at the right place at the right time with the right traction. Speaking of places, have you noticed that TikToks are literally everywhere? I even saw that dude with a sign was protesting for people to "[Keep TikToks on Tiktok](https://knowyourmeme.com/photos/1762226-dude-with-sign)."
  
-## TikTok Sharing: Reposts
+## TikTok Trojan Horse
 
 The sharability of TikTok is a smart strategy. It is a bit counterintuitive at first - let me explain why... You see, most apps want users (and the content) to stay inside of the app as much as possible... Screen time and recurring screen time are important metrics for apps to measure traction. TikTok allows anyone to watch videos without ever downloading the app or signing up. TikTok links unfurl nicely into any other app or message where you can watch the video in the context of another app, webpage, or message. Also, TikTok users can also download the TikToks and repost them elsewhere. This is not possible on Instagram or other popular media platforms. Each TikTok does include a little watermark to let you know who made the video (so you can follow their handle on) TikTok. The strategy is working. I saw so many TikToks that I finally decided to download the app again last week (I had previously downloaded and deleted.)
 
