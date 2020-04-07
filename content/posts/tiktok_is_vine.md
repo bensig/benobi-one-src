@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-04-06T15:24:33-07:00
+date = 2020-04-05T15:24:33-07:00
 title = "TikTok Timing and Sharability"
 slug = "" 
 tags = []
