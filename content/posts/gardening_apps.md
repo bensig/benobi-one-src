@@ -19,6 +19,8 @@ Young gardens take care and attention. From the time a plant is a seed through i
 
 When I talk to people who have an idea for an app or a technology product, they often do not realize how much work it will take for them to get this idea from their head into a format that someone else can understand and then translate that idea into wireframes, designs, and then functional code. 
 
+## Tenaciousness 
+
 Once you get through that initial phase it is not time to go on vacation and simply trust your team to do it's thing. It is also not time to move on to your next idea or go back to your day job and just expect that in a few months if you just put in some money - you will get the product you originally designed. This is not reality. There are many little critical decisions that need to be made along the way. You need to be a part of those conversations and be testing your app at each stage of it's lifecycle. 
 
- As a founder, it's really important that you maintain as much involvement in the process of building (and testing) your product as possible. You really need to water, guide, and maintain your garden daily. It takes a great deal of care to build  garden from seeds. It takes even more care to build a company.
+ As a founder, it's really important that you maintain as much involvement in the process of building (and testing) your product as possible. You really need to water, guide, and maintain your garden daily. It takes a great deal of care to build  garden from seeds. It takes even tenacity to build a company.

@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2020-04-04T00:34:42-07:00
-title = "Krueger's 3 Key Qualities for a Killer App"
+title = "Krueger's 3 Key Ingredients for a Killer App"
 slug = "" 
 tags = []
 categories = []
