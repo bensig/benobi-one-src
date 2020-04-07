@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-04-06T15:24:33-07:00
 title = "TikTok Timing and Sharability"
 slug = "" 
