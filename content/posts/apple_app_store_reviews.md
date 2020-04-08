@@ -9,7 +9,7 @@ thumbnail = "images/benobi-one.png"
 description = ""
 +++
 
-Super thankful today for all of the reviews I have gotten. It looks like I am now up to 52 5 Star reviews on the Apple App Store!!! Big thanks to everyone who downloaded the app and also wrote reviews. I really plan to use that when I speak to my Apple App Store rep this week about Retro Ping. I would really like to find a way to honor everyone who wrote reviews. I wish there were a secret clubhouse that I could give every one of those people a key to - and then I could stock it with surprises for them each week. 
+Super thankful today for all of the reviews I have gotten. It looks like I am now up to 52 "5 Star" reviews on the Apple App Store!!! As I [wrote about a few days ago, my app was approved, and then the first update was rejected within 24 hours for the app being so simple](https://benobi.one/posts/app_store_rejection/). I want to give a big thanks to everyone who downloaded the app and also wrote reviews. I really plan to use that when I speak to my Apple App Store rep this week about Retro Ping. I would really like to find a way to honor everyone who wrote reviews. I wish there were a secret clubhouse that I could give every one of those people a key to - and then I could stock it with surprises for them each week. 
 
 ## How did I get so many App Store reviews in 3 days? 
 
