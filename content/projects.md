@@ -107,12 +107,14 @@ I designed and pitched this idea at an LA-startup pitch competition where I won 
 
 {{% /portfolio %}}
 
-## 2013 - Dice Cam
+## 2013 - [Dice Cam](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)
 
-{{% portfolio image="/images/dice-app-screens.png" alt="Dice App" link="/404.html"%}}
+{{% portfolio image="/images/dice-app-screens.png" alt="Dice App" link="[/404.htm](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)"%}}
 
 This was the first product I designed back in 2013. Dice was a small camera that could be placed anywhere to produce a "portal" where other people could watch your video stream in the Dice mobile app (UX visible here on the left). The idea was that you could either have a public or private stream. Users would be able to check on their pets, let people tune into their backyard party, or just use it as a security camera in their garage. 
 
-The small form factor of the camera is what made it unique - 3 inches by 3 inches. We had industrial designs, but we did not raise any money to build a prototype.
+The small form factor of the camera is what made it unique - 3 inches by 3 inches. We had industrial designs, but we did not raise any money to build a prototype. 
+
+The designer of this project, Ben Lam, is a dope designer and an old friend. He reached out to let me know that he also has Dice on his [portfolio here](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0).
 
 {{% /portfolio %}}
