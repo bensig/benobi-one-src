@@ -31,3 +31,5 @@ Now, you will have something that everyone can look at and agree upon. It might 
 ## How do you know when a spec doc is done?
 
 There is a way to know when you are done. Whenever no one has any more questions about what you are building based on reading the spec document, then you are good. The two most critical people to understand the document fully is the developer and the product owner.
+
+Once your spec is finished, you must defend it. This is an important job for the product owner - preventing feature creep, or as I call it: [defending the roadmap](https://benobi.one/posts/feature_creep/).
