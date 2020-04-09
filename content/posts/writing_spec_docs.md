@@ -11,7 +11,7 @@ description = ""
 
 Writing spec documents is an important aspect of building a product. As I wrote about in [my post about building a simple iOS app](https://benobi.one/posts/building_retro_ping/), even if I am building an app myself - I start with a specification document. it's very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!
 
-In addition, with a team, it's a very useful way to get feedback and "buy-in" from your team. If you cannot convince your team that something should be built a certian way, then you probably should not be building it. 
+In addition, with a team, it's a very useful way to get feedback and "buy-in" from your team. If you cannot convince your team that something should be built a certian way, then you probably should not be building it.
 
 The structure of the spec is really dependent on what you are building. I like to break down spec documents by each feature - for exmaple: authentication, image upload, and view image gallery.
 
@@ -28,7 +28,7 @@ The spec document should answer the following questions at a minimum:
 
 Now, you will have something that everyone can look at and agree upon. It might seem like a lot of work to do this for describing how a user logs into your app - but, it's not as complicated as letting your team figure this out on their own and then find out that it's done in a way that disagrees with your company's ethos or best practices in some way.
 
-## How do you know when a spec doc is done?
+## How do you know when a spec doc is done
 
 There is a way to know when you are done. Whenever no one has any more questions about what you are building based on reading the spec document, then you are good. The two most critical people to understand the document fully is the developer and the product owner.
 

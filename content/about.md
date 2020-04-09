@@ -6,23 +6,23 @@ description = "about"
 +++
 
 
-Curiousity is an art form itself. I've always been a very curious person. I love to learn about people and I love to learn new tricks. My main interests are: internet philosophy, blockchain, building consumer apps, linux \ web security, air quality, dogs, chess, and astrology. 
+Curiousity is an art form itself. I've always been a very curious person. I love to learn about people and I love to learn new tricks. My main interests are: internet philosophy, blockchain, building consumer apps, linux \ web security, air quality, dogs, chess, and astrology.
 
-I am driven by the act of creation. Before going full-time into creating products in 2017, I ran a technology consulting company that I started back in college. The consulting company took me on many adventures and introduced me to many great people - it's still profitable and being run by my business partner today! Now, I work at a VC-backed startup that also raised money through an ICO. 
+I am driven by the act of creation. Before going full-time into creating products in 2017, I ran a technology consulting company that I started back in college. The consulting company took me on many adventures and introduced me to many great people - it's still profitable and being run by my business partner today! Now, I work at a VC-backed startup that also raised money through an ICO.
 
 I strongly believe that privacy is a natural right of humans. I don't personally have much to hide, but it seems to me that hiding our patterns makes us less predictable and less easily controlled. I had a dream that it is my mission in life to protect the internet - it gets to be free, safe, and fun.
 
 The biggest thrill for me is strategy planning, but also working with a team of people who are passionate and brilliant - and who are always asking "what more can I do?" Startups require a special breed of person who is a unicorn in and of themselves - real rockstars of life. It's pretty magical when I find people that are able to work at the same level of intensity and interest that I can bring to a team.
 
-Growing up, my dad was a CEO of a few companies... I  used to laugh that he ran our household like a business - for example, I got paid for completing individual chores. Bob is also a marketing and merchandising genius. I'm always impressed by the way he really understands consumers and products in general. My mom challenged me to think about what I could do for other people. She always asks (rhetorically) "What are we here for? To help people, that's what." I would say that a large part of my career has been helping other people. 
+Growing up, my dad was a CEO of a few companies... I  used to laugh that he ran our household like a business - for example, I got paid for completing individual chores. Bob is also a marketing and merchandising genius. I'm always impressed by the way he really understands consumers and products in general. My mom challenged me to think about what I could do for other people. She always asks (rhetorically) "What are we here for? To help people, that's what." I would say that a large part of my career has been helping other people.
 
 Business has provided me some amazing adventures, I have lived in NYC, San Francisco, Atlanta (breifly), and Los Angeles. I’ve learned a lot from diversity - I have been to Japan several times for a few weeks each and I really love it there because of how people treat one another with so much respect...
 
-On the personal side, I have 2 dogs and we live on the Venice Canals in Los Angeles. I'm a fan of yoga in my bedroom (morning and night) and running to the beach. I love hanging out with new people and learning about their passions as well as their intricacies. I am continually fascinated by how unique everyone is... 
+On the personal side, I have 2 dogs and we live on the Venice Canals in Los Angeles. I'm a fan of yoga in my bedroom (morning and night) and running to the beach. I love hanging out with new people and learning about their passions as well as their intricacies. I am continually fascinated by how unique everyone is...
 
 One of my greatest challenges is to replace judgement with curiousity. That's one of the signs of a true jedi ;) - I recommend trying it out. Instead of saying "that's wrong" - I will ask "why did you choose to do it that way?"
 
-Three things I plan to work on this year: buying a cabin in the woods, getting more sleep, and the ability to draw things I see. 
+Three things I plan to work on this year: buying a cabin in the woods, getting more sleep, and the ability to draw things I see.
 
 ---------------------------
 
@@ -32,11 +32,11 @@ Three things I plan to work on this year: buying a cabin in the woods, getting m
 
 ---------------------------
 
-## About this site 
+## About this site
 
-This is a site to showcase some of the things I have been working on for the past few years. 
+This is a site to showcase some of the things I have been working on for the past few years.
 
-I decided to build it using [Hugo]( {{< relref "posts/hugo_deployment_to_github" >}}) since it seemed like something fun and new to learn... A jedi must always be learning new tricks. 
+I decided to build it using [Hugo]( {{< relref "posts/hugo_deployment_to_github" >}}) since it seemed like something fun and new to learn... A jedi must always be learning new tricks.
 
 I am planning to use this site to share some of my thoughts about different things I am interested in. If you want to learn more about me check out my [blog]( {{< relref "posts" >}}).
 
