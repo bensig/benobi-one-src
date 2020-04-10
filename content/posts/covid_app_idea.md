@@ -9,7 +9,7 @@ thumbnail = "images/benobi-one.png"
 description = ""
 +++
 
-While I am waiting to hear from Apple about [whether or not they will allow me to update Retro Ping](https://benobi.one/posts/app_store_rejection/), I was thinking about building another really simple app. This app would simply allow people to check how many COVID-19 cases there are near them. 
+While I am waiting to hear from Apple about [whether or not they will allow me to update Retro Ping](https://benobi.one/posts/app_store_rejection/), I was thinking about building another really simple app. This app would simply allow people to check how many COVID-19 cases there are near them.
 
 The app would be pretty simple. I found a bunch of data on Github that is updated daily into CSV files. I could simply download those and transform them into a JSON, then write some simple logic to create an API where the mobile app can get latitude and longitude - send that data to the backend and get back the number of cases for that region.
 

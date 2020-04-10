@@ -21,7 +21,7 @@ I have been considering various ways to monetize the app. I plan to continue to 
 
 ## 2019 - [Sense (EOS) Chat](https://www.sense.chat)
 
-{{% portfolio image="/images/eos-chat.png" alt="eos mainnet" link="https://www.sense.chat"%}}>
+{{% portfolio image="/images/eos-chat.png" alt="eos mainnet" link="https://www.sense.chat"%}}
 
 I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the [Google Play](https://play.google.com/store/apps/details?id=com.makesense.sensechat&hl=en_GB) and [Apple App Store](https://apps.apple.com/us/app/sense-chat/id1434117290).
 
