@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-08-26T18:41:59-07:00
 title = "Evolved Scrum"
 slug = "Evolved Scrum" 
