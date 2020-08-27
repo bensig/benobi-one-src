@@ -7,7 +7,7 @@ tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
 description = "A better system for approaching product development."
-disclosure = []
+
 +++
 The goal of this post is to discuss a system that I call "Evolved Scrum" which is working for our team and how we have adopted our own methology for spending more time building, less time meeting, and doing a better job of managing our time and getting features over the finish line.
 
