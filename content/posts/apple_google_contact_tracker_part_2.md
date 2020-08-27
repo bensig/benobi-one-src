@@ -16,17 +16,20 @@ Here is a great breakdown of how it works from Moxie Marlinspike - creator of Si
 
 {{< tweet 1248707316997750784>}}
 
-The "daily tracing key" is like an "anonymized" daily identifier for your device. Your device will generate one "daily key" using an algorithm and then generate some unique "proxmity identifiers" based on that tracing key. Proximity identifiers are generated each 15 minutes and every phone will keep track of all of the proximity IDs that it has seen + when and where.
+## The "daily tracing key"
 
-Why is this concerning?
-
-Several reasons, for one thing - if you are constantly encountering the same people daily, then deriving your identity would not be that hard if you can know a few of the other people's identities.
+The "daily tracing key" is used to create fingerprints for your device every 15 minutes. That fingerprint is known as a proximity identifier... You will leave your fingerprint wherever you go as you move around throughout your day. You will fingerprint other people's apps as we all become a distributed data-collection center. If someone tests positive, then they will need to publish their "daily tracing keys" which will now be broadcasted to all other devices to let them know if they came into contact with that unknown person.
 
 {{< tweet 1248707317836574720>}}
-
 {{< tweet 1248707318646067202>}}
 
+## "Privacy"
+
+As soon as someone tests positive, they are essentially giving up all privacy about where they went and who they saw... Additionally, there will be beacons put up by stores, governments, and even independent researchers to gather fingerprints as people move about public spaces.
+
 {{< tweet 1248707319451402240>}}
+
+
 
 {{< tweet 1248707320311238659>}}
 
