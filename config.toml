@@ -85,10 +85,10 @@ pygmentsUseClasses = true
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Benobi.one"
-            info = "SECURITY, ENGINEERING, AND PRODUCT LEADERSHIP"
-            description = "Benobi's personal website"
-            keywords = "blog,developer,personal"
+            author = "Ben Sigman"
+            info = "For my ally is the Force, and a powerful ally it is"
+            description = "innerspace, cyberspace, outerspace"
+            keywords = "blog,developer,personal,ben sigman"
 
         [languages.en.menu] # It is possible to change the menu too.
 

@@ -5,9 +5,16 @@ thumbnail = "images/benobi-one.png"
 description = "projects"
 +++
 
-This is a list of the major projects I have worked on since 2013.
+This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
+## 2020 - [Undisclosed Project](https://benobi.one)
+
+{{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
+
+Working on an exciting undisclosed project. Stay tuned for updates.
+
+{{% /portfolio %}}
 
 ## 2020 - [Retro Ping](https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1)
 
