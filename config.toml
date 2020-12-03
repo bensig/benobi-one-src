@@ -21,8 +21,8 @@ pygmentsUseClasses = true
     info = "Ben Sigman - security, engineering, and product leadership."
     avatarurl = "images/unicornvision.jpg"
     footercontent = "benobi.one"
-    fixedbarContent = "Let's keep the internet safe and free?→"
-    fixedbarContentAfter = "You're a good human."
+    fixedbarContent = "Let's keep the internet safe and free? →→ "
+    fixedbarContentAfter = "You're a generous Jedi."
 
     hideCredits = true
     hideCopyright = true
