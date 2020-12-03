@@ -1,5 +1,5 @@
 +++
-title = "Web resources and great projects"
+title = "Resources / Great Projects"
 slug = "resources"
 thumbnail = "images/benobi-one.png"
 description = "resources"
