@@ -11,9 +11,9 @@ It is my mission in life to forward freedom, privacy, and fun in the universe. M
 
 ### About Benobi
 
-I have always been driven by curiousity and creativity.
+I have always been driven by curiosity and creativity.
 
-Curiousity is an art form itself.  I love to learn about people, to learn new tricks, and to share those tricks with other people I meet. One of my main philosphies in life is to emulate what I appreaciate in other people - or "don't hate, emulate."
+Curiosity is an art form itself.  I love to learn about people, to learn new tricks, and to share those tricks with other people I meet. One of my main philosphies in life is to emulate what I appreciate in other people - or "don't hate, emulate."
 
 Before going full-time into creating products in 2017, I ran a technology consulting company that I started back in college. The consulting company took me on many adventures and introduced me to many great people - it's still profitable and being run by my business partner today! Now, I work at a VC-backed startup that also raised money through an ICO.
 
@@ -25,9 +25,7 @@ Growing up, my dad (Bob) was a CEO of a few companies... I  used to laugh that h
 
 The businesses I have worked with have provided me some amazing adventures, I have lived in NYC, San Francisco, Atlanta (to work on Avengers Endgame), and Los Angeles. I’ve learned a lot from diversity - I have been to Japan several times for a few extended trips and I really love it the way that people treat everyone with so much respect...
 
-On the personal side, I have 2 dogs and we live on the Venice Canals in Los Angeles. I'm a fan of yoga in my bedroom (morning and night) and running to the beach. I love hanging out with new people and learning about their passions as well as their intricacies. I am continually fascinated by how unique everyone is...
-
-One of my greatest challenges is to replace judgement with curiousity. That's one of the signs of a true jedi ;) - I recommend trying it out. Instead of saying "that's wrong" - I strive to ask "why did you choose to do it that way?"
+One of my greatest challenges is to replace judgement with curiosity. That's one of the signs of a true jedi ;) - I recommend trying it out. Instead of saying "that's wrong" - I strive to ask "why did you choose to do it that way?"
 
 Three things I plan to work through the next year: learning piano, calisthetics, and launching products that help people.
 
