@@ -6,8 +6,9 @@ description = "about"
 +++
 
 ### TL,DR
+My mission in life to forward freedom, privacy, and fun in the universe.
 
-It is my mission in life to forward freedom, privacy, and fun in the universe. My main interests are: storytelling, internet philosophy, product development, linux & web security, air quality, dogs, chess, and astrology, and since 2012 - product development.
+My interests are: piano, linux & web security, air quality, dogs, chess, astronomy, and - since 2012 - product development.
 
 ### About Benobi
 
