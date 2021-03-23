@@ -26,7 +26,7 @@ alias ibrew='arch -x86_64 /usr/local/bin/brew'
 
 That's it! Now you can install brew for ARM and have ibrew for running Intel-specific apps under Rosetta. Super fast and simple solution! 
 
-If you run into trouble, try typing `brew info` and `ibrew info` to make sure that your brew installs are really in their respectively correct folders. 
+If you run into trouble, try typing `brew config` and `ibrew config` to make sure that your brew installs are really in their respectively correct folders - just look for the line "HOMEBREW_PREFIX:".
 
 * ARM brew will live in /opt/homebrew 
 * Intel brew will live in /usr/local
