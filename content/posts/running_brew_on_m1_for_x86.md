@@ -8,9 +8,9 @@ thumbnail = "images/benobi-one.png"
 description = "Getting brew to work on M1 Macbook"
 +++
 
-On the new Macbook M1 chip, you might get an error such as "To install under x86_64, install Homebrew into /usr/local" 
+On the new Macbook M1 chip, you might get an error such as "To install under x86_64, install Homebrew into /usr/local" - which will take you down many rabbit holes. This is an actual solution that fully works.
 
-I used my GoogleFu and did not find a solution as simple as this - just install a second Homebrew.
+I used my GoogleFu and did not find a solution as simple as this: 
 
 ## 5 Simple Steps to Install Intel Brew on M1
 1. Install Rosetta (this will fail if your Terminal is set to "[Open using Rosetta](https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/)") by running `softwareupdate --install-rose`
