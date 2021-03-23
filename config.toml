@@ -86,7 +86,7 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Ben Sigman"
-            info = "For my ally is the Force, and a powerful ally it is"
+            info = "Do or do not. There is no try."
             description = "innerspace, cyberspace, outerspace"
             keywords = "blog,developer,personal,ben sigman"
 
