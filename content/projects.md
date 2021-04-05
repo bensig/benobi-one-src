@@ -36,11 +36,11 @@ EOS Chat leverages blockchain for accounts, authentication, [encryption](https:/
 
 {{% /portfolio %}}
 
-## 2018 - [EOS Mainnet Launch](http://eosacknowledgments.io)
+## 2018 - [EOS](http://eosacknowledgments.io)
 
 {{% portfolio image="/images/eos.png" alt="eos mainnet" link="<http://eosacknowledgments.io"%}}>
 
-I was invited to be a part of the community leadership for EOS Mainnet launch in 2018. I worked closely with the ghostbusters team on network architecture and security. I also wrote tutorials and articles about the launch and function of the network and worked on organizaing the community of block producers and coordinating feedback with Block.One.
+I was called in to be a part of the community leadership for EOS Mainnet launch in 2018. I worked closely with the ghostbusters team on network architecture and security. I also wrote tutorials and articles about the launch and function of the network and worked on organizing the community of block producers and coordinating feedback with Block.One.
 
 You can see my name with all of the other major contributors at <http://eosacknowledgments.io.>
 
