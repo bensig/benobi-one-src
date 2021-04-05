@@ -125,3 +125,9 @@ The small form factor of the camera is what made it unique - 3 inches by 3 inche
 The designer of this project, Ben Lam, is a dope designer and an old friend. He reached out to let me know that he also has Dice on his [portfolio here](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0).
 
 {{% /portfolio %}}
+
+## 2009 - [Undisclosed Project](https://benobi.one)
+
+{{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
+
+{{% /portfolio %}}
