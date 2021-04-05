@@ -131,3 +131,11 @@ The designer of this project, Ben Lam, is a dope designer and an old friend. He 
 {{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
 
 {{% /portfolio %}}
+
+## 2005-8 - [Various Projects](https://benobi.one)
+
+{{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
+
+Collaboration with other techies on various ideas and projects. Buiding intranets, forums, and file-sharing protocols. 
+
+{{% /portfolio %}}
