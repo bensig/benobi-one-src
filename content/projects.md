@@ -12,15 +12,15 @@ This list contains most of the projects I have worked on since 2013.
 
 {{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
 
-Working on an exciting undisclosed project. Stay tuned for updates.
+Working on an undisclosed new project. Updates soon.
 
 {{% /portfolio %}}
 
 ## 2021 - [Moonscraper](/404.html)
 
-{{% portfolio image="/images/moonscraper.png" link="/404.html"  alt="moonscraper" %}}
+{{% portfolio image="/images/moonscraper.gif" link="/404.html"  alt="moonscraper" %}}
 
-Simple birthday gift for my Dad - it's a web scraper that reads info from a few different stock analysis sites and compiles them into a simple pwa that works on mobile. 
+Simple birthday gift for my Dad - it's a web scraper that reads info from a few different stock analysis sites and compiles them into a simple pwa that works on mobile. He was spending time going to these various sites to look up stock data, so I wanted 
 
 {{% /portfolio %}}
 
