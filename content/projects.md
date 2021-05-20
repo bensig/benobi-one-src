@@ -16,6 +16,17 @@ Working on an undisclosed new project. Updates soon.
 
 {{% /portfolio %}}
 
+## 2021 - [Sense Chat](https://www.sense.chat)
+
+{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat"%}}
+
+Create your own decentralized community powered by tokens! Use SENSE tokens to customize your community channel, vouch for people you trust, and pump up content you want to promote. Earn SENSE for using the app daily.
+
+At [MakeSenseLabs](https://www.makesense.com), we call this Sense Chat (v2) since this is our second iteration of a decentralized messaging app. For this app, we experimented with community-empowerment via tokens. Daily "earning" of SENSE enables members to earn cryptocurrency by being active in the app and checking in daily. Chats are end-to-end encrypted. Anyone can create a community channel supported by custom deeplinks. The app uses SENSE tokens to enable community members to stake to vouch for other humans or to join channels, and to micro-tip other members via a "pump" while also promoting that content. Tech stack: (react-native, javascript)
+
+{{% /portfolio %}}
+
+
 ## 2021 - [Moonscraper](/404.html)
 
 {{% portfolio image="/images/moonscraper.gif" link="/404.html"  alt="moonscraper" %}}
@@ -34,9 +45,9 @@ I have been considering various ways to monetize the app. I plan to continue to 
 
 {{% /portfolio %}}
 
-## 2019 - [Sense (EOS) Chat](https://www.sense.chat)
+## 2019 - [EOS Chat](https://www.sense.chat)
 
-{{% portfolio image="/images/eos-chat.png" alt="eos mainnet" link="https://www.sense.chat"%}}
+{{% portfolio image="/images/eos-chat.png" alt="eos chat" link="https://www.sense.chat"%}}
 
 I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the [Google Play](https://play.google.com/store/apps/details?id=com.makesense.sensechat&hl=en_GB) and [Apple App Store](https://apps.apple.com/us/app/sense-chat/id1434117290).
 
