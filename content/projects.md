@@ -66,7 +66,7 @@ In February of 2018, we launched White Rabbit - an ICO tracking app and news web
 
 {{% portfolio image="/images/acat.png" alt="acat" link="https://www.facebook.com/groups/advancedcryptoassettrading"%}}
 
-In 2017, I was a founder of the Facebook group "Advanced Asset Crypto Trading" which is a the top cryptocurrency educational and information-sharing group. It grew to nearly 9k members in the first few months. In 2019, we officially passed the the torch of group ownership to the top contributor and lead moderator, Mike Matsumura. The logo still uses my 2017 design.
+In 2017, I founded the Facebook group "Advanced Asset Crypto Trading" which is a the top cryptocurrency educational and information-sharing group. It grew to nearly 9k members in the first few months. In 2019, we officially passed the the torch of group ownership to the top contributor and lead moderator, Mike Matsumura. The logo still uses my 2017 design.
 
 {{% /portfolio %}}
 
