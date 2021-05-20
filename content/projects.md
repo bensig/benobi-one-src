@@ -30,7 +30,7 @@ Simple birthday gift for my Dad. He is quite into day trading stocks and he spen
 
 In quarantine, I found myself constantly testing my internet latency to see where my connectivity was good or bad during the constant Zoom conferences. I decided to build a very simple app to help myself and others test their connections... with a retro vaporwave theme. The MVP is live on the [Apple App Store](https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1).
 
-I have been considering various ways to monetize the app. I plan to continue to provide the app for free... or less people would download and use it. Retro Ping was built in Swift and it has no backend servers, so it is very low cost to maintain. I have been making some posts about building the process of building this over on the [blog]({{< ref "/posts" >}}).
+I have been considering various ways to monetize the app. I plan to continue to provide the app for free... or less people would download and use it. Retro Ping was built in Swift and it has no backend servers, so it is very low cost to maintain. I have been making some posts about building the process of building this over on the [blog]({{< ref "/posts" >}}). Tech stack: (swift)
 
 {{% /portfolio %}}
 
@@ -40,7 +40,7 @@ I have been considering various ways to monetize the app. I plan to continue to 
 
 I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the [Google Play](https://play.google.com/store/apps/details?id=com.makesense.sensechat&hl=en_GB) and [Apple App Store](https://apps.apple.com/us/app/sense-chat/id1434117290).
 
-EOS Chat leverages blockchain for accounts, authentication, [encryption](https://medium.com/sensechat/sense-chat-tech-c91295caf632), and allows users to send tokens to one another with no middle man. It does not require a phone number to use, therefore it is entirely pseudonymous.
+EOS Chat leverages blockchain for accounts, authentication, [encryption](https://medium.com/sensechat/sense-chat-tech-c91295caf632), and allows users to send tokens to one another with no middle man. It does not require a phone number to use, therefore it is entirely pseudonymous. Tech stack: (react-native)
 
 {{% /portfolio %}}
 
@@ -48,7 +48,7 @@ EOS Chat leverages blockchain for accounts, authentication, [encryption](https:/
 
 {{% portfolio image="/images/eos.png" alt="eos mainnet" link="<http://eosacknowledgments.io"%}}>
 
-I was called in to be a part of the community leadership for EOS Mainnet launch in 2018. I worked closely with the ghostbusters team on network architecture and security. I also wrote tutorials and articles about the launch and function of the network and worked on organizing the community of block producers and coordinating feedback with Block.One.
+I was part of the community leadership for EOS Mainnet launch in 2018. I worked closely with the ghostbusters team on network architecture and security. I also wrote tutorials, scripts, and articles about the launch. As well as assisted many block producers in setting up their nodes on testnets. Then organizing the community of block producers and coordinating feedback with Block.One as well as raising $50k from the Block Producers to get a legal opinion in order to get EOS listed on major exchanges.
 
 You can see my name with all of the other major contributors at <http://eosacknowledgments.io.>
 
@@ -58,7 +58,7 @@ You can see my name with all of the other major contributors at <http://eosackno
 
 {{% portfolio image="/images/get-squirrel.png" alt="squirrel" link="(<https://getsquirrel.io)"%}}>
 
-In April of 2017, while traveling in Japan and tracking my cryptocurrency holdings on a spreadsheet - I had an idea to build a better Blockfolio. We came up with the name Squirrel because they always know where their nuts are located. I did not trust the security and privacy features of Blockfolio and I had some ideas on how it could be done better - by enabling the hodlr to see what holdings they had in which locations. From wireframes to building and launching took about 8 months. The app is available on iOS and Android.
+In April of 2017, while traveling in Japan and tracking my cryptocurrency holdings on a spreadsheet - I had an idea to build a better Blockfolio. We came up with the name Squirrel because they always know where their nuts are located. I did not trust the security and privacy features of Blockfolio and I had some ideas on how it could be done better - by enabling the hodlr to see what holdings they had in which locations. From wireframes to building and launching took about 8 months. The app is available on iOS and Android. Tech stack: (react-native, rails)
 
 {{% /portfolio %}}
 
@@ -66,7 +66,7 @@ In April of 2017, while traveling in Japan and tracking my cryptocurrency holdin
 
 {{% portfolio image="/images/white-rabbit.png" alt="white rabbit" link="/404.html"%}}
 
-In February of 2018, we launched White Rabbit - an ICO tracking app and news website. We completed the project while working on Squirrel. Using rapid prototyping and leveraging React Native / Rails - from ideation to launch, the app and website were live in about 90 days. The app successfully pushed us into the center of the burgeoning cryptocurrency industry in Los Angeles.
+In February of 2018, we launched White Rabbit - an ICO tracking app and news website. We completed the project while working on Squirrel. Using rapid prototyping and leveraging React Native / Rails - from ideation to launch, the app and website were live in about 90 days. The app successfully pushed us into the center of the burgeoning cryptocurrency industry in Los Angeles. Tech stack: (react, rails)
 
 {{% /portfolio %}}
 
@@ -82,7 +82,7 @@ In 2017, I founded the Facebook group "Advanced Asset Crypto Trading" which is a
 
 {{% portfolio image="/images/avengers.png" alt="avengers" link="https://www.imdb.com/name/nm2974733"%}}
 
-In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary Lou" - one of the largest film productions ever. It was a dual production of Avengers: Infinity War and Avengers: Endgame. The motion capture team was facing some data transmission and security challenges on the live production, so they asked me to come down and help out for a few months. I got an [IMDB credit](https://www.imdb.com/name/nm2974733/) for my work there.
+In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary Lou" - one of the largest film productions ever. It was a dual production of Avengers: Infinity War and Avengers: Endgame. The motion capture team was facing some data transmission and security challenges on the live production, so they asked me to come down and help out for a few months. I got an [IMDB credit](https://www.imdb.com/name/nm2974733/) for my work there. Tech stack: (Linux)
 
 {{% /portfolio %}}
 
