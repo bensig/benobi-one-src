@@ -8,7 +8,7 @@ description = "projects"
 This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
-## 2020 - [Undisclosed Project](https://benobi.one)
+## 2021 - [Undisclosed Project](https://benobi.one)
 
 {{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
 
@@ -62,9 +62,17 @@ In February of 2018, we launched White Rabbit - an ICO tracking app and news web
 
 {{% /portfolio %}}
 
+## 2017 - [ACAT](https://www.facebook.com/groups/advancedcryptoassettrading)
+
+{{% portfolio image="/images/acat.png" alt="acat" link="https://www.facebook.com/groups/advancedcryptoassettrading"%}}
+
+In 2017, I was a founder of the Facebook group "Advanced Asset Crypto Trading" which is a the top cryptocurrency educational and information-sharing group. It grew to nearly 9k members in the first few months. In 2019, we officially passed the the torch of group ownership to the top contributor and lead moderator, Mike Matsumura. The logo still uses my 2017 design.
+
+{{% /portfolio %}}
+
 ## 2017 - [Avengers](https://www.imdb.com/name/nm2974733)
 
-{{% portfolio image="/images/avengers.png" alt="avengers" link="/404.html"%}}
+{{% portfolio image="/images/avengers.png" alt="avengers" link="https://www.imdb.com/name/nm2974733"%}}
 
 In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary Lou" - one of the largest film productions ever. It was a dual production of Avengers: Infinity War and Avengers: Endgame. The motion capture team was facing some data transmission and security challenges on the live production, so they asked me to come down and help out for a few months. I got an [IMDB credit](https://www.imdb.com/name/nm2974733/) for my work there.
 
@@ -72,7 +80,7 @@ In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary L
 
 ## 2016 - [Hacktic](https://hacktic.net)
 
-{{% portfolio image="/images/hacktic.png" alt="hacktic" link="<https://hacktic.net"%}}>
+{{% portfolio image="/images/hacktic.png" alt="hacktic" link="/404.html"%}}
 
 HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth to come together to connect and learn basic cryptography and linux hacking skills by playing games and leveling up in their skills. We had several great events in LA during 2016 by partnering with technology teachers in Los Angeles. The goal of the events were to encourage and mentor young techies (such as Kyle) who we could mentor.
 
