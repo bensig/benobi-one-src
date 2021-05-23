@@ -59,8 +59,8 @@ Every website needs a certificate. Now, they are free to obtain and simple to in
 
 ## [Mixpanel](https://mixpanel.com/)
 
-{{% portfolio image="/images/mixpanel.png" alt="mixpanel" link="https://mixpanel.com"%}}
+{{% portfolio image="/images/mixpnl.png" alt="mixpanel" link="https://mixpanel.com"%}}
 
-It's important to use some analytics when you are building an application. This works really great for mobile. Lots of new features always being released.
+It's very important to use some analytics when you are building an application. This works really great for mobile. Lots of new features always being released.
 
 {{% /portfolio %}}

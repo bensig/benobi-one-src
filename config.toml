@@ -86,7 +86,8 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Ben Sigman"
-            info = "Do or do not. There is no try."
+            info = "Tech. Product. Business. Ethos."
+            #            info = "Do or do not. There is no try."
             description = "innerspace, cyberspace, outerspace"
             keywords = "blog,developer,personal,ben sigman"
 
