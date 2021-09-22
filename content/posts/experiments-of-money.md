@@ -6,8 +6,7 @@ slug = ""
 tags = []
 categories = []
 thumbnail = "images/DeFi-Map-Overview-April-2021@2x.png"
-description = "Comments and thoughts on the experiments in currency throughtout history and the importance of the future of DeFi.
-"
+description = "Comments and thoughts on the experiments in currency throughtout history and the importance of the future of DeFi."
 +++
 
 ### This Historical Moment - DeFi
