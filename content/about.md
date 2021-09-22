@@ -6,9 +6,7 @@ description = "about"
 +++
 
 ### TL,DR
-Ben Sigman is one of the founders of the EOS Alliance and the CEO of [MakeSenseLabs](https://www.makesense.com/), a startup building a crypto-enabled platform to organize, reward, and empower communities. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ). 
-
-He is honored to be a member of the EOS community and was inspired by [Dan Larimer’s book](https://moreequalanimals.com/assets/MoreEqualAnimals-1.15.2021.pdf) to become an advocate for [Eden](https://forums.eoscommunity.org/t/what-is-edenos/2432). 
+Ben Sigman is the CEO of [MakeSenseLabs](https://www.makesense.com/), a product development company that builds consumer-friendly blockchain solutions. We believe in human-centric technologies that provide transparency, data control, and alignment among all participants - through tokenized systems and incentives. He has been working in technology for over 20 years. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ).
 
 Building and teaching others about technology has been a lifelong passion and he continues to immerse himself deeply into these incredible projects. 
 

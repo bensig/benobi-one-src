@@ -8,11 +8,28 @@ description = "projects"
 This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
-## 2021 - [Undisclosed Project](https://benobi.one)
+<!--- ## 2021 - [Undisclosed Project](https://benobi.one)
 
 {{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
 
 Working on an undisclosed new project. Updates soon.
+
+{{% /portfolio %}} 
+--->
+
+## 2021 - [Bitcoin Libre](https://libre.sv)
+
+{{% portfolio image="/images/bitcoinlibre.gif" link="https://libre.sv"  alt="undisclosed" %}}
+
+Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO.
+
+{{% /portfolio %}}
+
+## 2021 - [Bitcoin Day Drone Show and Mercadito](https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk)
+
+{{% portfolio image="/images/bitcoinday.gif" link="https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk"  alt="bitcoin day drones" %}}
+
+In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and produced an event in San Salvador. As part of this, we invited 23 local vendors to come and sell their textiles, shirts, jewelry, art, and food - using Bitcoin. We also had a small "Banco de Bitcoin" where attendees of the event could buy Bitcoin and the vendors could cash out Bitcoin at the end of the night for USD. I also co-authored and designed a drone show of 150 drones telling the story of Bitcoin in El Salvador.
 
 {{% /portfolio %}}
 
