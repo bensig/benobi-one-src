@@ -39,7 +39,7 @@ In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and 
 
 Create your own decentralized community powered by tokens! Use SENSE tokens to customize your community channel, vouch for people you trust, and pump up content you want to promote. Earn SENSE for using the app daily.
 
-At [MakeSenseLabs](https://www.makesense.com), we call this Sense Chat (v2) since this is our second iteration of a decentralized messaging app. For this app, we experimented with community-empowerment via tokens. Daily "earning" of SENSE enables members to earn cryptocurrency by being active in the app and checking in daily. Chats are end-to-end encrypted. Anyone can create a community channel supported by custom deeplinks. The app uses SENSE tokens to enable community members to stake to vouch for other humans or to join channels, and to micro-tip other members via a "pump" while also promoting that content. Tech stack: (react-native, javascript)
+At [MakeSenseLabs](https://www.makesense.com), we call this Sense Chat (v2) since this is our second iteration of a decentralized messaging app. For this app, we experimented with community-empowerment via tokens. Daily "earning" of SENSE enables members to earn cryptocurrency by being active in the app and checking in daily. Chats are end-to-end encrypted. Anyone can create a community channel supported by custom deeplinks. The app uses SENSE tokens to enable community members to stake to vouch for other humans or to join channels, and to micro-tip other members via a “pump” while also promoting that content. Tech stack: (react-native, javascript)
 
 {{% /portfolio %}}
 
@@ -76,7 +76,7 @@ EOS Chat leverages blockchain for accounts, authentication, [encryption](https:/
 
 {{% portfolio image="/images/eos.png" alt="eos mainnet" link="<http://eosacknowledgments.io"%}}>
 
-I was part of the community leadership for EOS Mainnet launch in 2018. I worked closely with the ghostbusters team on network architecture and security. I also wrote tutorials, scripts, and articles about the launch. As well as assisted many block producers in setting up their nodes on testnets. Then organizing the community of block producers and coordinating feedback with Block.One as well as raising $50k from the Block Producers to get a legal opinion in order to get EOS listed on major exchanges.
+In preparation for the EOS Mainnet launch in 2018, I coordinated and worked with a international team of over 200 people on node architecture and security. I wrote tutorials, scripts, and articles about the launch as well as assisted many block producers in setting up their nodes on testnets. Additionally, I organized the community of block producers, coordinated feedback with Block.One and raised over $50k in donations from the Block Producers in the community to get a legal opinion in order to get EOS listed on major exchanges.
 
 You can see my name with all of the other major contributors at <http://eosacknowledgments.io.>
 
@@ -86,7 +86,8 @@ You can see my name with all of the other major contributors at <http://eosackno
 
 {{% portfolio image="/images/get-squirrel.png" alt="squirrel" link="(<https://getsquirrel.io)"%}}>
 
-In April of 2017, while traveling in Japan and tracking my cryptocurrency holdings on a spreadsheet - I had an idea to build a better Blockfolio. We came up with the name Squirrel because they always know where their nuts are located. I did not trust the security and privacy features of Blockfolio and I had some ideas on how it could be done better - by enabling the hodlr to see what holdings they had in which locations. From wireframes to building and launching took about 8 months. The app is available on iOS and Android. Tech stack: (react-native, rails)
+In April of 2017, while traveling in Japan and tracking my cryptocurrency holdings on a spreadsheet - I had an idea to build a better Blockfolio. We came up with the name Squirrel because they always know where their nuts are located. I did not trust the security and privacy features of Blockfolio and I had some ideas on how it could be done better - by enabling the holder to see what holdings they had in which locations. From wireframes to building and launching took about 8 months. The app is available on iOS and Android. Tech stack: (react-native, rails)
+
 
 {{% /portfolio %}}
 
@@ -118,7 +119,7 @@ In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary L
 
 {{% portfolio image="/images/hacktic.png" alt="hacktic" link="/404.html"%}}
 
-HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth to come together to connect and learn basic cryptography and linux hacking skills by playing games and leveling up in their skills. We had several great events in LA during 2016 by partnering with technology teachers in Los Angeles. The goal of the events were to encourage and mentor young techies (such as Kyle) who we could mentor.
+HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth to come together to connect and learn basic cryptography and Linux hacking skills by playing games and leveling up in their skills. We had several great events in LA during 2016 by partnering with technology teachers in Los Angeles. The goal of the events was to encourage and mentor young techies (such as Kyle).
 
 {{% /portfolio %}}
 
