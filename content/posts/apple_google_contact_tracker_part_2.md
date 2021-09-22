@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2020-04-11T20:22:31-07:00
-title = "Apple and Google Contract Tracker - Part 2"
+title = "Apple and Google Contact Tracing - Part 2"
 slug = "" 
 tags = []
 categories = []
