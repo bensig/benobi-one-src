@@ -12,7 +12,7 @@ Building and teaching others about technology has been a lifelong passion and he
 
 Benobi’s interests include good discourse, human connection, research, everything Linux & web related, piano, air quality, family, dogs, space, chess, and product development.
 
-### Deeper Deets
+### Deeper Details
 
 Curiosity.  I love to learn about people, to learn new tricks, and to share those tricks with other people I meet. One of my main philosphies in life is to emulate what I appreciate in other people - or "don't hate, emulate."
 
