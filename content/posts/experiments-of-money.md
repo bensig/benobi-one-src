@@ -5,8 +5,9 @@ title = "Advocating for Experiments in Currency Generation and Governance"
 slug = "" 
 tags = []
 categories = []
-thumbnail = "images/benobi-one.png"
-description = ""
+thumbnail = "images/DeFi-Map-Overview-April-2021@2x.png"
+description = "Comments and thoughts on the experiments in currency throughtout history and the importance of the future of DeFi.
+"
 +++
 
 ### This Historical Moment - DeFi
