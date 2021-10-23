@@ -35,7 +35,7 @@ Meeting with President Lasso at his home to discuss Bitcoin and it's applicabili
 
 {{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 7.jpeg" alt="Ecuador" %}}
 
-Meeting with Guillermo Avellán, Manager of the Central Bank of Panama and [Alberto Dahik](https://en.m.wikipedia.org/wiki/Alberto_Dahik) to discuss Bitcoin in the developing world, financial inclusion, and the evolution of the digital economy.
+Meeting with Guillermo Avellán, Manager of the Central Bank of Panama and [Alberto Dahik](https://en.m.wikipedia.org/wiki/Alberto_Dahik), the former Vice President of Panama and an economist, to discuss Bitcoin in the developing world, financial inclusion, and the evolution of the digital economy.
 
 {{% /portfolio %}}
 
@@ -57,9 +57,15 @@ We had a 3 hour meeting with President Juan Orlando Hernández and several Minis
 
 ## El Salvador - Bitcoin Beach, San Salvador
 
+{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 11.jpeg" alt="El Salvador" %}}
+
+We met with the government and offer education, advice, and assistance with the implementation of their Bitcoin Law. I presented to the government on challenges and solutions of Bitcoin usability for the general population of El Salvador, and announced the [Bitcoin Libre](https://libre.sv) project.
+
+{{% /portfolio %}}
+
 {{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 1.jpeg" alt="El Salvador" %}}
 
-El Salvador's Ambassador to the US. Photo from Garten Hotel in Bitcoin Beach / El Zonte.
+Milena Mayorga El Salvador's Ambassador to the US invited an official delegation of industry professionals to come down to El Salvador in June, 2021.
 
 {{% /portfolio %}}
 
