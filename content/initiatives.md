@@ -11,13 +11,12 @@ Bitcoin and cryptoassets are the evolution of 21st century technology to create 
 
 This is why I am currently working with [United Council of Rising Nations](https://unicorn.org) and the [Bitcoin Foundation](https://bitcoinfoundation.org) on diplomacy and advocacy for Bitcoin and blockchain adoption, regulation, and tax incentives for innovative businesses to be able to set up operations in these developing nations. Since June 2021, we have met with the governments of El Salavador, Honduras, Panama, Ecuador, and Guatemala.
 
-I have also been working with a multinational DAO to build and promote Bitcoin Libre as a Bitcoin wallet that works anywhere in the world and has the same great user-experience of apps like Cash App or Venmo.
-
+I have also been working with a multinational DAO to build and promote [Bitcoin Libre](https://libre.sv) as a Bitcoin wallet that works anywhere in the world and has the same great user-experience of apps like Cash App or Venmo.
 
 ---------------------------
 ## Panama - Congressman Silva - October 2021
 
-{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 9.jpeg" alt="Guatemala" %}}
+{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 9.jpeg" alt="Panama" %}}
 
 Meeting with [Congressman Gabriel Silva](https://www.gabrielsilvadiputado.com/) to discuss the legislation proposal him and his staff prepared alongside the local Bitcoin community titled ["CRYPTO LAW: MAKING PANAMA COMPATIBLE WITH THE DIGITAL ECONOMY, BLOCKCHAIN, CRYPTOASSETS, AND THE INTERNET”](https://97855788-39ff-4655-a39b-3acea3b2f10b.filesusr.com/ugd/3b5653_bd5292fe23de49b08a78728ba65b4761.pdf). 
 {{% /portfolio %}}
@@ -46,7 +45,7 @@ Meeting with Guillermo Avellán, Manager of the Central Bank of Panama and [Albe
 
 ## Panama - Panama City - August 2021
 
-{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 3.jpeg" alt="El Salvador" %}}
+{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 3.jpeg" alt="Panama" %}}
 
 Visited the Palacio de las Garzas (Herons' Palace) where the President Castillo and the First Lady of Panama live and work. I had the honor of spending an hour and a half with Mrs. Lorena Castillo discussing Bitcoin and the state of Panama regulations. We also met with many members of the government including Ministers of the Economy, Investments, Central Bank, the local Bitcoin community, and lawmakers working on the proposal for regulation of cryptoassets.
 
@@ -54,7 +53,7 @@ Visited the Palacio de las Garzas (Herons' Palace) where the President Castillo 
 
 ## Honduras - Tegucigalpa - August 2021
 
-{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 2.jpeg" alt="El Salvador" %}}
+{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 2.jpeg" alt="Honduras" %}}
 
 We had a 3 hour meeting with President Juan Orlando Hernández and several Ministers to discuss clean energy innovation, Bitcoin and blockchain regulation, and financial inclusion for Hondurans.
 

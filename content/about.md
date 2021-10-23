@@ -6,7 +6,9 @@ description = "about"
 +++
 
 ### TL,DR (3rd person bio/summary)
-Ben Sigman is the CEO of [MakeSenseLabs](https://www.makesense.com/), a product development company that builds consumer-friendly blockchain solutions. He believes in human-centric technologies that provide transparency, data control, and alignment among all participants - through tokenized systems and incentives. He has been working in technology for over 20 years as a systems engineer, developer, and entreprenuer. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ).
+Ben Sigman is the CEO of [MakeSenseLabs](https://www.makesense.com/), a product development company that builds consumer-friendly blockchain solutions. He is also an advisor to the [Bitcoin Foundation](https://bitcoinfoundation.org/) and a founding member of [United Council of Rising Nations](https://unicorn.org) where he is working on [diplomacy and advocacy for Bitcoin and cryptoassets](https://benobi.one/initiatives/) in the developing world. 
+
+He believes in human-centric technologies that provide transparency, data control, and alignment among all participants - through tokenized systems and incentives. He has been working in technology for over 20 years as a systems engineer, developer, and entreprenuer. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ).
 
 Building and teaching others about technology has been a lifelong passion and he continues to immerse himself deeply into these incredible projects. 
 
@@ -32,7 +34,7 @@ Three things I plan to work through the next year: learning piano, calisthenics,
 
 ---------------------------
 
-### About the name
+### About my Nickname
 
 “Benobi” was a nickname given to me by my fiancé back in 2016 when we were traveling in Japan. Every word and name in Japanese must have a consonant followed by a vowel. This name really stuck. Maybe it is due to my awareness and my calm, zen-like approach to problem solving? Or maybe it’s because my friends think I’m a giant nerd who is super into Star Wars. (Which, I am moderately into - but not nearly as much as some of my friends - you know who you are…) I was also doing a lot of self-work during the 2015-2016 time period and I learned that a Jedi must first conquer themselves before they can conquer the Empire.
 
