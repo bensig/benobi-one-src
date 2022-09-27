@@ -5,14 +5,12 @@ thumbnail = "images/benobi-one.png"
 description = "about"
 +++
 
-### TL,DR (3rd person bio/summary)
-Ben Sigman is the CEO of [MakeSenseLabs](https://www.makesense.com/), a product development company that builds consumer-friendly blockchain solutions. He is also an advisor to the [Bitcoin Foundation](https://bitcoinfoundation.org/) and a founding member of [United Council of Rising Nations](https://unicorn.org) where he is working on [diplomacy and advocacy for Bitcoin and cryptoassets](https://benobi.one/initiatives/) in the developing world. 
+### TL,DR
+Ben Sigman is the CEO of [Bitcoin Libre](https://www.bitcoinlibre.io) building a simple wallet for Bitcoin and Tether. He is also an advisor to the [Bitcoin Foundation](https://bitcoinfoundation.org/) and a founding member of [United Council of Rising Nations](https://unicorn.org) where he is working on [diplomacy and advocacy for Bitcoin and cryptoassets](https://benobi.one/initiatives/) in the developing world. 
 
-He believes in human-centric technologies that provide transparency, data control, and alignment among all participants - through tokenized systems and incentives. He has been working in technology for over 20 years as a systems engineer, developer, and entreprenuer. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ).
+He believes in human-centric technologies that provide transparency, data control, and alignment among all participants through tokenized systems and incentives. He has been working in technology for over 20 years as a systems engineer, developer, and entreprenuer. His mission is to create freedom, privacy, and fun in the universe - and of course, to defeat the [Galactic Empire](https://www.youtube.com/watch?v=nXf4ijlTOgQ).
 
 Building and teaching others about technology has been a lifelong passion and he continues to immerse himself deeply into these incredible projects. 
-
-Benobi’s interests include good discourse, human connection, research, everything Linux & web related, piano, air quality, family, dogs, space, chess, and product development.
 
 ### Deeper Details
 
