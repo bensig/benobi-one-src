@@ -10,7 +10,7 @@ description = ""
 +++
 # Lessig Method
 
-*“Simplicity is the ultimate sophistication” - LDV
+*“Simplicity is the ultimate sophistication” - LDV*
 
 For highly impactful presentation formatting and delivery in a very clean and professional style, I recommend reading about the "Lessig Method" by famous Harvard Law professor Lawrence Lessig: https://presentationzen.blogs.com/presentationzen/2005/10/the_lessig_meth.html
 
