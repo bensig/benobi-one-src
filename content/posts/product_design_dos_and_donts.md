@@ -11,8 +11,9 @@ description = "Product Design Thinking - Do's and Don'ts"
 
 ### Presentation from Sept 2022 EVMxIdeathon / Hackathon
 
-Note: This PDF embed might not work on all browsers - alternatively [you can directly load the PDF of this presentation](/files/design_thinking.pdf).
+I put together some thoughts on Product Design Thinking "Do's and Don'ts" here for a  hackathon / ideathon. I've gotten a lot of positive feedback - sharing it here so it might be helpful to other people who did not attend.
 
 {{< embed-pdf url="/files/design_thinking.pdf" >}}
 
-For presentation formatting and delivery, I recommend reading about the "Lessig Method" by famous Harvard Law professor Lawrence Lessig: https://presentationzen.blogs.com/presentationzen/2005/10/the_lessig_meth.html
+If you do not see the PDF above, [you can directly the presentation by clicking here.](/files/design_thinking.pdf).
+
