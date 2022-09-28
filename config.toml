@@ -1,7 +1,9 @@
 baseURL = "https://benobi.one/"
 languageCode = "en-us"
 title = "benobi.one"
-theme = "hugo-coder-portfolio"
+theme = ["hugo-embed-pdf-shortcode", "hugo-coder-portfolio"]
+enableInlineShortcodes = true
+
 DefaultContentLanguage = "en"
 googleAnalytics = "UA-162042800-1"
 
