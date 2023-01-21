@@ -12,6 +12,7 @@ He believes in human-centric technologies that provide transparency, data contro
 
 Building and teaching others about technology has been a lifelong passion and he continues to immerse himself deeply into these incredible projects. 
 
+GPG Key Fingerprint: `C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0`
 ### About this site
 
 This site is a home for my thoughts and projects.
