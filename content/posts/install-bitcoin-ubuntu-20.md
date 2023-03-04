@@ -16,12 +16,12 @@ All of the guiedes are all kind of busted IMHO - best to build from source code.
 First, get all of the prerequesites installed. I found these hidden in github under the "Unix" build notes 
 https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
 
-Do not run as ROOT - make sure you have a regular account with sudo ability. If you don't know how to do that, look up `visudo`.
+*Do not run as ROOT* - make sure you have a regular account with sudo ability. If you don't know how to do that, look up `visudo`.
 
-I simplified into a single line to install with apt get:
+I simplified everything you will need into a single line to install with `apt`:
 
 ```
-sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev 
+sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev cpufrequtils libssl-dev cargo
 ```
 
 Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:
