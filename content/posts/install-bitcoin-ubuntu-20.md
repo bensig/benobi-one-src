@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2023-03-03T17:14:33-08:00
 title = "Install bitcoind on Ubuntu - works"
 slug = "" 
