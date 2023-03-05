@@ -25,7 +25,7 @@ Source and commentary I found helpful: https://www.reddit.com/r/Bitcoin/comments
 
 Now what I did was a little different from that post and my results were amazing. 
 
-Basically, I installed the latest bitcoind from source, tuned the CPU frequency, and set up a bitcoin.conf file which you can do too by following this guide I wrote [install bitcoind on Ubuntu.]({{< ref "/posts/install-bitcoin-ubuntu-20.md" >}} "install bitcoind on Ubuntu.")
+Basically, I installed the latest bitcoind from source, tuned the CPU frequency, and set up a bitcoin.conf file which you can do too by following this guide I wrote [install bitcoind on Ubuntu.]({{< ref "/posts/install-bitcoin-ubuntu.md" >}} "install bitcoind on Ubuntu.")
 
 Using this server, I was able to sync fully in 7 hours:
 
