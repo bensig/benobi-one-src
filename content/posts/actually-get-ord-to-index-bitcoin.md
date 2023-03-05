@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2023-03-04T15:56:40-08:00
 title = "Actually get ord to index bitcoin"
 slug = "" 
