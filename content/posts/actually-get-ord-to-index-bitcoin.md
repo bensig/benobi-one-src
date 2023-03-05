@@ -13,6 +13,8 @@ For starters, you will need a fully sync'd bitcoin node with txindex=1 - if you 
 
 Next, you should download, build, and install `ord`
 ```
+mkdir $HOME/src
+cd src
 git clone https://github.com/casey/ord.git
 cd ord
 
@@ -20,13 +22,13 @@ sudo apt-get install libssl-dev
 cargo build --release
 ```
 
-Once that is complete, you will have an executable `ord` in `/home/bitcoin/src/ord/target/release/ord` 
+Once that is complete, you will have an executable `ord` in `$HOME/src/ord/target/release/ord` 
 
 You can create a little `ord` executable by doing this:
 
 ```
 mkdir ~/bin
-echo '/home/bitcoin/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 "$@"' > ~/bin/ord
+echo '$HOME/src/ord/target/release/ord --rpc-url 127.0.0.1:8332 "$@"' > ~/bin/ord
 ```
 
 If you have not added rpcauth, rpcpassword, or rpcuser to your bitcoin.conf, then that's good! You won't need it for local access. Bitcoind automatically creates a ~/.bitcoin/.cookie file with a simple auth that `ord` will find and use.
@@ -38,7 +40,7 @@ screen ord --index-sats index
 
 Go get a coffee, or dinner... while you are gone - the index will be building the database at:
 ```
-/home/bitcoin/.local/share/ord/index.redb
+$HOME/.local/share/ord/index.redb
 ```
 
 I indexed without "--index-sats" and it finished in a few hours, used about 2GB of storage. 
