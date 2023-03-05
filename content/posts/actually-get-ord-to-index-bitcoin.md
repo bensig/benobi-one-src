@@ -57,4 +57,8 @@ sudo setcap CAP_NET_BIND_SERVICE=+eip /home/bitcoin/src/ord/target/release/ord
 
 Now you can run `ord server` - if you set it up with the ord shell script I created above, it will use `RUST_LOG=debug` so you can actually see what's happening when you run the server or any commands.
 
+Bonus fun - now your server is probably getting pegged with SYN attacks and all kinds of crap - bc, you know, Bitcoin...
+
+I'd recommend setting up `fail2ban` with some filters like this: https://github.com/ansell/fail2ban-filters
+
 Happy ordinaling! 
