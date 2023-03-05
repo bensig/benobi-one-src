@@ -11,21 +11,29 @@ description = "3 Options to quickly sync a Bitcoin Node"
 The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:
 
 ## Option 1 - Use This Bitcoin Fast Sync Command
-There is no torrent which would be faster than just using the Bitcoin network "hive" - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.
+There is no torrent or copy method which would be faster than just using the Bitcoin network "hive" - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.
 
-Very good to have a fast drive (NVMe or SSD), fast CPU and plenty of RAM - I read that an SSD is not as important as RAM, however, using NVMe drives - my ram usage did not go above 10GB.
+Very good to have a fast drive (NVMe or SSD), fast CPU and plenty of RAM - I read that an SSD is not as important as RAM, however, using NVMe drives - my ram usage did not go above 12GB.
 
-"With this command I was able to download the entire blockchain and create all indices in almost exactly 24 hours:" 
+### With this command I was able to download the entire bitcoin blockchain and create all indices in almost exactly 7 hours:
 
-`bitcoind --datadir=<path-to-external-ssd> -blockfilterindex=1 -txindex=1 -coinstatsindex=1 -dbcache=16384 -daemon`
+`bitcoind -txindex=1 -dbcache=16384 -daemon`
 
 *Note - this is for 16GB of RAM* - if you have 32GB of RAM, you can use `32768` for dbcache in the command above
 
-Source: https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/
+Source and commentary I found helpful: https://www.reddit.com/r/Bitcoin/comments/wwdrmu/how_to_download_the_entire_btc_blockchain_in_24h/
 
-Now what I did was a little different and my results were amazing. 
+Now what I did was a little different from that post and my results were amazing. 
 
 Basically, I installed the latest bitcoind from source, tuned the CPU frequency, and set up a bitcoin.conf file which you can do too by following this guide I wrote [install bitcoind on Ubuntu.]({{< ref "/posts/install-bitcoin-ubuntu-20.md" >}} "install bitcoind on Ubuntu.")
+
+Using this server, I was able to sync fully in 7 hours:
+
+```
+Intel(R) Xeon(R) E-2356G CPU @ 3.20GHz
+64GB RAM
+1TB INTEL NVMe SSDPE2KX010T8
+```
 
 ## Option 2 - Copy data from a (trusted) node over rsync SSH - not as safe as option 1:
 

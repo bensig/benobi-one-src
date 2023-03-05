@@ -17,9 +17,9 @@ Working on an undisclosed new project. Updates soon.
 {{% /portfolio %}} 
 --->
 
-## 2021 - [Bitcoin Libre](https://libre.sv)
+## 2021 - [Bitcoin Libre](https://bitcoinlibre.io)
 
-{{% portfolio image="/images/bitcoinlibre.gif" link="https://libre.sv"  alt="undisclosed" %}}
+{{% portfolio image="/images/bitcoinlibre.gif" link="https://bitcoinlibre.io"  alt="undisclosed" %}}
 
 Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO.
 

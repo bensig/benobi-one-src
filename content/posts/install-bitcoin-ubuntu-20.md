@@ -52,8 +52,13 @@ CPUS=`echo "$(($CORES-1))"` && i=0; while [ $i -le $CPUS ]; do cpufreq-set -c $i
 The more cores you use, the faster this will go - recommend using all of them, but if you need to do other things, you can specify the number of CPU cores to use here instead of "$CORES":
 ```
 make -j $CORES
-make install
 ```
+
+Go get a coffee, come back and run the installer:
+```
+sudo make install
+```
+
 
 Check version installed.
 ```
@@ -65,7 +70,7 @@ Create bitcoin.conf file:
 touch ~/.bitcoin/bitcoin.conf
 ```
 
-Edit the bitcoin.conf file using `nano ~/.bitcoin/bitcoin.conf` and put in the following info:
+Edit the bitcoin.conf file using `nano ~/.bitcoin/bitcoin.conf` and put in the following info - this is for 16GB of RAM, lower if you have less, my server never used more than 12GB of RAM in the cache while synchronizing:
 ```
 txindex=1
 dbcache=16384
@@ -86,3 +91,11 @@ tail -f $HOME/.bitcoin/debug.log | awk '{print $10}'
 
 You can see what percent it is at based on storage size or check the block sync level using my script in this gist:
 https://gist.github.com/bensig/4793be2327b1d535a70046a759a5e696#file-check_bitcoind_sync-sh
+
+Using this server, I was able to sync fully in 7 hours:
+
+```
+Intel(R) Xeon(R) E-2356G CPU @ 3.20GHz
+64GB RAM
+1TB INTEL NVMe SSDPE2KX010T8
+```

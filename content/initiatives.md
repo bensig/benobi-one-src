@@ -5,13 +5,21 @@ thumbnail = "images/benobi-one.png"
 description = "initiatives"
 +++
 
+Since June, 2021 I have travelled around the world advocating for Bitcoin adoption. I've met with government leaders in several countries including lawmakers in the US. 
+
+{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 11.jpeg" alt="El Salvador" %}}
+
+Presenting to the government of El Salavador to offer education, advice, and assistance with the implementation of their Bitcoin Law. Here, I presented to  on challenges and solutions of Bitcoin usability for the general population of El Salvador, and announced the [Bitcoin Libre](https://bitcoinlibre.io) project.
+
+{{% /portfolio %}}
+
+## Why Bitcoin Matters
+
 There are approximately 2 billion people in the world with no access to a savings account or who lack the proper identification to open a savings account. Due to the nature of modern money - which is controlled and printed by governments - these people have no way to save money for their future in a way that counteracts inflation of money printing machines.
 
 Bitcoin is hope to these people. The evolution of 21st century technology to create and govern money supply with no intermediaries is a miracle. Bitcoin is a non-governmental, multinational money that - although nascient - has the potential to transform the way that we measure value. It's sound money - meaning that it holds it's value over time - and it has a fixed amount. 
 
 Bitcoin is also widely exchangeable across the world, easy to transport and send in a permissionless system, and it has a known quantity - there will only be 21 million Bitcoin ever created. Since all anyone needs to hold and transact with Bitcoin is a mobile phone - I believe that this new financial system of cryptoassets built on and around Bitcoin can provide access to financial tools to people all over the world.
-
-This is why I worked with [United Council of Rising Nations](https://unicorn.org) and the [Bitcoin Foundation](https://bitcoinfoundation.org) on diplomacy and advocacy for Bitcoin adoption, fair regulation, and tax incentives for innovative businesses to be able to set up operations in these developing nations. Since June 2021, we have met with the governments of El Salavador, Honduras, Panama, Ecuador, Guatemala, and other countries around the world.
 
 I have also been working with a multinational DAO to build and promote [Bitcoin Libre](https://bitcoinlibre.io) - a self-custodied Bitcoin and Tether wallet that works anywhere in the world and has the same great user-experience of custodial apps like Cash App or Venmo.
 
@@ -60,14 +68,7 @@ Visited the Palacio de las Garzas (Herons' Palace) where the President Castillo 
 We met with President Juan Orlando Hernández and several Ministers to discuss clean energy innovation, Bitcoin regulation, and financial inclusion for Hondurans. 
 
 {{% /portfolio %}}
-
 ## El Salvador - Bitcoin Beach, San Salvador - June 2021
-
-{{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 11.jpeg" alt="El Salvador" %}}
-
-Discussions with the government to offer education, advice, and assistance with the implementation of their Bitcoin Law. I presented to the government on challenges and solutions of Bitcoin usability for the general population of El Salvador, and announced the [Bitcoin Libre](https://libre.sv) project.
-
-{{% /portfolio %}}
 
 {{% portfolio image="/images/bitcoin_initiative/bitcoin_initiative - 1.jpeg" alt="El Salvador" %}}
 
@@ -75,4 +76,4 @@ Milena Mayorga El Salvador's Ambassador to the US invited an official delegation
 
 {{% /portfolio %}}
 
-
+Many of these trips, I was working with [United Council of Rising Nations](https://unicorn.org) and the [Bitcoin Foundation](https://bitcoinfoundation.org) on diplomacy and advocacy for Bitcoin adoption, fair regulation, and tax incentives for innovative businesses to be able to set up operations in these developing nations. Since June 2021, we have met with the governments of El Salavador, Honduras, Panama, Ecuador, Guatemala, and other countries around the world.
