@@ -9,7 +9,7 @@ thumbnail = "images/benobi-one.png"
 description = "A guide for getting ord working on Ubuntu"
 +++
 
-For starters, you will need a fully sync'd bitcoin node with txindex=1 - if you don't, then start with my guide on how to [install bitcoind on Ubuntu.]({{< ref "/posts/install-bitcoin-ubuntu-20.md" >}} "install bitcoind on Ubuntu."
+For starters, you will need a fully sync'd bitcoin node with txindex=1 - if you don't, then start with my guide on how to [install bitcoind on Ubuntu.]({{< ref "/posts/install-bitcoin-ubuntu.md" >}} "install bitcoind on Ubuntu.")
 
 Next, you should download, build, and install `ord`
 ```
