@@ -24,7 +24,7 @@ cargo build --release
 
 Once that is complete, you will have an executable `ord` in `$HOME/src/ord/target/release/ord` 
 
-You can create a little `ord` executable by doing this:
+You can create a little `ord` executable by doing this to automatically enter the rpc-url and "RUST_LOG=debug" to every ord command:
 
 ```
 mkdir ~/bin
@@ -50,12 +50,48 @@ Next I indexed with "--index-sats" and it took a lot longer... about 15 hours an
 screen ord --first-inscription-height 767430 --index-sats index
 ```
 
-Next to run the server, you will need to enable `ord` to bind to port 80:
+Next to run the server, you can run it on a non-default port as a non-priviledged user. If you set it up with the ord shell script I created above, it will automatically use `RUST_LOG=debug` so you can actually see what's happening when you run the server or any commands.
 ```
-sudo setcap CAP_NET_BIND_SERVICE=+eip /home/bitcoin/src/ord/target/release/ord
+ord server --http --http-port 8080
 ```
 
-Now you can run `ord server` - if you set it up with the ord shell script I created above, it will use `RUST_LOG=debug` so you can actually see what's happening when you run the server or any commands.
+Next you can point a browser at your ip or fqdn at http://yourip:8080 or http://localhost:8080 if on the same device and browse ordinals.
+
+Probably smart to set up nginx to sit in front of your server. Here is a quick config example - just replace "yourservername.com" with your FQDN:
+
+```
+upstream ords {
+    server 127.0.0.1:8080 fail_timeout=15s;
+}
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name yourservername.com;
+    server_tokens off;
+
+    error_log  /var/log/nginx/ords-error.log;
+    access_log  /var/log/nginx/ords-access.log;
+
+    keepalive_timeout 120;
+    keepalive_requests 100000;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+
+   location / {
+        proxy_pass http://ords;
+        add_header 'Access-Control-Allow-Methods' 'GET, POST';
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_next_upstream error timeout invalid_header http_500;
+        proxy_connect_timeout 1s;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+   }
+   ```
 
 Bonus fun - now your server is probably getting pegged with SYN attacks and all kinds of crap - bc, you know, Bitcoin...
 
