@@ -24,6 +24,8 @@ I simplified everything you will need into a single line to install with `apt`:
 sudo apt-get install git build-essential autoconf libtool autotools-dev automake pkg-config bsdmainutils python3 libevent-dev libboost-dev libsqlite3-dev cpufrequtils libssl-dev cargo
 ```
 
+#### Note: if you do not install libsqlite3-dev then your bitcoin node will likely configure and build with NO WALLET and you will get errors like this: `method not found` when running bitcoin-cli
+
 Next clone the github for bitcoin and checkout version 24.0.1 so you can index ordinals correctly:
 ```
 mkdir ~/src
