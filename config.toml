@@ -14,6 +14,9 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 # disqusShortname = "yourdiscussshortname"
 
 [params]
