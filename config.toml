@@ -70,17 +70,12 @@ pygmentsUseClasses = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/bensig/"
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 4
-    url = "https://medium.com/@bensig/"
+    url = "https://www.linkedin.com/in/benobi/"
 [[params.social]]
     name = "angel.co"
     icon = "fab fa-angellist"
     weight = 5
-    url = "https://angel.co/bensig/"
+    url = "https://wellfound.com/u/bensig"
 
 [languages]
     [languages.en]
