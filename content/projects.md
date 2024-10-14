@@ -17,72 +17,66 @@ Working on an undisclosed new project. Updates soon.
 {{% /portfolio %}} 
 --->
 
-## 2021 - [Bitcoin Libre](https://bitcoinlibre.io)
+## [Bitcoin First (2024)](https://bitcoinfirst2024.com)
 
-{{% portfolio image="/images/bitcoinlibre.gif" link="https://bitcoinlibre.io"  alt="undisclosed" %}}
+{{% portfolio image="/images/bitcoin-first-event.jpg" alt="Bitcoin First Event Logo" link="https://bitcoinfirst2024.com" %}}
 
-Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO.
+Planner and producer of "Bitcoin First", an unconference event held in Santa Monica on October 18, 2024. This gathering brought together Bitcoin enthusiasts, developers, and thought leaders for a day of collaborative discussions and knowledge sharing.
 
 {{% /portfolio %}}
 
-## 2021 - [Bitcoin Day Drone Show and Mercadito](https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk)
 
-{{% portfolio image="/images/bitcoinday.gif" link="https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk"  alt="bitcoin day drones" %}}
+## [Big Bitcoin Book (2023)](https://www.bigbitcoinbook.com)
+
+{{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com" %}}
+
+Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles.
+
+{{% /portfolio %}}
+
+## [Bitcoin Libre (2021)](https://bitcoinlibre.io)
+
+{{% portfolio image="/images/bitcoinlibre.gif" alt="Bitcoin Libre" link="https://bitcoinlibre.io" %}}
+
+Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO. Tech stack: (react-native, javascript)
+
+{{% /portfolio %}}
+
+## [Bitcoin Day Drone Show and Mercadito (2021)](https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk)
+
+{{% portfolio image="/images/bitcoinday.gif" alt="bitcoin day drones" link="https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk" %}}
 
 In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and produced an event in San Salvador. As part of this, we invited 23 local vendors to come and sell their textiles, shirts, jewelry, art, and food - using Bitcoin. We also had a small "Banco de Bitcoin" where attendees of the event could buy Bitcoin and the vendors could cash out Bitcoin at the end of the night for USD. I also co-authored and designed a drone show of 150 drones telling the story of Bitcoin in El Salvador.
 
 {{% /portfolio %}}
 
-## 2021 - [Sense Chat](https://www.sense.chat)
+## [Sense Chat (2021)](https://www.sense.chat)
 
-{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat"%}}
+{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat" %}}
 
-Create your own decentralized community powered by tokens! Use SENSE tokens to customize your community channel, vouch for people you trust, and pump up content you want to promote. Earn SENSE for using the app daily.
-
-At [MakeSenseLabs](https://www.makesense.com), we call this Sense Chat (v2) since this is our second iteration of a decentralized messaging app. For this app, we experimented with community-empowerment via tokens. Daily "earning" of SENSE enables members to earn cryptocurrency by being active in the app and checking in daily. Chats are end-to-end encrypted. Anyone can create a community channel supported by custom deeplinks. The app uses SENSE tokens to enable community members to stake to vouch for other humans or to join channels, and to micro-tip other members via a “pump” while also promoting that content. Tech stack: (react-native, javascript)
+Created the first decentralized messaging app to use fully encrypted peer-to-peer technology to make audio, video, and text chats private and secure using blockchain technology. Tech stack: (react-native, javascript)
 
 {{% /portfolio %}}
 
+## [Moonscraper (2021)](/404.html)
 
-## 2021 - [Moonscraper](/404.html)
-
-{{% portfolio image="/images/moonscraper.gif" link="/404.html"  alt="moonscraper" %}}
+{{% portfolio image="/images/moonscraper.gif" alt="moonscraper" link="/404.html" %}}
 
 Simple birthday gift for my Dad. He is quite into day trading stocks and he spends a lot of time looking up analyst data on a few websites. It's quite repetitive so I built a little webscraper backend that reads info from a few different stock analysis sites and compiles them into a simple pwa that works on mobile. Tech stack: (react + flask + scrapy)
 
 {{% /portfolio %}}
 
-## 2020 - [Retro Ping](https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1)
+## [Retro Ping (2020)](https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1)
 
 {{% portfolio image="/images/retro-ping.gif" link="https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1"  alt="retro ping" %}}
 
 In quarantine, I found myself constantly testing my internet latency to see where my connectivity was good or bad during the constant Zoom conferences. I decided to build a very simple app to help myself and others test their connections... with a retro vaporwave theme. The MVP is live on the [Apple App Store](https://apps.apple.com/us/app/retro-ping-wifi-latency-test/id1505266057?ls=1).
 
-I have been considering various ways to monetize the app. I plan to continue to provide the app for free... or less people would download and use it. Retro Ping was built in Swift and it has no backend servers, so it is very low cost to maintain. I have been making some posts about building the process of building this over on the [blog]({{< ref "/posts" >}}). Tech stack: (swift)
+ Retro Ping was built in Swift and it has no backend servers. I have been making some posts about building the process of building this over on the [blog]({{< ref "/posts" >}}). Tech stack: (swift)
 
 {{% /portfolio %}}
 
-## 2019 - [EOS Chat](https://www.sense.chat)
-
-{{% portfolio image="/images/eos-chat.png" alt="eos chat" link="https://www.sense.chat"%}}
-
-I joined as the CTO of Sense Chat - a decentralized messaging app built on the EOS blockchain. The beta app is live on the [Google Play](https://play.google.com/store/apps/details?id=com.makesense.sensechat&hl=en_GB) and [Apple App Store](https://apps.apple.com/us/app/sense-chat/id1434117290).
-
-EOS Chat leverages blockchain for accounts, authentication, [encryption](https://medium.com/sensechat/sense-chat-tech-c91295caf632), and allows users to send tokens to one another with no middle man. It does not require a phone number to use, therefore it is entirely pseudonymous. Tech stack: (react-native)
-
-{{% /portfolio %}}
-
-## 2018 - [EOS](http://eosacknowledgments.io)
-
-{{% portfolio image="/images/eos.png" alt="eos mainnet" link="<http://eosacknowledgments.io"%}}>
-
-In preparation for the EOS Mainnet launch in 2018, I coordinated and worked with a international team of over 200 people on node architecture and security. I wrote tutorials, scripts, and articles about the launch as well as assisted many block producers in setting up their nodes on testnets. Additionally, I organized the community of block producers, coordinated feedback with Block.One and raised over $50k in donations from the Block Producers in the community to get a legal opinion in order to get EOS listed on major exchanges.
-
-You can see my name with all of the other major contributors at <http://eosacknowledgments.io.>
-
-{{% /portfolio %}}
-
-## 2018 - [Squirrel](https://getsquirrel.io/)
+## [Squirrel (2018)](https://getsquirrel.io/)
 
 {{% portfolio image="/images/get-squirrel.png" alt="squirrel" link="(<https://getsquirrel.io)"%}}>
 
@@ -91,7 +85,7 @@ In April of 2017, while traveling in Japan and tracking my cryptocurrency holdin
 
 {{% /portfolio %}}
 
-## 2018 - White Rabbit
+## White Rabbit (2018)
 
 {{% portfolio image="/images/white-rabbit.png" alt="white rabbit" link="/404.html"%}}
 
@@ -99,15 +93,15 @@ In February of 2018, we launched White Rabbit - an ICO tracking app and news web
 
 {{% /portfolio %}}
 
-## 2017 - [ACAT](https://www.facebook.com/groups/advancedcryptoassettrading)
+## [ACAT (2017)](https://www.facebook.com/groups/advancedcryptoassettrading)
 
 {{% portfolio image="/images/acat.png" alt="acat" link="https://www.facebook.com/groups/advancedcryptoassettrading"%}}
 
-In 2017, I founded the Facebook group "Advanced Asset Crypto Trading" which is a the top cryptocurrency educational and information-sharing group. It grew to nearly 9k members in the first few months. In 2019, we officially passed the the torch of group ownership to the top contributor and lead moderator, Mike Matsumura. The logo still uses my 2017 design.
+Founded the Facebook group "Advanced Asset Crypto Trading" which became the top cryptocurrency educational and information-sharing group. It grew to nearly 9k members in the first few months. In 2019, we officially passed the the torch of group ownership to the top contributor and lead moderator, Mike Matsumura. The logo still uses my 2017 design.
 
 {{% /portfolio %}}
 
-## 2017 - [Avengers](https://www.imdb.com/name/nm2974733)
+##  [Avengers Endgame (2017)](https://www.imdb.com/name/nm2974733)
 
 {{% portfolio image="/images/avengers.png" alt="avengers" link="https://www.imdb.com/name/nm2974733"%}}
 
@@ -115,7 +109,7 @@ In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary L
 
 {{% /portfolio %}}
 
-## 2016 - [Hacktic](https://hacktic.net)
+## [Hacktic (2016)](https://hacktic.net)
 
 {{% portfolio image="/images/hacktic.png" alt="hacktic" link="/404.html"%}}
 
@@ -123,15 +117,15 @@ HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth 
 
 {{% /portfolio %}}
 
-## 2015 - WSP
+## WSP (2015)
 
 {{% portfolio image="/images/wsp.png" alt="WSP" link="/404.html"%}}
 
-WeSolveProblems was designed as an organization for all of my consultant friends to work together to refer one-another work and also share the branding of an organization of approved vendors who solve all kinds of problems. The company grew mostly in the technology consulting and it acquired my previous IT consulting company - Rent-A-Geek, LA that I had started back in 2006.
+Rebranding of a company I started back in 2006 to help techies find work and solve problems. Grew to become the largest consulting company of it's kind in Los Angeles. Sold the company in 2021.
 
 {{% /portfolio %}}
 
-## 2014 - Project LOCAL
+## Project LOCAL (2014)
 
 {{% portfolio image="/images/local_tile.png" alt="Project LOCAL" link="/404.html"%}}
 
@@ -143,7 +137,7 @@ I designed and pitched this idea at an LA-startup pitch competition where I won 
 
 {{% /portfolio %}}
 
-## 2014 - [NoLag.Hosting](https://nolag.hosting)
+## [NoLag.Hosting (2014)](https://nolag.hosting)
 
 {{% portfolio image="/images/nolag_hosting.png" alt="Nolag.Hosting" link="<https://nolag.hosting"%}}>
 
@@ -151,15 +145,15 @@ I designed and pitched this idea at an LA-startup pitch competition where I won 
 
 {{% /portfolio %}}
 
-## 2013 - BulletProof Wifi
+## BulletProof Wifi (2013)
 
 {{% portfolio image="/images/bulletproof-wifi.png" alt="Bulletproof Wifi" link="/404.html"%}}
 
-[Ashkaan Hassan](https://www.linkedin.com/in/ashkaan/) and I co-founded a network security company called Bulletproof WiFi which designed and configured firewalls and wireless access points for homes and businesses. As of 2020, the business is still generating monthly recurring revenue and it continues to grow.
+[Ashkaan Hassan](https://www.linkedin.com/in/ashkaan/) and I co-founded a network security company called Bulletproof WiFI which designed and configured firewalls and wireless access points for homes and businesses. As of 2020, the business is still generating monthly recurring revenue and it continues to grow.
 
 {{% /portfolio %}}
 
-## 2013 - [Dice Cam](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)
+## [Dice Cam (2013)](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)
 
 {{% portfolio image="/images/dice-app-screens.png" alt="Dice App" link="[/404.htm](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)"%}}
 
@@ -171,10 +165,10 @@ The designer of this project, Ben Lam, is a dope designer and an old friend. He 
 
 {{% /portfolio %}}
 
-## 2005 - 2012 - [Various Projects](https://benobi.one)
+## [Various Projects (2005 - 2012)](https://benobi.one)
 
 {{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
 
-Collaboration with other techies on various projects. Worked on forums, intranets, and file-sharing apps. Conducted some seminars on security and email management techniques. Attended 2600 meetings. Attended first DEFCON in 2012.
+Collaboration with other techies on various projects. Worked on forums, intranets, and file-sharing apps. Worked on Futurama and The Simpsons as a systems engineer which you can find in my IMDB. Conducted some seminars on security and email management techniques. Attended 2600 meetings. Attended DEFCON yearly from 2008 - 2017.
 
 {{% /portfolio %}}

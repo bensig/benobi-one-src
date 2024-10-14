@@ -5,19 +5,21 @@ theme = ["hugo-embed-pdf-shortcode", "hugo-coder-portfolio"]
 enableInlineShortcodes = true
 
 DefaultContentLanguage = "en"
-googleAnalytics = "UA-162042800-1"
-
-paginate = 20
+googleAnalytics = "G-13YHEX7C0B"
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
+[pagination]
+    pagerSize = 20
+
 [markup.goldmark.renderer]
   unsafe = true
 
-# disqusShortname = "yourdiscussshortname"
+[services.disqus]
+  shortname = "benobi"
 
 [params]
     author = "benobi.one"
