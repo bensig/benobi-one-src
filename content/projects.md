@@ -5,6 +5,16 @@ thumbnail = "images/benobi-one.png"
 description = "projects"
 +++
 
+<style>
+.portfolio-inner .portfolio-image img {
+    max-width: 475px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+</style>
+
 This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
@@ -19,7 +29,7 @@ Working on an undisclosed new project. Updates soon.
 
 ## [Bitcoin First (2024)](https://bitcoinfirst2024.com)
 
-{{% portfolio image="/images/bitcoin-first-event.jpg" alt="Bitcoin First Event Logo" link="https://bitcoinfirst2024.com" %}}
+{{% portfolio image="/images/bitcoin-first-event.jpg" alt="Bitcoin First Event Logo" link="https://bitcoinfirst2024.com"  class="portfolio-image"%}}
 
 Planner and producer of "Bitcoin First", an unconference event held in Santa Monica on October 18, 2024. This gathering brought together Bitcoin enthusiasts, developers, and thought leaders for a day of collaborative discussions and knowledge sharing.
 
@@ -28,7 +38,7 @@ Planner and producer of "Bitcoin First", an unconference event held in Santa Mon
 
 ## [Big Bitcoin Book (2023)](https://www.bigbitcoinbook.com)
 
-{{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com" %}}
+{{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com"  class="portfolio-image"%}}
 
 Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles.
 
@@ -36,7 +46,7 @@ Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. Thi
 
 ## [Bitcoin Libre (2021)](https://bitcoinlibre.io)
 
-{{% portfolio image="/images/bitcoinlibre.gif" alt="Bitcoin Libre" link="https://bitcoinlibre.io" %}}
+{{% portfolio image="/images/bitcoinlibre.gif" alt="Bitcoin Libre" link="https://bitcoinlibre.io" class="portfolio-image" %}}
 
 Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO. Tech stack: (react-native, javascript)
 
@@ -44,7 +54,7 @@ Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin 
 
 ## [Bitcoin Day Drone Show and Mercadito (2021)](https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk)
 
-{{% portfolio image="/images/bitcoinday.gif" alt="bitcoin day drones" link="https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk" %}}
+{{% portfolio image="/images/bitcoinday.gif" alt="bitcoin day drones" link="https://www.youtube.com/watch?v=Dsoxy4ZZ5Lk"  class="portfolio-image"%}}
 
 In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and produced an event in San Salvador. As part of this, we invited 23 local vendors to come and sell their textiles, shirts, jewelry, art, and food - using Bitcoin. We also had a small "Banco de Bitcoin" where attendees of the event could buy Bitcoin and the vendors could cash out Bitcoin at the end of the night for USD. I also co-authored and designed a drone show of 150 drones telling the story of Bitcoin in El Salvador.
 
@@ -52,7 +62,7 @@ In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and 
 
 ## [Sense Chat (2021)](https://www.sense.chat)
 
-{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat" %}}
+{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat" class="portfolio-image" %}}
 
 Created the first decentralized messaging app to use fully encrypted peer-to-peer technology to make audio, video, and text chats private and secure using blockchain technology. Tech stack: (react-native, javascript)
 
@@ -60,7 +70,7 @@ Created the first decentralized messaging app to use fully encrypted peer-to-pee
 
 ## [Moonscraper (2021)](/404.html)
 
-{{% portfolio image="/images/moonscraper.gif" alt="moonscraper" link="/404.html" %}}
+{{% portfolio image="/images/moonscraper.gif" alt="moonscraper" link="/404.html"  class="portfolio-image"%}}
 
 Simple birthday gift for my Dad. He is quite into day trading stocks and he spends a lot of time looking up analyst data on a few websites. It's quite repetitive so I built a little webscraper backend that reads info from a few different stock analysis sites and compiles them into a simple pwa that works on mobile. Tech stack: (react + flask + scrapy)
 
@@ -172,3 +182,11 @@ The designer of this project, Ben Lam, is a dope designer and an old friend. He 
 Collaboration with other techies on various projects. Worked on forums, intranets, and file-sharing apps. Worked on Futurama and The Simpsons as a systems engineer which you can find in my IMDB. Conducted some seminars on security and email management techniques. Attended 2600 meetings. Attended DEFCON yearly from 2008 - 2017.
 
 {{% /portfolio %}}
+
+<style>
+.portfolio-image {
+    max-width: 475px;
+    width: 100%;
+    height: auto;
+}
+</style>
