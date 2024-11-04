@@ -5,15 +5,6 @@ thumbnail = "images/benobi-one.png"
 description = "projects"
 +++
 
-<style>
-.portfolio-inner .portfolio-image img {
-    max-width: 475px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-
-}
-</style>
 
 This list contains most of the projects I have worked on since 2013.
 
@@ -88,7 +79,7 @@ In quarantine, I found myself constantly testing my internet latency to see wher
 
 ## [Squirrel (2018)](https://getsquirrel.io/)
 
-{{% portfolio image="/images/get-squirrel.png" alt="squirrel" link="(<https://getsquirrel.io)"%}}>
+{{% portfolio image="/images/get-squirrel.png" alt="squirrel" link="https://getsquirrel.io" %}}
 
 In April of 2017, while traveling in Japan and tracking my cryptocurrency holdings on a spreadsheet - I had an idea to build a better Blockfolio. We came up with the name Squirrel because they always know where their nuts are located. I did not trust the security and privacy features of Blockfolio and I had some ideas on how it could be done better - by enabling the holder to see what holdings they had in which locations. From wireframes to building and launching took about 8 months. The app is available on iOS and Android. Tech stack: (react-native, rails)
 

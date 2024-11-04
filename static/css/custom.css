@@ -1,0 +1,6 @@
+.portfolio-inner .portfolio-image .portfolio-img {
+    max-width: 475px !important;
+    width: 475px !important;
+    height: auto;
+    margin-bottom: 100px;
+}

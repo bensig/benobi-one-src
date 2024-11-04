@@ -5,6 +5,4 @@ thumbnail = "images/benobi-one.png"
 description = "contact"
 +++
 
-## Shout at me
-
-Feel free to [Tweet at me](https://twitter.com/bensig) any time.
+Best place to reach me is on [X](https://X.com/bensig).

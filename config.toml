@@ -22,14 +22,14 @@ pygmentsUseClasses = true
   shortname = "benobi"
 
 [params]
-    author = "benobi.one"
-    description = "Ben Sigman - security, engineering, and product leadership."
-    keywords = "blog,developer,personal"
-    info = "Ben Sigman - security, engineering, and product leadership."
-    avatarurl = "images/unicornvision.jpg"
-    footercontent = "benobi.one"
-    fixedbarContent = "Let's keep the internet safe and free? →→ "
-    fixedbarContentAfter = "You're a generous Jedi."
+    author = "Ben Sigman"
+    description = "Bitcoin, Engineering, and Product Leadership"
+    keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
+    info = "Bitcoin, Engineering, and Product Leadership"
+    avatarurl = "images/bensigman.jpg"
+    footercontent = "Support Digital Rights"
+    fixedbarContent = "Support Digital Freedom →→ "
+    fixedbarContentAfter = "Thank you for supporting the EFF!"
 
     hideCredits = true
     hideCopyright = true
@@ -43,12 +43,12 @@ pygmentsUseClasses = true
     enableHatenaShare = false
     enableLineShare = false
     enableLinkedInShare = false
-    enableenableEFFDonate = true
+    enableEFFDonate = true
 
-   thumbnail = "images/benobi-one.png"
+    thumbnail = "images/benobi-one.png"
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # Alignment of Mobile Menu items
     itemscentered = true
@@ -88,10 +88,9 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Ben Sigman"
-            info = "Tech. Product. Business. Ethos."
-            #            info = "Do or do not. There is no try."
-            description = "innerspace, cyberspace, outerspace"
-            keywords = "blog,developer,personal,ben sigman"
+            info = "Bitcoin advocate, author, and entrepreneur"
+            description = "Bitcoin, Engineering, and Product Leadership"
+            keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
 
         [languages.en.menu] # It is possible to change the menu too.
 

@@ -1,66 +1,66 @@
 +++
-title = "Resources / Great Projects"
+title = "Bitcoin Resources"
 slug = "resources"
-thumbnail = "images/benobi-one.png"
-description = "resources"
+thumbnail = "images/bitcoin.png"
+description = "Bitcoin resources and tools"
 +++
 
-This is a list of resources that I find useful / interesting.
+This is a curated list of Bitcoin resources that I find useful / interesting.
 
 ---------------------------
 
-## [Defend Freedom Online](https://www.eff.org/cyberspace-independence)
+## [Bitcoin Core](https://bitcoincore.org/)
 
-{{% portfolio image="/images/defend-freedom.png" alt="airq earth" link="https://www.eff.org/cyberspace-independence"%}}
+{{% portfolio image="/images/bitcoin-core.png" alt="bitcoin core" link="https://bitcoincore.org/"%}}
 
-JP Barlow is one of the internet's greatest heroes. The Declaration of the Independence of Cyberspace is a really special document to me. I think I teared up a little bit when I first read it. There are many people who do not feel at home where they are physically. Ultimately, what makes the internet beatiful is a collection of connections between the ideas of people. That is how I interpret Barlow's concept of cyberspace being the "new home of Mind." The internet's only limitation is the capacity for minds to imagine and to build.
-
-{{% /portfolio %}}
-
-## [AirQ](https://www.iqair.com/earth?nav)
-
-{{% portfolio image="/images/airq-earth.png" alt="airq earth" link="https://www.iqair.com/earth?nav"%}}
-
-Navigate the air quality of the earth here. Make good decisions for your health.
+Bitcoin Core is the backbone of the Bitcoin network. This is the reference implementation of the Bitcoin protocol, maintained by a dedicated team of developers. Running a full node helps secure and decentralize the network while giving you the most sovereign way to interact with Bitcoin.
 
 {{% /portfolio %}}
 
-## [Awesome](https://github.com/sindresorhus/awesome)
+## [Mempool Space](https://mempool.space/)
 
-{{% portfolio image="/images/awesome.png" alt="awesome" link="https://github.com/sindresorhus/awesome"%}}
+{{% portfolio image="/images/mempool.png" alt="mempool space" link="https://mempool.space/"%}}
 
-An awesome list of awesome lists on Github...  This is the most popular repository on Github.
-
-{{% /portfolio %}}
-
-## [Hoodmaps](https://hoodmaps.com/)
-
-{{% portfolio image="/images/hoodmaps.png" alt="hoodmaps" link="https://hoodmaps.com"%}}
-
-Really useful for looking at neighborhoods when you are visiting a new place.
+The best Bitcoin block explorer and mempool visualizer. Essential for understanding network activity, checking transaction status, and calculating optimal fees.
 
 {{% /portfolio %}}
 
-## [Shodan](https://www.shodan.io/)
+## [Bitcoin Resources by Jameson Lopp](https://www.lopp.net/bitcoin-information.html)
 
-{{% portfolio image="/images/shodan.png" alt="lets encrypt" link="https://www.shodan.io/"%}}
+{{% portfolio image="/images/lopp.png" alt="lopp.net" link="https://www.lopp.net/bitcoin-information.html"%}}
 
-A search engine that indexes the internet of things. Very good for intelligence gathering. You can find all sorts of IOT information on here. Very relevant for the next decade as more and more things come online. 
-
-{{% /portfolio %}}
-
-## [Let's Encrypt](https://letsencrypt.org/)
-
-{{% portfolio image="/images/lets-encrypt.png" alt="lets encrypt" link="https://letsencrypt.org/"%}}
-
-Every website needs a certificate. Now, they are free to obtain and simple to install.
+A comprehensive collection of Bitcoin resources curated by Jameson Lopp. This site includes detailed information on every aspect of Bitcoin - from basic concepts to advanced technical details, economics, and privacy best practices.
 
 {{% /portfolio %}}
 
-## [Mixpanel](https://mixpanel.com/)
+## [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/)
 
-{{% portfolio image="/images/mixpnl.png" alt="mixpanel" link="https://mixpanel.com"%}}
+{{% portfolio image="/images/clark-moody.png" alt="clark moody dashboard" link="https://bitcoin.clarkmoody.com/dashboard/"%}}
 
-It's very important to use some analytics when you are building an application. This works really great for mobile. Lots of new features always being released.
+A comprehensive real-time dashboard displaying Bitcoin network statistics, market data, and Lightning Network metrics. This dashboard provides a detailed overview of Bitcoin's health and performance across multiple metrics.
+
+{{% /portfolio %}}
+
+## [Bitcoin Magazine](https://bitcoinmagazine.com/)
+
+{{% portfolio image="/images/bitcoin-magazine.webp" alt="bitcoin magazine" link="https://bitcoinmagazine.com/"%}}
+
+The oldest and most established source of news, articles and expert commentary on Bitcoin. A great resource for staying updated on Bitcoin developments, technology, and culture.
+
+{{% /portfolio %}}
+
+## [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+
+{{% portfolio image="/images/Mastering Bitcoin O'Reilly.webp" alt="mastering bitcoin" link="https://github.com/bitcoinbook/bitcoinbook"%}}
+
+Andreas Antonopoulos' comprehensive guide to Bitcoin. Available freely on GitHub, this book is essential reading for anyone wanting to deeply understand Bitcoin's technical aspects.
+
+{{% /portfolio %}}
+
+## [Bitcoin Privacy Guide](https://bitcoin.org/en/protect-your-privacy)
+
+{{% portfolio image="/images/BitcoinLogo.svg" alt="bitcoin privacy" link="https://bitcoin.org/en/protect-your-privacy"%}}
+
+Understanding privacy in Bitcoin is crucial. This guide covers best practices for maintaining financial privacy while using Bitcoin.
 
 {{% /portfolio %}}
