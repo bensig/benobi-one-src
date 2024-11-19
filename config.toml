@@ -18,8 +18,8 @@ pygmentsUseClasses = true
 [markup.goldmark.renderer]
   unsafe = true
 
-[services.disqus]
-  shortname = "benobi"
+# [services.disqus]
+#   shortname = "benobi"
 
 [params]
     author = "Ben Sigman"
