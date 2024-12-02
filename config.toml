@@ -88,8 +88,8 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Ben Sigman"
-            info = "Bitcoin advocate, author, and entrepreneur"
-            description = "Bitcoin, Engineering, and Product Leadership"
+            info = "Systems engineer, author, and Bitcoin advocate"
+            description = "Ben Sigman is a Bitcoin nerd who think a lot about security, and writes code and books when not evangelizing magic internet money."
             keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
 
         [languages.en.menu] # It is possible to change the menu too.
