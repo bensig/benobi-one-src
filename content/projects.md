@@ -27,7 +27,7 @@ Planner and producer of "Bitcoin First", an unconference event held in Santa Mon
 {{% /portfolio %}}
 
 
-## [Big Bitcoin Book (2023)](https://www.bigbitcoinbook.com)
+## [Big Bitcoin Book (2024)](https://www.bigbitcoinbook.com)
 
 {{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com"  class="portfolio-image"%}}
 

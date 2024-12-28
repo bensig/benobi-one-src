@@ -78,6 +78,11 @@ pygmentsUseClasses = true
     icon = "fab fa-angellist"
     weight = 5
     url = "https://wellfound.com/u/bensig"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    weight = 6
+    url = "https://www.youtube.com/@benobione"
 
 [languages]
     [languages.en]
