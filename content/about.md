@@ -7,11 +7,12 @@ description = "about"
 
 ## Current Projects & Interests
 
-- Founder and lead developer of [Bitcoin Libre](https://www.bitcoinlibre.io), building a simple and accessible Bitcoin wallet and lending platform
-- Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a comprehensive visual history of Bitcoin's first 15 years
-- Organizer of [Bitcoin First](https://bitcoinfirst2024.com), an unconference focused on Bitcoin education and collaboration
-- Bitcoin advocate focused on expanding adoption globally, especially in regions with limited access to traditional banking
-- Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations
+- Conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace delivering a simple and accessible Bitcoin wallet and lending platform
+- Creator of [Bitcoin One Million][b1m_app], a data-driven platform tracking Bitcoin's mathematical journey to $1,000,000 with a 95.65% accurate power law model, interactive curve, dashboard, and retirement calculator
+- Bestselling co-author of [*Bitcoin One Million*][b1m], available on Amazon, major audiobook platforms, and in hardcover and paperback editions
+- Co-creator of [Bitcoin Alpha][alpha], the invite-only nonprofit unconference in Santa Monica limited to 200 attendees and sold out two years in a row
+- Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a visual history of Bitcoin's first 15 years that surpassed $500k in sales within its first year
+- Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations to expand global adoption
 
 ## Professional Background
 
@@ -22,14 +23,34 @@ description = "about"
 - Dedicated to advancing Bitcoin's mission of creating a more open and equitable financial system
 - Focus on making Bitcoin accessible to the billions of people worldwide who lack access to traditional banking services
 
+## Short Bio
+
+Ben Sigman is a Bitcoin entrepreneur, author, and advocate focused on global Bitcoin adoption. He conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace.
+
+He is the bestselling co-author of [*Bitcoin One Million*][b1m], ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories, and the co-creator of [Bitcoin Alpha][alpha], the invite-only Bitcoin unconference series.
+
+Ben also designed the giant orange shark sculpture, "Apex Predator of Money"—a bold symbol proposed as Bitcoin's new mascot as featured in [Decrypt][decrypt].
+
+With over 20 years in technology as a systems engineer and developer, his work bridges Bitcoin, art, and open finance to create a more accessible monetary future.
+
+## Headshot
+
+![Benobi's headshot](/images/benobi-headshot.png)
+
 ## About This Site
 
 This site documents my Bitcoin advocacy work, projects, and thoughts on the evolution of money and technology.
 
-It is built using [Hugo]( {{< relref "posts/hugo_deployment_to_github" >}}) and serves as a platform to share knowledge about Bitcoin and its potential to transform the global financial system.
+It is built using [Hugo](/posts/hugo_deployment_to_github/) and serves as a platform to share knowledge about Bitcoin and its potential to transform the global financial system.
 
 ## Contact
 
 GPG Key Fingerprint: `C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0`
 
 Thank you for visiting!
+
+[libre]: https://www.libre.org
+[alpha]: https://bitcoinalpha.org
+[b1m]: https://amzn.to/4qCGJFs
+[b1m_app]: https://b1m.io
+[decrypt]: https://decrypt.co/345710/no-bull-bitcoiners-tribute-predator-money-shark-satutue
