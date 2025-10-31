@@ -18,6 +18,14 @@ Working on an undisclosed new project. Updates soon.
 {{% /portfolio %}} 
 --->
 
+## [Bitcoin One Million (2025)](https://www.amazon.com/s?k=Bitcoin+One+Million)
+
+{{% portfolio image="/images/Bitcoin-One-Million-Square.png" alt="Bitcoin One Million Book" link="https://www.amazon.com/s?k=Bitcoin+One+Million" class="portfolio-image" %}}
+
+Bitcoin One Million is a bestseller available on Amazon and all major audiobook platforms, with editions in hardcover and paperback. The book expands on the power law model and chronicles Bitcoin's rise, giving readers a data-driven roadmap to the $1,000,000 milestone.
+
+{{% /portfolio %}}
+
 ## [Bitcoin One Million App (2025)](https://b1m.io)
 
 {{% portfolio image="/images/b1m-square.png" alt="Bitcoin One Million" link="https://b1m.io" class="portfolio-image" %}}
@@ -25,14 +33,6 @@ Working on an undisclosed new project. Updates soon.
 Tracking Bitcoin's mathematical journey to $1,000,000 through the power law model, with 95.65% accuracy over 16+ years, shows Bitcoin's path is not random—it's mathematical destiny unfolding in real-time.
 
 Available everywhere: explore the curve, dashboard, and retirement calculator on the web at b1m.io, download the iOS app from the App Store, or get the Android app from Google Play. The platform complements the Bitcoin One Million book with always-on insights.
-
-{{% /portfolio %}}
-
-## [Bitcoin One Million (2025)](https://www.amazon.com/s?k=Bitcoin+One+Million)
-
-{{% portfolio image="/images/Bitcoin-One-Million-Square.png" alt="Bitcoin One Million Book" link="https://www.amazon.com/s?k=Bitcoin+One+Million" class="portfolio-image" %}}
-
-Bitcoin One Million is a bestseller available on Amazon and all major audiobook platforms, with editions in hardcover and paperback. The book expands on the power law model and chronicles Bitcoin's rise, giving readers a data-driven roadmap to the $1,000,000 milestone.
 
 {{% /portfolio %}}
 
