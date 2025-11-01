@@ -22,17 +22,17 @@ Working on an undisclosed new project. Updates soon.
 
 {{% portfolio image="/images/Bitcoin-One-Million-Square.png" alt="Bitcoin One Million Book" link="https://www.amazon.com/s?k=Bitcoin+One+Million" class="portfolio-image" %}}
 
-Bitcoin One Million is a bestseller available on Amazon and all major audiobook platforms, with editions in hardcover and paperback. The book expands on the power law model and chronicles Bitcoin's rise, giving readers a data-driven roadmap to the $1,000,000 milestone.
+Bitcoin One Million is a bestseller [available on Amazon](https://www.amazon.com/s?k=Bitcoin+One+Million) and all major audiobook platforms, with editions in hardcover and paperback. The book expands on the power law model and chronicles Bitcoin's rise, giving readers a data-driven roadmap to the $1,000,000 milestone.
 
 {{% /portfolio %}}
 
-## [Bitcoin One Million App (2025)](https://b1m.io)
+## [B1M App (2025)](https://b1m.io)
 
 {{% portfolio image="/images/b1m-square.png" alt="Bitcoin One Million" link="https://b1m.io" class="portfolio-image" %}}
 
 Tracking Bitcoin's mathematical journey to $1,000,000 through the power law model, with 95.65% accuracy over 16+ years, shows Bitcoin's path is not random—it's mathematical destiny unfolding in real-time.
 
-Available everywhere: explore the curve, dashboard, and retirement calculator on the web at b1m.io, download the iOS app from the App Store, or get the Android app from Google Play. The platform complements the Bitcoin One Million book with always-on insights.
+Available everywhere: explore the curve, dashboard, and retirement calculator on the web at [b1m.io](https://b1m.io), download the iOS app from the App Store, or get the Android app from Google Play. The platform complements the Bitcoin One Million book with always-on insights.
 
 {{% /portfolio %}}
 
@@ -40,7 +40,7 @@ Available everywhere: explore the curve, dashboard, and retirement calculator on
 
 {{% portfolio image="/images/quantumrekt-square.png" alt="Quantumrekt" link="https://quantumrekt.com" class="portfolio-image" %}}
 
-Quantumrekt.com explores the state of quantum computing and its emerging threat surface for Bitcoin. The site combines a living timeline, interactive quiz, and mini-game with a top 100 vulnerable address leaderboard and an address checker so visitors can see if their wallet is REKT. It also curates mitigation playbooks, a defender-focused newsletter, and hidden easter eggs to reward deep dives.
+[Quantumrekt.com](https://quantumrekt.com) explores the state of quantum computing and its emerging threat surface for Bitcoin. The site combines a living timeline, interactive quiz, and mini-game with a top 100 vulnerable address leaderboard and an address checker so visitors can see if their wallet is REKT. It also curates mitigation playbooks, a defender-focused newsletter, and hidden easter eggs to reward deep dives.
 
 {{% /portfolio %}}
 
@@ -48,7 +48,7 @@ Quantumrekt.com explores the state of quantum computing and its emerging threat 
 
 {{% portfolio image="/images/borrow-or-lend.png" alt="Libre Lending Platform" link="https://libre.org" class="portfolio-image" %}}
 
-Libre.org is a decentralized Bitcoin lending platform that allows users to borrow USDT against Bitcoin collateral or lend USDT backed by over 200% Bitcoin collateral. The platform operates without KYC requirements and uses advanced cryptographic security. Available on both mobile (iOS/Android) and desktop at [defi.libre.org](https://defi.libre.org/), with minimum loans of $100 and direct USDT transfers to external wallets.
+[Libre.org](https://libre.org) is a decentralized Bitcoin lending platform that allows users to borrow USDT against Bitcoin collateral or lend USDT backed by over 200% Bitcoin collateral. The platform operates without KYC requirements and uses advanced cryptographic security. Available on both mobile (iOS/Android) and desktop at [defi.libre.org](https://defi.libre.org/), with minimum loans of $100 and direct USDT transfers to external wallets.
 
 {{% /portfolio %}}
 
@@ -56,7 +56,7 @@ Libre.org is a decentralized Bitcoin lending platform that allows users to borro
 
 {{% portfolio image="/images/libre-crosslink.png" alt="Libre Crosslink Bridge" link="https://docs.libre.org/libre-docs/cross-chain-interoperability/crosslink-mpc-tss-bridge" class="portfolio-image" %}}
 
-The Libre Crosslink Bridge uses MPC (Multi-Party Computation) technology with TSS (Threshold Signature Scheme) and smart contracts on Libre to provide decentralized custody of Bitcoin. This enables lending vaults and wrapped Bitcoin on Libre to power the DEX, creating a secure bridge between Bitcoin and the Libre ecosystem.
+[The Libre Crosslink Bridge](https://docs.libre.org/libre-docs/cross-chain-interoperability/crosslink-mpc-tss-bridge) uses MPC (Multi-Party Computation) technology with TSS (Threshold Signature Scheme) and smart contracts on Libre to provide decentralized custody of Bitcoin. This enables lending vaults and wrapped Bitcoin on Libre to power the DEX, creating a secure bridge between Bitcoin and the Libre ecosystem.
 
 {{% /portfolio %}}
 
@@ -64,7 +64,7 @@ The Libre Crosslink Bridge uses MPC (Multi-Party Computation) technology with TS
 
 {{% portfolio image="/images/bitcoin-alpha-square.png" alt="Bitcoin Alpha Event Logo" link="https://bitcoinalpha.org" class="portfolio-image" %}}
 
-Planner and producer of "Bitcoin Alpha", an invite-only nonprofit annual unconference in Santa Monica limited to 200 attendees and sold out two years in a row. It brings together Bitcoin enthusiasts, developers, and thought leaders each October for collaborative discussions and knowledge sharing.
+Planner and producer of "Bitcoin Alpha", an [invite-only nonprofit annual unconference in Santa Monica](https://bitcoinalpha.org) limited to 200 attendees and sold out two years in a row. It brings together Bitcoin enthusiasts, developers, and thought leaders each October for collaborative discussions and knowledge sharing.
 
 {{% /portfolio %}}
 
@@ -72,7 +72,7 @@ Planner and producer of "Bitcoin Alpha", an invite-only nonprofit annual unconfe
 
 {{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com"  class="portfolio-image"%}}
 
-Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles. The book sold $200k worth of books in 13 hours on presale and has achieved $500k in sales in less than one year.
+Co-author of "[Big Bitcoin Book](https://www.bigbitcoinbook.com)", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles. The book sold $200k worth of books in 13 hours on presale and has achieved $500k in sales in less than one year.
 
 {{% /portfolio %}}
 
@@ -80,7 +80,7 @@ Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. Thi
 
 {{% portfolio image="/images/libre-l2.png" alt="Libre.org Bitcoin Sidechain" link="https://chain.libre.org" class="portfolio-image" %}}
 
-A Bitcoin sidechain built on DPOS (Delegated Proof of Stake) with a fair launch "Mint Rush" that raised over $2M at the time for DAO funding in exchange for staked LIBRE. Funders could claim their tokens with 1/365 per day vesting for a year, allowing many to recoup their Bitcoin investment while still funding development of the platform.
+A [Bitcoin sidechain](https://chain.libre.org) built on DPOS (Delegated Proof of Stake) with a fair launch "Mint Rush" that raised over $2M at the time for DAO funding in exchange for staked LIBRE. Funders could claim their tokens with 1/365 per day vesting for a year, allowing many to recoup their Bitcoin investment while still funding development of the platform.
 
 {{% /portfolio %}}
 
@@ -88,7 +88,7 @@ A Bitcoin sidechain built on DPOS (Delegated Proof of Stake) with a fair launch 
 
 {{% portfolio image="/images/bitcoinlibre.gif" alt="Bitcoin Libre" link="https://bitcoinlibre.io" class="portfolio-image" %}}
 
-Bitcoin Libre is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO. Tech stack: (react-native, javascript)
+[Bitcoin Libre](https://bitcoinlibre.io) is a Bitcoin wallet that features instant transactions of Bitcoin with no transaction fees. This is a proof of concept for using "wrapped Bitcoin" on another blockchain. It's a non-custodial wallet that can work anywhere in the world. Our goal was to build a "Venmo-like" experience to make Bitcoin really simple to use. The Bitcoin Libre app has no company, no equity, and will be funded and governed as a DAO. Tech stack: (react-native, javascript)
 
 {{% /portfolio %}}
 
