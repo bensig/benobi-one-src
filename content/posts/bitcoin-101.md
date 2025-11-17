@@ -5,15 +5,25 @@ title = "Bitcoin 101: A Simple Guide to Share"
 slug = "bitcoin-101" 
 tags = ["bitcoin", "education", "guide"]
 categories = ["Bitcoin"]
-thumbnail = "images/benobi-one.png"
-description = "A straightforward one-page guide explaining Bitcoin basics for sharing with family and friends"
+thumbnail = "images/bitcoinonepagerdotcom-front.png"
+description = "Version 3 of our popular one-page Bitcoin guide - a straightforward resource for sharing with family and friends"
 +++
 
-I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Feel free to share this PDF guide with others who want to understand what Bitcoin is all about.
+> **📣 New Version Available!** Version 3 of the Bitcoin 101 guide is now available at [bitcoinonepager.com](https://bitcoinonepager.com) with updated stats, improved design, and the option to order high-quality laminated prints. The original Version 2 PDF is [still available here](/files/Bitcoin-101-One-Pager.pdf).
 
-## [Download the Guide](https://benobi.one/files/Bitcoin-101-One-Pager.pdf)
+I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Version 3 is now available with updated stats and improved design!
 
-[![Bitcoin 101 Guide Preview](/images/Bitcoin-101-One-Pager@2x.png)](/files/Bitcoin-101-One-Pager.pdf)
+## [Visit BitcoinOnePager.com](https://bitcoinonepager.com)
+
+Download the free PDF or order high-quality laminated prints at [bitcoinonepager.com](https://bitcoinonepager.com).
+
+<a href="/images/bitcoinonepagerdotcom-front@2x.png" target="_blank">
+  <img src="/images/bitcoinonepagerdotcom-front.png" alt="Bitcoin 101 Guide - Front" style="max-width: 100%; margin-bottom: 20px; cursor: pointer;" />
+</a>
+
+<a href="/images/bitcoinonepagerdotcom-back@2x.png" target="_blank">
+  <img src="/images/bitcoinonepagerdotcom-back.png" alt="Bitcoin 101 Guide - Back" style="max-width: 100%; margin-bottom: 20px; cursor: pointer;" />
+</a>
 
 This one-page PDF guide covers:
 
@@ -24,7 +34,9 @@ This one-page PDF guide covers:
 - How to get started safely
 - Fun facts and quick stats
 
-Click the image above to download the PDF.
+Click the images above to visit [bitcoinonepager.com](https://bitcoinonepager.com) where you can download the latest PDF or order laminated prints.
+
+**Note:** Looking for the previous version? [Version 2 is still available here](/files/Bitcoin-101-One-Pager.pdf), but I recommend using the updated Version 3 at [bitcoinonepager.com](https://bitcoinonepager.com).
 
 ## Why I Created This Guide
 
