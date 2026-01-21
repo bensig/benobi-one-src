@@ -9,14 +9,30 @@ description = "projects"
 This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
-<!--- ## 2021 - [Undisclosed Project](https://benobi.one)
 
-{{% portfolio image="/images/avatar.jpg" link="https://benobi.one"  alt="undisclosed" %}}
+## [XAVIOR (2026)](https://xavior.ai)
 
-Working on an undisclosed new project. Updates soon.
+{{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Operating System" link="https://xavior.ai" class="portfolio-image" %}}
 
-{{% /portfolio %}} 
---->
+XAVIOR is an AI-powered operating system for your life — CRM, projects, tasks, calendar, docs, and notes in one workspace. Unlike generic AI assistants, XAVIOR runs on 10 custom fine-tuned models I trained locally, each specialized for a different domain (contacts, events, tasks, search, etc.). The AI understands context, not just data — surfacing what matters, what's stuck, and what to do next. Currently raising at $12M.
+
+{{% /portfolio %}}
+
+## [2718 Fund (2025)](https://2718.fund)
+
+{{% portfolio image="/images/2718-fund-square.jpg" alt="2718 Fund Bitcoin Hedge Fund" link="https://2718.fund" class="portfolio-image" %}}
+
+2718 Fund is a Bitcoin hedge fund built on the thesis that Bitcoin follows a mathematical power law trajectory. The fund uses Bitcoin-backed lending to generate yield while maintaining long exposure. I built the investor portal, reporting infrastructure, and a custom multisig wallet with UTXO selection and PSBT support — all using AI-assisted development.
+
+{{% /portfolio %}}
+
+## [DegenPredict (2025)](https://degenpredict.com)
+
+{{% portfolio image="/images/degenpredict-square.jpg" alt="DegenPredict Prediction Market" link="https://degenpredict.com" class="portfolio-image" %}}
+
+DegenPredict is an AI-powered prediction market. Users can create markets, trade positions, and settle outcomes — all on-chain. The platform includes an agentic "degenbrain" that analyzes markets and generates predictions. Built as a side project to learn DeFi mechanics and prediction market design.
+
+{{% /portfolio %}}
 
 ## [Bitcoin One Million (2025)](https://www.amazon.com/s?k=Bitcoin+One+Million)
 

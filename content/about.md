@@ -14,6 +14,18 @@ description = "about"
 - Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a visual history of Bitcoin's first 15 years that surpassed $500k in sales within its first year
 - Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations to expand global adoption
 
+## AI + Product Development
+
+In 2025, I went deep on AI-assisted development — what my friends call "pocket coding." Using Claude, Cursor, and local fine-tuned models, I shipped multiple products from my phone without writing traditional code. This includes:
+
+- A bestselling book co-written with AI assistance
+- Native iOS, Android, and Apple Watch apps
+- A Bitcoin multisig wallet with PSBT support
+- An AI platform running 10 custom fine-tuned models
+- Investor portals, prediction markets, and more
+
+I'm now teaching this workflow to others through [Pocket Coding](/pocketcoding) — a workshop for founders and creators who want to build products without a traditional engineering background.
+
 ## Professional Background
 
 - Over 20 years of experience in technology

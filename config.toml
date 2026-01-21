@@ -27,9 +27,6 @@ pygmentsUseClasses = true
     keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
     info = "Bitcoin, Engineering, and Product Leadership"
     avatarurl = "images/bensigman.jpg"
-    footercontent = "Support Digital Rights"
-    fixedbarContent = "Support Digital Freedom →→ "
-    fixedbarContentAfter = "Thank you for supporting the EFF!"
 
     hideCredits = true
     hideCopyright = true
@@ -43,7 +40,6 @@ pygmentsUseClasses = true
     enableHatenaShare = false
     enableLineShare = false
     enableLinkedInShare = false
-    enableEFFDonate = true
 
     thumbnail = "images/benobi-one.png"
 
@@ -120,6 +116,10 @@ pygmentsUseClasses = true
                 weight = 5
                 url = "resources"
             [[languages.en.menu.main]]
-                name = "Contact"
+                name = "Workshop"
                 weight = 6
+                url = "pocketcoding"
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 7
                 url = "contact"

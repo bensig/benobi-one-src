@@ -1,0 +1,19 @@
+<section class="container centered">
+  <div class="about">
+    {{ with .Site.Params.avatarurl }}
+      <div class="avatar"><img src="{{ . | absURL }}" alt="avatar"></div>
+    {{ end }}
+    <h1>{{ .Site.Params.author }}</h1>
+
+    <div class="home-bio">
+      <p>I build software, funds, and media — mostly from my phone.</p>
+
+      <p class="current-projects"><strong>Currently:</strong> <a href="https://libre.org">Libre</a> · <a href="https://xavior.ai">XAVIOR</a> · <a href="https://2718.fund">2718 Fund</a> · <a href="/pocketcoding">Pocket Coding</a></p>
+
+      <p class="home-ctas">
+        <a href="/projects">→ See what I've built</a><br>
+        <a href="/pocketcoding">→ Learn how I build</a>
+      </p>
+    </div>
+  </div>
+</section>

@@ -1,3 +1,57 @@
+/* Home page bio styles */
+.home-bio {
+  max-width: 600px;
+  margin: 1.5rem auto 2rem;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.home-bio p {
+  margin-bottom: 1rem;
+}
+
+.home-bio .current-projects {
+  margin-top: 1.5rem;
+}
+
+.home-bio .current-projects a {
+  text-decoration: none;
+}
+
+.home-bio .current-projects a:hover {
+  text-decoration: underline;
+}
+
+.home-bio .home-ctas {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.home-bio .home-ctas a {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.home-bio .home-ctas a:hover {
+  text-decoration: underline;
+}
+
+/* Footer social icons */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.footer-social .social-item a {
+  font-size: 1.5rem;
+}
+
+/* Portfolio styles */
 .portfolio-item {
   display: flex;
   align-items: flex-start;

@@ -1,0 +1,20 @@
+<footer class="footer">
+  <section class="container">
+    {{ with .Site.Params.social }}
+    <ul class="social-list footer-social">
+      {{ range sort . "weight"}}
+        <li class="social-item">
+          <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+            {{ if .icon }}
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ if not .Site.Params.hideCopyright }} <p>© {{ .Site.LastChange.Format "2006" }} {{ .Site.Params.author }}</p> {{ end }}
+  </section>
+</footer>
