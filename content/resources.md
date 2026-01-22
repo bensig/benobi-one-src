@@ -19,19 +19,19 @@ Claude Code is Anthropic's official agentic coding tool that lives in your termi
 
 {{% /portfolio %}}
 
-## [Claude for Chrome](https://chromewebstore.google.com/detail/claude/hcjjlpgfeabobhhdobpmnlinicchagcg)
+## [Claude for Chrome](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn)
 
-{{% portfolio image="/images/claude-code.png" alt="claude chrome extension" link="https://chromewebstore.google.com/detail/claude/hcjjlpgfeabpmnlinicchagcg"%}}
+{{% portfolio image="/images/claude-code.png" alt="claude chrome extension" link="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn"%}}
 
 The official Claude Chrome extension brings Claude's AI capabilities directly into your browser. Quickly access Claude from any webpage to help with reading, writing, and analysis tasks.
 
 {{% /portfolio %}}
 
-## [Ralph for Claude Code](https://github.com/anthropics/ralph)
+## [Ralph Wiggum for Claude Code](https://awesomeclaude.ai/ralph-wiggum)
 
-{{% portfolio image="/images/ralph-claude-code.png" alt="ralph claude code" link="https://github.com/anthropics/ralph"%}}
+{{% portfolio image="/images/ralph-claude-code.png" alt="ralph wiggum claude code" link="https://awesomeclaude.ai/ralph-wiggum"%}}
 
-Ralph is a companion tool for Claude Code that helps manage and organize your coding sessions. It provides additional utilities for working with Claude Code in your development workflow.
+Ralph Wiggum is a companion tool for Claude Code that helps manage and organize your coding sessions. It provides additional utilities for working with Claude Code in your development workflow.
 
 {{% /portfolio %}}
 
