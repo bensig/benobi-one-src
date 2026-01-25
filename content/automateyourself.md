@@ -1,6 +1,6 @@
 +++
-title = "Pocket Coding"
-slug = "pocketcoding"
+title = "Automate Yourself"
+slug = "automateyourself"
 thumbnail = "images/benobi-one.png"
 description = "Build AI tools that work like you do"
 +++
@@ -11,9 +11,9 @@ You have expertise. You have workflows. You have things you do over and over. No
 
 ---
 
-## What is Pocket Coding?
+## What is Automate Yourself?
 
-Pocket Coding is a workshop where you build AI tools for your actual work. You leave with something real—an automation, an app, a workflow you'll actually use.
+Automate Yourself is a workshop where you build AI tools for your actual work. You leave with something real—an automation, an app, a workflow you'll actually use.
 
 We've taught CPAs to extract data from messy tax documents. Lawyers to parse discovery files and find key evidence. Coaches to build adaptive training systems. Content creators to automate outreach.
 

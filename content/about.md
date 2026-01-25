@@ -16,7 +16,7 @@ description = "about"
 
 ## AI + Product Development
 
-In 2025, I went deep on AI-assisted development — what my friends call "pocket coding." Using Claude, Cursor, and local fine-tuned models, I shipped multiple products from my phone without writing traditional code. This includes:
+In 2025, I went deep on AI-assisted development — what I call "automate yourself." Using Claude, Cursor, and local fine-tuned models, I shipped multiple products from my phone without writing traditional code. This includes:
 
 - A bestselling book co-written with AI assistance
 - Native iOS, Android, and Apple Watch apps
@@ -24,7 +24,7 @@ In 2025, I went deep on AI-assisted development — what my friends call "pocket
 - An AI platform running 10 custom fine-tuned models
 - Investor portals, prediction markets, and more
 
-I'm now teaching this workflow to others through [Pocket Coding](/pocketcoding) — a workshop for founders and creators who want to build products without a traditional engineering background.
+I'm now teaching this workflow to others through [Automate Yourself](/automateyourself) — a workshop for founders and creators who want to build products without a traditional engineering background.
 
 ## Professional Background
 

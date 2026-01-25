@@ -103,7 +103,7 @@ pygmentsUseClasses = true
             [[languages.en.menu.main]]
                 name = "Workshop"
                 weight = 6
-                url = "pocketcoding"
+                url = "automateyourself"
             [[languages.en.menu.main]]
                 name = "Contact"
                 weight = 7
