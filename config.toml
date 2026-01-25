@@ -60,25 +60,10 @@ pygmentsUseClasses = true
     weight = 1
     url = "https://github.com/bensig/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
+    name = "X"
+    icon = "fab fa-x-twitter"
     weight = 2
-    url = "https://twitter.com/bensig/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
-    url = "https://www.linkedin.com/in/benobi/"
-[[params.social]]
-    name = "angel.co"
-    icon = "fab fa-angellist"
-    weight = 5
-    url = "https://wellfound.com/u/bensig"
-[[params.social]]
-    name = "YouTube"
-    icon = "fab fa-youtube"
-    weight = 6
-    url = "https://www.youtube.com/@benobione"
+    url = "https://x.com/bensig/"
 
 [languages]
     [languages.en]
