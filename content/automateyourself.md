@@ -5,8 +5,6 @@ thumbnail = "images/benobi-one.png"
 description = "Build AI tools that work like you do"
 +++
 
-## Automate yourself
-
 You have expertise. You have workflows. You have things you do over and over. Now you can build AI tools that work like you do—and run while you sleep.
 
 ---
