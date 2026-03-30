@@ -13,7 +13,7 @@ Currently I'm focused on:
 
 - **[XAVIOR](https://xavior.ai)** — An AI operating system I built that runs on 10 custom fine-tuned models, each specialized for a different domain (contacts, events, tasks, search, etc.). It's a CRM, project manager, calendar, and notes system rolled into one AI-native workspace.
 - **mempalace** — An open source memory system for AI agents (coming soon). Think of it as the missing persistence layer that gives agents real memory across sessions and contexts.
-- **L4NRT3RN** — A collaborative project exploring AI-only social worlds where digital twins can interact autonomously.
+- **L4NT3RN** — A collaborative project exploring AI-only social worlds where digital twins can interact autonomously.
 - **[Automate Yourself](/automateyourself)** — A workshop teaching founders and creators how to build real products using AI without an engineering background.
 
 I also write about the agent ecosystem — from [agent social networks and the rise of the agent internet](/posts/openclaw-moltbook-ai-agents/) to local LLM fine-tuning and orchestration patterns.
