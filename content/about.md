@@ -2,48 +2,49 @@
 title = "About"
 slug = "about"
 thumbnail = "images/benobi-one.png"
-description = "about"
+description = "AI agent orchestrator, systems engineer, author, and Bitcoin advocate"
 +++
 
-## Current Projects & Interests
+## AI Agents & Orchestration
+
+I build AI agent systems and ship AI-powered products. In 2025, I went deep on what I call "automate yourself" — using Claude, Cursor, and locally fine-tuned models to build and ship products without traditional coding. From my phone, I shipped native iOS, Android, and Apple Watch apps, a multisig Bitcoin wallet, investor portals, prediction markets, and a bestselling book.
+
+Currently I'm focused on:
+
+- **[XAVIOR](https://xavior.ai)** — An AI operating system I built that runs on 10 custom fine-tuned models, each specialized for a different domain (contacts, events, tasks, search, etc.). It's a CRM, project manager, calendar, and notes system rolled into one AI-native workspace.
+- **mempalace** — An open source memory system for AI agents (coming soon). Think of it as the missing persistence layer that gives agents real memory across sessions and contexts.
+- **L4NRT3RN** — A collaborative project exploring AI-only social worlds where digital twins can interact autonomously.
+- **[Automate Yourself](/automateyourself)** — A workshop teaching founders and creators how to build real products using AI without an engineering background.
+
+I also write about the agent ecosystem — from [agent social networks and the rise of the agent internet](/posts/openclaw-moltbook-ai-agents/) to local LLM fine-tuning and orchestration patterns.
+
+## Bitcoin & Open Finance
 
 - Conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace delivering a simple and accessible Bitcoin wallet and lending platform
-- Bestselling co-author of [*Bitcoin One Million*][b1m], available on major audiobook platforms and  Amazon in hardcover and paperback editions
+- Bestselling co-author of [*Bitcoin One Million*][b1m], available on major audiobook platforms and Amazon in hardcover and paperback editions
 - Creator of [B1M][b1m_app], a data-driven platform tracking Bitcoin's mathematical journey to $1,000,000 with a 96% accurate Power Law model, interactive curve, dashboard, and a viral retirement calculator
 - Co-creator of [Bitcoin Alpha][alpha], the invite-only nonprofit unconference in Santa Monica limited to 200 attendees and sold out two years in a row
 - Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a visual history of Bitcoin's first 15 years that surpassed $500k in sales within its first year
 - Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations to expand global adoption
 
-## AI + Product Development
-
-In 2025, I went deep on AI-assisted development — what I call "automate yourself." Using Claude, Cursor, and local fine-tuned models, I shipped multiple products from my phone without writing traditional code. This includes:
-
-- A bestselling book co-written with AI assistance
-- Native iOS, Android, and Apple Watch apps
-- A Bitcoin multisig wallet with PSBT support
-- An AI platform running 10 custom fine-tuned models
-- Investor portals, prediction markets, and more
-
-I'm now teaching this workflow to others through [Automate Yourself](/automateyourself) — a workshop for founders and creators who want to build products without a traditional engineering background.
-
 ## Professional Background
 
-- Over 20 years of experience in technology
-- Has built dozens of applications throughout his career
+- Over 20 years of experience in technology, from systems engineering to AI agent orchestration
+- Built dozens of applications — native mobile apps, blockchain protocols, AI platforms, and open source tools
 - Successfully exited his IT consulting company in 2019
-- Systems engineer and developer with expertise in Bitcoin and blockchain technologies
-- Dedicated to advancing Bitcoin's mission of creating a more open and equitable financial system
-- Focus on making Bitcoin accessible to the billions of people worldwide who lack access to traditional banking services
+- Systems engineer and developer with deep expertise in AI, Bitcoin, and security
+- IMDB-credited work on Avengers: Infinity War and Endgame (motion capture systems engineering)
+- Attended DEFCON yearly from 2008–2017
 
 ## Short Bio
 
-Ben Sigman is a Bitcoin entrepreneur, author, and advocate focused on global Bitcoin adoption. He conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace.
+Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate. He builds AI-powered products and agent systems, including XAVIOR — an AI operating system running 10 custom fine-tuned models — and the upcoming open source memory system mempalace.
 
-He is the bestselling co-author of [*Bitcoin One Million*][b1m], ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories, and the co-creator of [Bitcoin Alpha][alpha], the invite-only Bitcoin unconference series.
+He conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace, and is the bestselling co-author of [*Bitcoin One Million*][b1m], ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories. He is also the co-creator of [Bitcoin Alpha][alpha], the invite-only Bitcoin unconference series.
 
-Ben also designed the giant orange shark sculpture, "Apex Predator of Money"—a bold symbol proposed as Bitcoin's new mascot as featured in [Decrypt][decrypt].
+Ben designed the giant orange shark sculpture, "Apex Predator of Money" — a bold symbol proposed as Bitcoin's new mascot as featured in [Decrypt][decrypt].
 
-With over 20 years in technology as a systems engineer and developer, his work bridges Bitcoin, art, and open finance to create a more accessible monetary future.
+With over 20 years in technology, his work spans AI agents, Bitcoin, and open finance.
 
 ## Headshot
 
@@ -51,9 +52,9 @@ With over 20 years in technology as a systems engineer and developer, his work b
 
 ## About This Site
 
-This site documents my Bitcoin advocacy work, projects, and thoughts on the evolution of money and technology.
+This site documents my work in AI agents, Bitcoin advocacy, and the evolution of money and technology.
 
-It is built using [Hugo](/posts/hugo_deployment_to_github/) and serves as a platform to share knowledge about Bitcoin and its potential to transform the global financial system.
+It is built using [Hugo](/posts/hugo_deployment_to_github/) and serves as a platform to share knowledge about AI, Bitcoin, and their potential to reshape how we build and transact.
 
 ## Contact
 

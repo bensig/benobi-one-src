@@ -23,9 +23,9 @@ pygmentsUseClasses = true
 
 [params]
     author = "Ben Sigman"
-    description = "Bitcoin, Engineering, and Product Leadership"
-    keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
-    info = "Bitcoin, Engineering, and Product Leadership"
+    description = "AI Agent Orchestrator, Systems Engineer, and Bitcoin Advocate"
+    keywords = "ai,agents,orchestrator,bitcoin,engineering,product,leadership,developer,blockchain,llm,fine-tuning"
+    info = "AI Agent Orchestrator, Systems Engineer, and Bitcoin Advocate"
     avatarurl = "images/bensigman.jpg"
 
     hideCredits = true
@@ -74,9 +74,9 @@ pygmentsUseClasses = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Ben Sigman"
-            info = "Systems engineer, author, and Bitcoin advocate"
-            description = "Ben Sigman is a Bitcoin nerd who think a lot about security, and writes code and books when not evangelizing magic internet money."
-            keywords = "bitcoin,engineering,product,leadership,developer,blockchain"
+            info = "AI agent orchestrator, systems engineer, author, and Bitcoin advocate"
+            description = "Ben Sigman is an AI agent orchestrator and systems engineer who builds AI-powered products, fine-tunes local models, and writes code and books when not evangelizing magic internet money."
+            keywords = "ai,agents,orchestrator,bitcoin,engineering,product,leadership,developer,blockchain,llm,fine-tuning"
 
         [languages.en.menu] # It is possible to change the menu too.
 
