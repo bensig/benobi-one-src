@@ -37,14 +37,14 @@ When we wrote *Bitcoin One Million*, we included a chapter on AI and labor. Here
 
 | What Dies | How It Happens | When |
 |-----------|---------------|------|
-| Driving | Self driving becomes ubiquitous. 12 million drivers unemployed. | 2029 |
-| Doctors | AI diagnoses better than humans. Prescribes perfectly, never forgets. | 2030 |
-| Surgeons | Robotic surgery with zero tremor. Perfect precision every time. | 2032 |
 | Coders | AI writes and tests all code. Deploys and maintains systems. | 2028 |
+| Driving | Self driving becomes ubiquitous. 12 million drivers unemployed. | 2029 |
 | Teachers | Personalized AI tutors available. Individual attention for every student. | 2029 |
-| Lawyers | AI reads all case law instantly. Writes perfect contracts and briefs. | 2031 |
+| Doctors | AI diagnoses better than humans. Prescribes perfectly, never forgets. | 2030 |
 | Artists | AI generates any creative content. Images, songs, movies on demand. | 2030 |
+| Lawyers | AI reads all case law instantly. Writes perfect contracts and briefs. | 2031 |
 | Factory | Total automation takes over. Lights out manufacturing everywhere. | 2031 |
+| Surgeons | Robotic surgery with zero tremor. Perfect precision every time. | 2032 |
 | Soldiers | AI controlled drones and robots. Automated warfare systems deployed. | 2033 |
 
 *Table 14.1: Timeline To Technical Capability (Actual Adoption May Lag Due to Regulatory and Cultural Friction)*
