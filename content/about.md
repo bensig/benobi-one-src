@@ -64,6 +64,6 @@ Thank you for visiting!
 
 [libre]: https://www.libre.org
 [alpha]: https://bitcoinalpha.org
-[b1m]: https://amzn.to/4qCGJFs
+[b1m]: /bitcoin-one-million/
 [b1m_app]: https://b1m.io
 [decrypt]: https://decrypt.co/345710/no-bull-bitcoiners-tribute-predator-money-shark-satutue

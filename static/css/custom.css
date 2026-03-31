@@ -19,7 +19,7 @@
 }
 
 .home-bio .current-projects a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .home-bio .home-ctas {
@@ -34,7 +34,55 @@
 }
 
 .home-bio .home-ctas a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+/* Link style: bold text, no underline, orange animated underline on hover */
+p a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
+p a:hover,
+p a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Override theme's blue hover and default underline everywhere */
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Orange animated underline instead of theme red */
+a:before, a:after {
+  background: #f7931a !important;
+}
+
+/* CTA button */
+.btn-cta {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #f7931a;
+  color: #fff;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  margin: 1rem 0;
+}
+
+.btn-cta:hover {
+  background-color: #e8850f;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Footer social icons */
