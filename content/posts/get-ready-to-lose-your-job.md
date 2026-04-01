@@ -114,7 +114,27 @@ The wave is coming. The timeline is real. But humans aren't useless -- we're jus
 
 That's not a loss. That's an upgrade.
 
-And if it doesn't work out? I guess we'll all learn frisbee golf and take turns massaging each other -- two things that robots probably won't be as fun to do with as another human.
+## The Vibe Jobs
+
+But there's another path nobody's talking about -- and it might be the most interesting one.
+
+Not everyone wants to become an AI orchestrator. Not everyone wants to "move up the stack." Some people want to do something real, physical, *human*. And those jobs aren't going anywhere.
+
+I call them **vibe jobs** -- work where the entire point is the human experience. The energy. The presence. The thing you literally cannot get from a screen.
+
+- **DJs** -- a great DJ reads a room, feels the energy, knows when to drop and when to build. An AI can generate a perfect playlist. It can't feel the crowd.
+- **Bartenders** -- people don't go to bars for optimally mixed drinks. They go for the conversation, the atmosphere, the person who remembers their order.
+- **Hair stylists and barbers** -- it's not just the cut. It's the trust, the conversation, the ritual of sitting in someone's chair.
+- **Fitness trainers** -- a workout app can program sets and reps. It can't push you through that last rep, match your energy, or make a 6am class feel worth showing up to.
+- **Tattoo artists** -- you're not outsourcing permanent body art to a robot. The human hand, the collaboration, the trust -- that IS the product.
+- **Massage therapists** -- human touch is irreplaceable. Full stop.
+- **Chefs and cooking instructors** -- the experience of food made by a person, in front of you, with soul in it.
+- **Yoga and meditation teachers** -- presence, breath, energy. The opposite of everything digital.
+- **Artists and performers** -- live music, live painting, live anything. The imperfection is the point.
+
+These aren't fallback careers. They're the jobs that get *more* valuable as everything else goes digital. When your entire workday is spent talking to AI, the thing you'll crave most is something unmistakably human.
+
+The future isn't everyone becoming a prompt engineer. It's a split: some people will orchestrate AI, and some people will do the things that make life worth living. The vibe economy is real, and it's just getting started.
 
 ---
 
