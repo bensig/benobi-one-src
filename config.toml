@@ -18,9 +18,6 @@ pygmentsUseClasses = true
 [markup.goldmark.renderer]
   unsafe = true
 
-[services.disqus]
-  shortname = "benobi"
-
 [params]
     author = "Ben Sigman"
     description = "AI Agent Orchestrator, Systems Engineer, and Bitcoin Advocate"
