@@ -12,7 +12,7 @@ I build AI agent systems and ship AI-powered products. In 2025, I went deep on w
 Currently I'm focused on:
 
 - **[XAVIOR](https://xavior.ai)** — An AI operating system I built that runs on 10 custom fine-tuned models, each specialized for a different domain (contacts, events, tasks, search, etc.). It's a CRM, project manager, calendar, and notes system rolled into one AI-native workspace.
-- **mempalace** — An open source memory system for AI agents (coming soon). Think of it as the missing persistence layer that gives agents real memory across sessions and contexts.
+- **[mempalace](https://linktr.ee/mempalace)** — An open source memory system for AI agents. Think of it as the missing persistence layer that gives agents real memory across sessions and contexts.
 - **L4NT3RN** — A collaborative project exploring AI-only social worlds where digital twins can interact autonomously.
 - **[Automate Yourself](/automateyourself)** — A workshop teaching founders and creators how to build real products using AI without an engineering background.
 
@@ -38,7 +38,7 @@ I also write about the agent ecosystem — from [agent social networks and the r
 
 ## Short Bio
 
-Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate. He builds AI-powered products and agent systems, including XAVIOR — an AI operating system running 10 custom fine-tuned models — and the upcoming open source memory system mempalace.
+Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate. He builds AI-powered products and agent systems, including XAVIOR — an AI operating system running 10 custom fine-tuned models — and the open source memory system [mempalace](https://linktr.ee/mempalace).
 
 He conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace, and is the bestselling co-author of [*Bitcoin One Million*][b1m], ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories. He is also the co-creator of [Bitcoin Alpha][alpha], the invite-only Bitcoin unconference series.
 

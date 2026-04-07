@@ -10,6 +10,14 @@ This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
 
+## [mempalace (2026)](https://linktr.ee/mempalace)
+
+{{% portfolio image="/images/Mempalace Logo.png" alt="mempalace - Memory System for AI Agents" link="https://linktr.ee/mempalace" class="portfolio-image" %}}
+
+mempalace is an open source memory system for AI agents that preserves full-fidelity conversations. No truncation, no lossy summarization. Built with [Milla Jovovich](https://www.instagram.com/p/DWzNnqwD2Lu/), it uses a spatial metaphor — wings, rooms, closets, and drawers — to organize and retrieve AI memory with 96.6% recall on LongMemEval. Free, open source, and a `pip install` away.
+
+{{% /portfolio %}}
+
 ## [XAVIOR (2026)](https://xavior.ai)
 
 {{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Operating System" link="https://xavior.ai" class="portfolio-image" %}}
