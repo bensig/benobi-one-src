@@ -10,9 +10,9 @@ This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
 
-## [mempalace (2026)](https://linktr.ee/mempalace)
+## [mempalace (2026)](/mempalace/)
 
-{{% portfolio image="/images/Mempalace Logo.png" alt="mempalace - Memory System for AI Agents" link="https://linktr.ee/mempalace" class="portfolio-image" %}}
+{{% portfolio image="/images/Mempalace Logo.png" alt="mempalace - Memory System for AI Agents" link="/mempalace/" class="portfolio-image" %}}
 
 mempalace is an open source memory system for AI agents that preserves full-fidelity conversations. No truncation, no lossy summarization. Built with [Milla Jovovich](https://www.instagram.com/p/DWzNnqwD2Lu/), it uses a spatial metaphor — wings, rooms, closets, and drawers — to organize and retrieve AI memory with 96.6% recall on LongMemEval. Free, open source, and a `pip install` away.
 

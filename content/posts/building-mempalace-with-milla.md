@@ -45,4 +45,4 @@ pip install mempalace
 
 Twenty years of talking about building something together, and it took AI to finally make it happen. Sometimes the right project finds you at the right time.
 
-Check out [Milla's post about it](https://www.instagram.com/p/DWzNnqwD2Lu/), the [GitHub repo](https://github.com/milla-jovovich/mempalace), and follow the project at [linktr.ee/mempalace](https://linktr.ee/mempalace).
+Check out [Milla's post about it](https://www.instagram.com/p/DWzNnqwD2Lu/), the [GitHub repo](https://github.com/milla-jovovich/mempalace), and follow the project at [benobi.one/mempalace](/mempalace/).

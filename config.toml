@@ -102,6 +102,10 @@ pygmentsUseClasses = true
                 weight = 6
                 url = "automateyourself"
             [[languages.en.menu.main]]
-                name = "Contact"
+                name = "MemPalace"
                 weight = 7
+                url = "mempalace"
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 8
                 url = "contact"
