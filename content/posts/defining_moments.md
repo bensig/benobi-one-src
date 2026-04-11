@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-09T22:21:48-07:00
 title = "Defining Moments"
-slug = "" 
+slug = "defining-moments" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "How COVID-19 will accelerate virtual everything -- meetings, events, economies, and digital currencies."
 +++
 COVID-19 is a defining moment for our lives and for the world. For the next unknown months or years - there is a default level of hardship in the world than before. In a way, this is our first global problem. It's a problem for all humans, this little virus.
 

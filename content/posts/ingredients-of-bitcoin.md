@@ -2,7 +2,7 @@
 draft = false
 date = 2023-05-22T15:56:40-08:00
 title = "Satoshi's Soup"
-slug = "" 
+slug = "ingredients-of-bitcoin" 
 tags = ["bitcoin", "satoshi", "ideas", "research", "math"]
 categories = []
 thumbnail = "images/benobi-one.png"

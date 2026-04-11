@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-06T14:54:45-07:00
 title = "The Importance of Writing Good Spec Docs"
-slug = "" 
+slug = "writing-spec-docs" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Why writing specification documents matters and the minimum requirements every good spec doc should cover."
 +++
 
 Writing spec documents is an important aspect of building a product. As I wrote about in [my post about building a simple iOS app](https://benobi.one/posts/building_retro_ping/), even if I am building an app myself - I start with a specification document. it's very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!

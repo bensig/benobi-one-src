@@ -23,7 +23,7 @@ I also write about the agent ecosystem — from [agent social networks and the r
 - Conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace delivering a simple and accessible Bitcoin wallet and lending platform
 - Bestselling co-author of [*Bitcoin One Million*][b1m], available on major audiobook platforms and Amazon in hardcover and paperback editions
 - Creator of [B1M][b1m_app], a data-driven platform tracking Bitcoin's mathematical journey to $1,000,000 with a 96% accurate Power Law model, interactive curve, dashboard, and a viral retirement calculator
-- Co-creator of [Bitcoin Alpha][alpha], the invite-only nonprofit unconference in Santa Monica limited to 200 attendees and sold out two years in a row
+- Co-creator of [Bitcoin Alpha][alpha], the invite-only nonprofit unconference in Santa Monica limited to 200 attendees and sold out in 2024 and 2025
 - Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a visual history of Bitcoin's first 15 years that surpassed $500k in sales within its first year
 - Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations to expand global adoption
 

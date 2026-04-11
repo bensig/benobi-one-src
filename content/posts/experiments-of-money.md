@@ -2,7 +2,7 @@
 draft = false
 date = 2021-09-21T15:03:45-07:00
 title = "Advocating for Experiments in Currency Generation and Governance"
-slug = "" 
+slug = "experiments-of-money" 
 tags = []
 categories = []
 thumbnail = "images/DeFi-Map-Overview-April-2021@2x.png"

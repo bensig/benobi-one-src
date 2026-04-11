@@ -1,12 +1,12 @@
 +++ 
-draft = false
+draft = true
 date = 2020-04-11T20:22:31-07:00
 title = "Apple and Google Contact Tracing - Part 2"
-slug = "" 
+slug = "apple-google-contact-tracker-part-2" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Part 2 on the Apple-Google contact tracing protocol, covering the encryption design and its privacy trade-offs."
 +++
 This is part 2 - continuing from [yesterday's post]({{< relref "posts/apple_google_contact_tracker" >}}) about the implementation choice of bluetooth. This part 2 post is specifically to discuss a breakdown of the encryption implementation.
 

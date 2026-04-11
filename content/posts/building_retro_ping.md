@@ -2,7 +2,7 @@
 draft = false
 date = 2020-03-31T22:40:30-07:00
 title = "Building a Simple iOS App: Retro Ping App"
-slug = "" 
+slug = "building-retro-ping" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"

@@ -2,11 +2,11 @@
 draft = false
 date = 2020-03-30T13:20:33-07:00
 title = "Gardening and Building Product"
-slug = "" 
+slug = "gardening-apps" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Lessons from gardening that apply to building a product -- planting seeds, daily care, and tenacity."
 +++
 
 I have been doing some gardening during our COVID-19 quarantine and I've been thinking about how there are similarities between building a product and growing a garden.

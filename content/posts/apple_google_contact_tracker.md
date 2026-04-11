@@ -1,12 +1,12 @@
 +++ 
-draft = false
+draft = true
 date = 2020-04-10T22:16:52-07:00
 title = "Apple and Google Contact Tracing - Part 1"
-slug = "" 
+slug = "apple-google-contact-tracker" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "A deep dive into the Apple-Google COVID contact tracing protocol and the challenges of Bluetooth Low Energy."
 +++
 
 Today, Apple and Google released [their Contact Tracker collaboration](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf). A similar protocol has already been implemented in [Singapore in an app called TraceTogether](https://www.tracetogether.gov.sg/). The idea of the protocol is that the app will allow you to trace when you have come into contact with another person who has been diagnosed with the virus. The protocol allows this to happen in an anonymized way - where, in Singapore, the Department of Health acts like a trusted 3rd party... Google and Apple actually have figured out a way to do this without a trusted 3rd party in the US? That's where this encryption protocol allegedy comes in. I am going to take a deep dive on the topic over the next few days.

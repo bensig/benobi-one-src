@@ -2,11 +2,11 @@
 draft = false
 date = 2020-03-27T02:27:29-07:00
 title = "JAMstack Serverless Hugo Deployment"
-slug = "" 
+slug = "hugo-deployment-to-github" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "How to set up a serverless Hugo site with GitHub submodules, a deploy script, and Netlify JAMstack hosting."
 +++
 
 This site is built on [Hugo](https://gohugo.io/) which is really fast and easy to work with - even if you are only a basic developer. Here is how I setup my Hugo deployments. It's actually really simple and it will help you save a lot of time updating your site.

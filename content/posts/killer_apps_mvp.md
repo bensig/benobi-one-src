@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-04T00:34:42-07:00
 title = "Krueger's 3 Key Ingredients for a Killer App"
-slug = "" 
+slug = "killer-apps-mvp" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Fred Krueger's three key ingredients for a killer app: free, mobile-first, and rewarding to use."
 +++
 
 Coming back to the [killer apps topic I wrote about last week]( {{< relref "/posts/killer_apps" >}} ), I wanted to talk a little bit about what I have learned from friend and mentor of mine, Fred Kreuger. Fred is a CEO and a product guy which is an amazing combination.  He has had 9/10 wins for his investors and has run a publicly traded company. Fred earned a PhD in Math from Stanford where he wrote a dissertation titled [D-arrangements and Random Polyhedra](https://books.google.com/books/about/D_arrangements_and_Random_Polyhedra.html?id=SC-yHwAACAAJ) which later became several classes at Stanford and informed some of the math used in modern cryptography. Needless to say, he's a brilliant guy who loves learning and teaching as well.

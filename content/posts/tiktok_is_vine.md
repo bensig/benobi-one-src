@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-05T15:24:33-07:00
 title = "TikTok Timing and Sharability"
-slug = "" 
+slug = "tiktok-is-vine" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Why TikTok succeeded where Vine failed, and how its sharability strategy acts as a Trojan Horse across platforms."
 +++
 
 Despite the great gap that the media likes to paint between the US and China, the Beijing-based TikTok app has been connecting users from both countries - and just about everywhere in-between. TikTok has taken over.

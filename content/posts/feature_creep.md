@@ -2,11 +2,11 @@
 draft = false
 date = 2020-03-29T14:46:59-07:00
 title = "Defending the Product Roadmap"
-slug = "" 
+slug = "feature-creep" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "How to defend your product roadmap from feature creep while still empowering team creativity."
 +++
 
 Protecting developers from an increasing scope of work before the initial agreed-upon work is completed is one of the skills of a good tech lead / project developer.

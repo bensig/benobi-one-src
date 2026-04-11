@@ -2,11 +2,11 @@
 draft = false
 date = 2021-03-23T15:24:33-07:00
 title = "Prophets vs Profits"
-slug = "" 
+slug = "profits-v-prophets" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "How internet influencers became the new prophets, turning attention into profit in the creator economy."
 +++
 
 The Internet has given us many gifts - the freedom to express ourselves and share information instantly with people all over, new possibilites to make money online, the ability to truly work from anywhere in the world, and of course, many photos of cats and dogs doing silly things. 

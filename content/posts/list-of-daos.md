@@ -2,7 +2,7 @@
 draft = false
 date = "2021-09-01"
 title = "List of DAO / DACs and How to Make One"
-slug = "" 
+slug = "list-of-daos" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"

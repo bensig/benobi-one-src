@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-02T10:52:22-07:00
 title = "Lightning fast performance with JAMstack"
-slug = "" 
+slug = "jamstack-speed" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Why JAMstack serverless architecture delivers near-perfect page speed scores and why site speed matters."
 +++
 
 This website has been built with serverless architecture using [JAMstack](https://jamstack.org/).

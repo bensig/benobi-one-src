@@ -2,11 +2,11 @@
 draft = false
 date = 2023-03-03T17:14:33-08:00
 title = "Install bitcoind on Ubuntu - works"
-slug = "" 
+slug = "install-bitcoin-ubuntu" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Step-by-step guide to building and installing bitcoind from source on Ubuntu for ordinals indexing."
 +++
 
 Looking into these Bitcoin Ordinals https://ordinals.com/ and I decided to try to install and sync a new bitcoin node. It has been a few years since I did this from scratch, so I was looking for some simple ways to install... maybe use snap or download some precompiled binaries and do some softlinks to /usr/local/bin? No, none of that worked for me. I wasted an hour. 

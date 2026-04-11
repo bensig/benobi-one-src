@@ -2,7 +2,7 @@
 draft = false
 date = 2022-09-27T16:52:19-07:00
 title = "Product Design Thinking"
-slug = "" 
+slug = "product-design-dos-and-donts" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"

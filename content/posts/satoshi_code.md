@@ -2,7 +2,7 @@
 draft = true
 date = 2023-05-23T11:30:19-07:00
 title = "Decoding Satoshi's Code"
-slug = "" 
+slug = "satoshi-code" 
 tags = ["satoshi","code","forensics"]
 categories = []
 thumbnail = "images/benobi-one.png"

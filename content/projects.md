@@ -88,7 +88,7 @@ Available everywhere: explore the curve, dashboard, and retirement calculator on
 
 {{% portfolio image="/images/bitcoin-alpha-square.png" alt="Bitcoin Alpha Event Logo" link="https://bitcoinalpha.org" class="portfolio-image" %}}
 
-Planner and producer of "Bitcoin Alpha", an [invite-only nonprofit annual unconference in Santa Monica](https://bitcoinalpha.org) limited to 200 attendees and sold out two years in a row. It brings together Bitcoin enthusiasts, developers, and thought leaders each October for collaborative discussions and knowledge sharing.
+Planner and producer of "Bitcoin Alpha", an [invite-only nonprofit annual unconference in Santa Monica](https://bitcoinalpha.org) limited to 200 attendees and sold out in 2024 and 2025. It brings together Bitcoin enthusiasts, developers, and thought leaders each October for collaborative discussions and knowledge sharing.
 
 {{% /portfolio %}}
 
@@ -124,17 +124,17 @@ In honor of the launch of the Bitcoin law in El Salvador, we conceptualized and 
 
 {{% /portfolio %}}
 
-## [Sense Chat (2021)](https://www.sense.chat)
+## Sense Chat (2021)
 
-{{% portfolio image="/images/sense-chat.gif" alt="sense chat" link="https://www.sense.chat" class="portfolio-image" %}}
+{{% portfolio image="/images/sense-chat.gif" alt="sense chat" class="portfolio-image" %}}
 
-Created the first decentralized messaging app to use fully encrypted peer-to-peer technology to make audio, video, and text chats private and secure using blockchain technology. Tech stack: (react-native, javascript)
+Created a decentralized messaging app with fully encrypted peer-to-peer audio, video, and text chat using blockchain technology. Sense Chat also featured early AI chatbot assistants — an early take on what ChatGPT would later popularize. Tech stack: (react-native, javascript)
 
 {{% /portfolio %}}
 
-## [Moonscraper (2021)](/404.html)
+## Moonscraper (2021)
 
-{{% portfolio image="/images/moonscraper.gif" alt="moonscraper" link="/404.html"  class="portfolio-image"%}}
+{{% portfolio image="/images/moonscraper.gif" alt="moonscraper" class="portfolio-image"%}}
 
 Simple birthday gift for my Dad. He is quite into day trading stocks and he spends a lot of time looking up analyst data on a few websites. It's quite repetitive so I built a little webscraper backend that reads info from a few different stock analysis sites and compiles them into a simple pwa that works on mobile. Tech stack: (react + flask + scrapy)
 
@@ -161,7 +161,7 @@ In April of 2017, while traveling in Japan and tracking my cryptocurrency holdin
 
 ## White Rabbit (2018)
 
-{{% portfolio image="/images/white-rabbit.png" alt="white rabbit" link="/404.html"%}}
+{{% portfolio image="/images/white-rabbit.png" alt="white rabbit" %}}
 
 In February of 2018, we launched White Rabbit - an ICO tracking app and news website. We completed the project while working on Squirrel. Using rapid prototyping and leveraging React Native / Rails - from ideation to launch, the app and website were live in about 90 days. The app successfully pushed us into the center of the burgeoning cryptocurrency industry in Los Angeles. Tech stack: (react, rails)
 
@@ -183,9 +183,9 @@ In 2017, I spent 6 months in Atlanta working on a project with codename: "Mary L
 
 {{% /portfolio %}}
 
-## [Hacktic (2016)](https://hacktic.net)
+## Hacktic (2016)
 
-{{% portfolio image="/images/hacktic.png" alt="hacktic" link="/404.html"%}}
+{{% portfolio image="/images/hacktic.png" alt="hacktic" %}}
 
 HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth to come together to connect and learn basic cryptography and Linux hacking skills by playing games and leveling up in their skills. We had several great events in LA during 2016 by partnering with technology teachers in Los Angeles. The goal of the events was to encourage and mentor young techies (such as Kyle).
 
@@ -193,7 +193,7 @@ HACKTIC is a non-profit LAN + educational party called HACKTIC for techie youth 
 
 ## WSP (2015)
 
-{{% portfolio image="/images/wsp.png" alt="WSP" link="/404.html"%}}
+{{% portfolio image="/images/wsp.png" alt="WSP" %}}
 
 Rebranding of a company I started back in 2006 to help techies find work and solve problems. Grew to become the largest consulting company of it's kind in Los Angeles. Sold the company in 2021.
 
@@ -201,7 +201,7 @@ Rebranding of a company I started back in 2006 to help techies find work and sol
 
 ## Project LOCAL (2014)
 
-{{% portfolio image="/images/local_tile.png" alt="Project LOCAL" link="/404.html"%}}
+{{% portfolio image="/images/local_tile.png" alt="Project LOCAL" %}}
 
 The idea of Project LOCAL is to re-brand the label “Made in America” as “Local" to make “Made in America” cool again… This would be a product database / label schema which would add transparency to where the product materials were sourced and where they were assembled.
 
@@ -221,7 +221,7 @@ I designed and pitched this idea at an LA-startup pitch competition where I won 
 
 ## BulletProof Wifi (2013)
 
-{{% portfolio image="/images/bulletproof-wifi.png" alt="Bulletproof Wifi" link="/404.html"%}}
+{{% portfolio image="/images/bulletproof-wifi.png" alt="Bulletproof Wifi" %}}
 
 [Ashkaan Hassan](https://www.linkedin.com/in/ashkaan/) and I co-founded a network security company called Bulletproof WiFI which designed and configured firewalls and wireless access points for homes and businesses. As of 2020, the business is still generating monthly recurring revenue and it continues to grow.
 
@@ -229,7 +229,7 @@ I designed and pitched this idea at an LA-startup pitch competition where I won 
 
 ## [Dice Cam (2013)](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)
 
-{{% portfolio image="/images/dice-app-screens.png" alt="Dice App" link="[/404.htm](https://www.benlamjunbin.com/dice.html?fbclid=IwAR10l1f7Xp1vBbhwoXieCZvgxCTbzbwxIGCC4QIqyzR3lsr08fifuxHajR0)"%}}
+{{% portfolio image="/images/dice-app-screens.png" alt="Dice App" link="https://www.benlamjunbin.com/dice.html" %}}
 
 This was the first product I designed back in 2013. Dice was a small camera that could be placed anywhere to produce a "portal" where other people could watch your video stream in the Dice mobile app (UX visible here on the left). The idea was that you could either have a public or private stream. Users would be able to check on their pets, let people tune into their backyard party, or just use it as a security camera in their garage.
 

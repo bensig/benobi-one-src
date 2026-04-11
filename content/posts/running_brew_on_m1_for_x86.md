@@ -1,7 +1,7 @@
 +++ 
 date = 2021-03-22T22:46:23-07:00
 title = "Running Brew on the New Apple M1 Chip"
-slug = "" 
+slug = "running-brew-on-m1-for-x86" 
 tags = ["apple, apps, error, brew, m1"]
 categories = []
 thumbnail = "images/benobi-one.png"

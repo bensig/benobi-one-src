@@ -2,11 +2,11 @@
 draft = false
 date = 2020-04-07T23:30:02-07:00
 title = "Attending Virtual Events"
-slug = "" 
+slug = "oculus-quest-new-view" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Attending a virtual reality symposium on Oculus Quest via AltSpaceVR and experiencing the future of remote events."
 +++
 I rentered virtual reality this weekend when a new Oculus Quest arrived in my yard. A very good friend of mine sent it to me as a gift and I'm really excited to dig back into VR. A few years ago, when I got my HTC Vive - there were not really that many interesting games or things to do. Wow, VR has grown a lot in a short amount of time.
 

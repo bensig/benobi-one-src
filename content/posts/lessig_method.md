@@ -2,11 +2,11 @@
 draft = false
 date = 2022-09-29T17:45:51-07:00
 title = ""
-slug = "" 
+slug = "lessig-method" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "An introduction to the Lessig Method, a minimalist presentation style by Harvard Law professor Lawrence Lessig."
 +++
 # Lessig Method
 

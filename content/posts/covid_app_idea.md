@@ -1,12 +1,12 @@
 +++ 
-draft = false
+draft = true
 date = 2020-04-08T23:39:42-07:00
 title = "COVID App in Flutter"
-slug = "" 
+slug = "covid-app-idea" 
 tags = []
 categories = []
 thumbnail = "images/benobi-one.png"
-description = ""
+description = "Exploring the idea of building a local COVID-19 case tracker app using Flutter and public data from GitHub."
 +++
 
 While I am waiting to hear from Apple about [whether or not they will allow me to update Retro Ping](https://benobi.one/posts/app_store_rejection/), I was thinking about building another really simple app. This app would simply allow people to check how many COVID-19 cases there are near them.
