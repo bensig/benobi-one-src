@@ -42,6 +42,29 @@
   }
 }
 
+/* Fix homepage vertical centering on tall phones */
+.centered {
+  min-height: auto !important;
+  height: auto !important;
+  padding-top: 3rem;
+}
+
+/* Let footer follow content on mobile instead of pinning to bottom */
+@media (max-width: 900px) {
+  body {
+    display: block !important;
+  }
+
+  .wrapper {
+    min-height: auto !important;
+    display: block !important;
+  }
+
+  .content {
+    flex: none !important;
+  }
+}
+
 /* Home page bio styles */
 .home-bio {
   max-width: 600px;
