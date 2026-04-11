@@ -96,10 +96,11 @@
   display: block;
 }
 
-.home-bio .current-list li {
+.home-bio .current-list li,
+.centered .about .home-bio .current-list li {
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  display: block;
+  display: block !important;
 }
 
 .home-bio .current-list li::before {
