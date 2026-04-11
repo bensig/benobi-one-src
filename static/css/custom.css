@@ -93,11 +93,13 @@
   list-style: none;
   padding: 0;
   margin: 0 0 1rem 0;
+  display: block;
 }
 
 .home-bio .current-list li {
   margin-bottom: 0.3rem;
   font-size: 1rem;
+  display: block;
 }
 
 .home-bio .current-list li::before {
