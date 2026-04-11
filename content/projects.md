@@ -18,17 +18,17 @@ mempalace is an open source memory system for AI agents that preserves full-fide
 
 {{% /portfolio %}}
 
-## [XAVIOR (2026)](https://xavior.ai)
+## [XAVIOR (2026)](/xavior/)
 
-{{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Operating System" link="https://xavior.ai" class="portfolio-image" %}}
+{{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Operating System" link="/xavior/" class="portfolio-image" %}}
 
 XAVIOR is an AI-powered operating system for your life — CRM, projects, tasks, calendar, docs, and notes in one workspace. Unlike generic AI assistants, XAVIOR runs on 10 custom fine-tuned models I trained locally, each specialized for a different domain (contacts, events, tasks, search, etc.). The AI understands context, not just data — surfacing what matters, what's stuck, and what to do next. Currently raising at $12M.
 
 {{% /portfolio %}}
 
-## [2718 Fund (2025)](https://2718.fund)
+## [2718 Fund (2025)](/2718fund/)
 
-{{% portfolio image="/images/2718-fund-square.jpg" alt="2718 Fund Bitcoin Hedge Fund" link="https://2718.fund" class="portfolio-image" %}}
+{{% portfolio image="/images/2718-fund-square.jpg" alt="2718 Fund Bitcoin Hedge Fund" link="/2718fund/" class="portfolio-image" %}}
 
 2718 Fund is a Bitcoin hedge fund built on the thesis that Bitcoin follows a mathematical power law trajectory. The fund uses Bitcoin-backed lending to generate yield while maintaining long exposure. I built the investor portal, reporting infrastructure, and a custom multisig wallet with UTXO selection and PSBT support — all using AI-assisted development.
 
@@ -68,9 +68,9 @@ Available everywhere: explore the curve, dashboard, and retirement calculator on
 
 {{% /portfolio %}}
 
-## [Libre.org (2025)](https://libre.org)
+## [Libre.org (2025)](/libre/)
 
-{{% portfolio image="/images/borrow-or-lend.png" alt="Libre Lending Platform" link="https://libre.org" class="portfolio-image" %}}
+{{% portfolio image="/images/borrow-or-lend.png" alt="Libre Lending Platform" link="/libre/" class="portfolio-image" %}}
 
 [Libre.org](https://libre.org) is a decentralized Bitcoin lending platform that allows users to borrow USDT against Bitcoin collateral or lend USDT backed by over 200% Bitcoin collateral. The platform operates without KYC requirements and uses advanced cryptographic security. Available on both mobile (iOS/Android) and desktop at [defi.libre.org](https://defi.libre.org/), with minimum loans of $100 and direct USDT transfers to external wallets.
 
