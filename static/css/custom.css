@@ -1,3 +1,47 @@
+/* Force hamburger menu at wider breakpoint to prevent nav wrapping */
+@media screen and (max-width: 900px) {
+  .navigation .navigation-list {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    max-height: 0 !important;
+    z-index: 5;
+    top: 5rem;
+    right: 0;
+    width: 100%;
+    position: absolute !important;
+    background-color: rgba(254, 254, 254, 0.98) !important;
+    padding: 0 !important;
+    border-bottom: solid 2px #e2dfe1;
+    transition: opacity 0.25s, max-height 0.15s linear;
+  }
+
+  .navigation .btn-mobile {
+    display: block !important;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+
+  .navigation #menu-control:checked + label .navigation-list {
+    visibility: visible !important;
+    opacity: 1 !important;
+    max-height: 100rem !important;
+  }
+
+  .navigation .navigation-item {
+    position: relative;
+  }
+
+  .navigation .navigation-list li {
+    float: none !important;
+  }
+
+  .navigation .navigation-list .navigation-item {
+    text-align: center;
+  }
+}
+
 /* Home page bio styles */
 .home-bio {
   max-width: 600px;
@@ -20,6 +64,25 @@
 
 .home-bio .current-projects a:hover {
   text-decoration: none;
+}
+
+.home-bio .current-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.home-bio .current-list li {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.home-bio .current-list li::before {
+  content: "→ ";
+}
+
+.home-bio .current-list a {
+  font-weight: 700;
 }
 
 .home-bio .home-ctas {
@@ -435,5 +498,52 @@ a:before, a:after {
 
   .mp-tagline {
     font-size: 1.3rem;
+  }
+}
+
+/* ── Bitcoin One Million Page ──────────────────────── */
+
+.b1m-page {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.b1m-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.b1m-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.b1m-row-img {
+  flex: 0 0 140px;
+}
+
+.b1m-row-img img {
+  width: 140px;
+  max-width: 140px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.b1m-row-text {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .b1m-row {
+    flex-direction: column;
+  }
+
+  .b1m-row-img {
+    flex: 0 0 auto;
   }
 }
