@@ -148,7 +148,7 @@ It's one piece of a larger project called **Lantern** — building AI that has c
 </div>
 
 <div class="mp-cta-row">
-  <a href="https://github.com/bensig/mempalace" class="btn-cta" target="_blank" rel="noopener">GitHub →</a>
+  <a href="https://github.com/mempalace/mempalace" class="btn-cta" target="_blank" rel="noopener">GitHub →</a>
   <a href="https://linktr.ee/mempalace" class="btn-cta mp-btn-outline" target="_blank" rel="noopener">Linktree →</a>
 </div>
 

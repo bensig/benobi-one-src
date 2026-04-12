@@ -31,7 +31,7 @@ If you've ever worked extensively with AI agents, you know this pain. The conver
 
 ## So We Built One
 
-That frustration became [mempalace](https://github.com/milla-jovovich/mempalace) -- an open source memory system for AI agents that stores everything and makes it findable. No truncation. No lossy summarization. You put something in, you get the same thing back out.
+That frustration became [mempalace](https://github.com/mempalace/mempalace) -- an open source memory system for AI agents that stores everything and makes it findable. No truncation. No lossy summarization. You put something in, you get the same thing back out.
 
 The idea borrows from the ancient Greek memory palace technique -- orators would memorize speeches by placing ideas in rooms of an imaginary building. Walk through the building, find the idea. MemPalace applies the same principle to AI memory: your data is organized into **wings** (one per project or person), **rooms** (topics within a wing), **closets** (compressed summaries that point to the original), and **drawers** (the original files, verbatim). **Halls** connect related rooms within a wing, and **tunnels** cross-reference the same topic across different wings.
 
@@ -45,4 +45,4 @@ pip install mempalace
 
 Twenty years of talking about building something together, and it took AI to finally make it happen. Sometimes the right project finds you at the right time.
 
-Check out [Milla's post about it](https://www.instagram.com/p/DWzNnqwD2Lu/), the [GitHub repo](https://github.com/milla-jovovich/mempalace), and follow the project at [benobi.one/mempalace](/mempalace/).
+Check out [Milla's post about it](https://www.instagram.com/p/DWzNnqwD2Lu/), the [GitHub repo](https://github.com/mempalace/mempalace), and follow the project at [benobi.one/mempalace](/mempalace/).
