@@ -65,7 +65,7 @@ pygmentsUseClasses = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/bensig/"
+    url = "https://www.linkedin.com/in/benobi/"
 
 [languages]
     [languages.en]
