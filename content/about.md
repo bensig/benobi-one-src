@@ -27,6 +27,11 @@ I also write about the agent ecosystem — from [agent social networks and the r
 - Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a visual history of Bitcoin's first 15 years that surpassed $500k in sales within its first year
 - Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations to expand global adoption
 
+## Press
+
+- [Forbes: "Milla Jovovich Goes Open Source, Guns Blazing, With Top AI Memory Code"](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) — on mempalace
+- [Decrypt: "No Bull: Bitcoiners' Tribute — Predator of Money Shark Sculpture"](https://decrypt.co/345710/no-bull-bitcoiners-tribute-predator-money-shark-satutue) — on the Apex Predator of Money
+
 ## Professional Background
 
 - Over 20 years of experience in technology, from systems engineering to AI agent orchestration
