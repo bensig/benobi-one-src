@@ -10,7 +10,7 @@
     {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 
     <meta property="og:site_name" content="Ben Sigman">
-    <meta property="og:title" content="{{ block "og-title" . }}{{ .Site.Title }}{{ end }}">
+    <meta property="og:title" content="{{ block "og-title" . }}Ben Sigman — AI Agent Orchestrator & Bitcoin Advocate{{ end }}">
     <meta property="og:description" content="{{ if .IsPage }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">

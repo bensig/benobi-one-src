@@ -1,103 +1,98 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Ben Sigman",
-  "alternateName": "bensig",
-  "url": "https://benobi.one",
-  "image": "https://benobi.one/images/bensigman.jpg",
-  "description": "AI agent orchestrator, systems engineer, author, and Bitcoin advocate. CEO of XAVIOR, co-creator of mempalace, founder of Libre, and managing partner at 2718 Fund.",
-  "jobTitle": "AI Agent Orchestrator",
-  "knowsAbout": ["Artificial Intelligence", "Bitcoin", "Systems Engineering", "AI Agents", "Blockchain", "Product Development"],
-  "sameAs": [
-    "https://x.com/bensig",
-    "https://github.com/bensig",
-    "https://www.linkedin.com/in/benobi/",
-    "https://www.imdb.com/name/nm2974733/"
-  ],
-  "worksFor": [
+  "@graph": [
     {
-      "@type": "Organization",
-      "name": "XAVIOR",
-      "url": "https://xavior.ai",
-      "description": "AI-powered operating system running 10 custom fine-tuned models"
+      "@type": "Person",
+      "@id": "https://benobi.one/#bensigman",
+      "name": "Ben Sigman",
+      "alternateName": "bensig",
+      "url": "https://benobi.one/",
+      "image": "https://benobi.one/images/bensigman.jpg",
+      "description": "AI agent orchestrator, systems engineer, author, and Bitcoin advocate. Founder of XAVIOR, co-creator of mempalace, founder of Libre, and managing partner at 2718 Fund.",
+      "jobTitle": "AI Agent Orchestrator",
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Marina del Rey, California, USA"
+      },
+      "knowsAbout": ["Artificial Intelligence", "Bitcoin", "Systems Engineering", "AI Agents", "Blockchain", "Product Development"],
+      "sameAs": [
+        "https://x.com/bensig",
+        "https://github.com/bensig",
+        "https://www.linkedin.com/in/benobi/",
+        "https://www.imdb.com/name/nm2974733/",
+        "https://www.crunchbase.com/person/ben-sigman-a0ab"
+      ],
+      "founder": [
+        {
+          "@type": "Organization",
+          "@id": "https://xavior.ai/#org",
+          "name": "XAVIOR",
+          "url": "https://xavior.ai/"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://libre.org/#org",
+          "name": "Libre",
+          "url": "https://libre.org/"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://2718.fund/#org",
+          "name": "2718 Fund",
+          "url": "https://2718.fund/"
+        }
+      ]
     },
     {
-      "@type": "Organization",
-      "name": "Libre",
-      "url": "https://libre.org",
-      "description": "Decentralized Bitcoin lending platform"
+      "@type": "Book",
+      "@id": "https://benobi.one/bitcoin-one-million/#book",
+      "name": "Bitcoin One Million",
+      "url": "https://www.amazon.com/s?k=Bitcoin+One+Million",
+      "isbn": "979-8218794842",
+      "description": "#1 Bestseller in Macroeconomics, Money & Monetary Policy, and Bitcoin & Cryptocurrencies",
+      "datePublished": "2025",
+      "inLanguage": "en",
+      "genre": "Non-fiction",
+      "author": [
+        {"@type": "Person", "@id": "https://benobi.one/#bensigman"},
+        {"@type": "Person", "name": "Fred Krueger"}
+      ]
     },
     {
-      "@type": "Organization",
-      "name": "2718 Fund",
-      "url": "https://2718.fund",
-      "description": "Bitcoin hedge fund built on the power law trajectory thesis"
+      "@type": "Book",
+      "@id": "https://www.bigbitcoinbook.com/#book",
+      "name": "The Big Bitcoin Book",
+      "url": "https://www.bigbitcoinbook.com/",
+      "description": "A visual history of Bitcoin's first 15 years",
+      "datePublished": "2024",
+      "inLanguage": "en",
+      "author": [
+        {"@type": "Person", "@id": "https://benobi.one/#bensigman"},
+        {"@type": "Person", "name": "Fred Krueger"}
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/mempalace/mempalace#app",
+      "name": "mempalace",
+      "url": "https://github.com/mempalace/mempalace",
+      "description": "Open-source memory system for AI agents with 96.6% recall on LongMemEval",
+      "applicationCategory": "Developer Tools",
+      "operatingSystem": "Cross-platform",
+      "datePublished": "2026",
+      "creator": [
+        {"@type": "Person", "@id": "https://benobi.one/#bensigman"},
+        {"@type": "Person", "name": "Milla Jovovich"}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://benobi.one/#website",
+      "url": "https://benobi.one/",
+      "name": "Ben Sigman",
+      "author": {"@type": "Person", "@id": "https://benobi.one/#bensigman"}
     }
   ]
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Book",
-  "name": "Bitcoin One Million",
-  "url": "https://www.amazon.com/s?k=Bitcoin+One+Million",
-  "isbn": "979-8218794842",
-  "description": "#1 Bestseller in Macroeconomics, Money & Monetary Policy, and Bitcoin & Cryptocurrencies",
-  "author": [
-    {"@type": "Person", "name": "Fred Krueger"},
-    {"@type": "Person", "name": "Ben Sigman", "url": "https://benobi.one"}
-  ],
-  "datePublished": "2025",
-  "inLanguage": "en",
-  "genre": "Non-fiction"
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Book",
-  "name": "The Big Bitcoin Book",
-  "url": "https://www.bigbitcoinbook.com",
-  "description": "A visual history of Bitcoin's first 15 years",
-  "author": [
-    {"@type": "Person", "name": "Fred Krueger"},
-    {"@type": "Person", "name": "Ben Sigman", "url": "https://benobi.one"}
-  ],
-  "datePublished": "2024",
-  "inLanguage": "en"
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "mempalace",
-  "url": "https://github.com/mempalace/mempalace",
-  "description": "Open-source memory system for AI agents with 96.6% recall on LongMemEval",
-  "applicationCategory": "Developer Tools",
-  "operatingSystem": "Cross-platform",
-  "creator": [
-    {"@type": "Person", "name": "Ben Sigman", "url": "https://benobi.one"},
-    {"@type": "Person", "name": "Milla Jovovich"}
-  ],
-  "datePublished": "2026",
-  "license": "https://opensource.org/licenses/MIT"
-}
-</script>
-{{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Ben Sigman",
-  "alternateName": "benobi.one",
-  "url": "https://benobi.one",
-  "author": {
-    "@type": "Person",
-    "name": "Ben Sigman"
-  }
-}
-</script>
-{{ end }}
