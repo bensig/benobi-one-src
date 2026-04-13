@@ -21,6 +21,24 @@ description = "Giving AI a memory. A real one. The highest-scoring open-source m
   </a>
 </div>
 
+<div class="mp-press">
+  <a href="https://tech.yahoo.com/ai/meta-ai/articles/fifth-element-star-milla-jovovich-192727774.html" target="_blank" rel="noopener">
+    <span class="mp-press-label">As seen in</span>
+    <span class="mp-press-outlet">Yahoo Tech</span>
+    <span class="mp-press-title">"Fifth Element Star Milla Jovovich Builds AI Memory Tool"</span>
+    <span class="mp-press-arrow">→</span>
+  </a>
+</div>
+
+<div class="mp-press">
+  <a href="https://news.bitcoin.com/resident-evil-star-milla-jovovich-builds-ai-memory-tool-with-engineer-ben-sigman/" target="_blank" rel="noopener">
+    <span class="mp-press-label">As seen in</span>
+    <span class="mp-press-outlet">Bitcoin.com</span>
+    <span class="mp-press-title">"Resident Evil Star Milla Jovovich Builds AI Memory Tool With Engineer Ben Sigman"</span>
+    <span class="mp-press-arrow">→</span>
+  </a>
+</div>
+
 <div class="mp-stats">
   <div class="mp-stat">
     <span class="mp-stat-num">96.6%</span>

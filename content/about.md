@@ -30,6 +30,8 @@ I also write about the agent ecosystem — from [agent social networks and the r
 ## Press
 
 - [Forbes: "Milla Jovovich Goes Open Source, Guns Blazing, With Top AI Memory Code"](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) — on mempalace
+- [Yahoo Tech: "Fifth Element Star Milla Jovovich Builds AI Memory Tool"](https://tech.yahoo.com/ai/meta-ai/articles/fifth-element-star-milla-jovovich-192727774.html) — on mempalace
+- [Bitcoin.com: "Resident Evil Star Milla Jovovich Builds AI Memory Tool With Engineer Ben Sigman"](https://news.bitcoin.com/resident-evil-star-milla-jovovich-builds-ai-memory-tool-with-engineer-ben-sigman/) — on mempalace
 - [Decrypt: "No Bull: Bitcoiners' Tribute — Predator of Money Shark Sculpture"](https://decrypt.co/345710/no-bull-bitcoiners-tribute-predator-money-shark-satutue) — on the Apex Predator of Money
 
 ## Professional Background
