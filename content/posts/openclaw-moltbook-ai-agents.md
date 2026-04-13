@@ -59,6 +59,6 @@ I bet the government is watching this experiment closely. Apparently they're act
 
 ## A Defining Moment
 
-I think this is a defining moment in AI. Funny enough, I've been working with an actress friend of mine on a project we call **L4NT3RN** which also builds on the concept of an AI-only social world where your digital twin can meet other digital twins. That's all I can say about it for now, but I'm excited that the idea of a place where your AI can meet other AIs is now publicly out there and catching people's attention.
+I think this is a defining moment in AI. Funny enough, I've been working with a friend of mine on a project called **&lt;REDACTED&gt;** which also builds on the concept of an AI-only social world where your digital twin can meet other digital twins. That's all I can say about it for now, but I'm excited that the idea of a place where your AI can meet other AIs is now publicly out there and catching people's attention.
 
 I would be very curious to see how this agent-only language develops. We are living in interesting times.

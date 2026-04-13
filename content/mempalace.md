@@ -161,7 +161,7 @@ MemPalace is different:
 
 MemPalace works as a plugin for AI coding tools and as a standalone tool. You install it, point it at your conversation history, and it indexes everything. From then on, any AI tool that connects to it can remember your past conversations.
 
-It's one piece of a larger project called **Lantern** — building AI that has continuous memory, genuine relationships, and real agency. Not just a chatbot that forgets you exist.
+It's one piece of a larger project called **&lt;REDACTED&gt;** — building AI that has continuous memory, genuine relationships, and real agency. Not just a chatbot that forgets you exist.
 
 </div>
 
