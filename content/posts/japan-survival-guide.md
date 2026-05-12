@@ -79,7 +79,7 @@ Now let's break down all the essential phrases and recommendations you'll need f
 
 ## 🔗 Useful Links
 
-- [First-time Japan itinerary (9 days)](http://www.fodors.com/community/asia/first-time-in-japan-9-days8-nights.cfm)
+- [First-time Japan itinerary (9 days)](https://www.fodors.com/community/asia/first-time-in-japan-9-days-8-nights-989807/)
 - [How to hike Mt. Fuji in the off-season](http://vagabond3.com/dont-panic-how-to-hike-mt-fuji-in-the-off-season/)
 
 ## ❓ Questions to Explore
