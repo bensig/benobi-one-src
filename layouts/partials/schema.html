@@ -11,9 +11,24 @@
       "image": "https://benobi.one/images/bensigman.jpg",
       "description": "AI agent orchestrator, systems engineer, author, and Bitcoin advocate. Founder of XAVIOR, co-creator of mempalace, founder of Libre, and managing partner at 2718 Fund.",
       "jobTitle": "AI Agent Orchestrator",
+      "gender": "Male",
+      "nationality": {
+        "@type": "Country",
+        "name": "United States"
+      },
       "homeLocation": {
         "@type": "Place",
-        "name": "Santa Monica, California, USA"
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santa Monica",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of California, Los Angeles",
+        "sameAs": "https://www.wikidata.org/wiki/Q174710"
       },
       "knowsAbout": ["Artificial Intelligence", "Bitcoin", "Systems Engineering", "AI Agents", "Blockchain", "Product Development"],
       "sameAs": [
@@ -27,25 +42,37 @@
       ],
       "affiliation": [
         {
-          "@type": "Organization",
-          "@id": "https://xavior.ai/#org",
-          "name": "XAVIOR",
-          "url": "https://xavior.ai/",
-          "founder": {"@id": "https://benobi.one/#bensigman"}
+          "@type": "OrganizationRole",
+          "roleName": "Founder & CEO",
+          "memberOf": {
+            "@type": "Organization",
+            "@id": "https://xavior.ai/#org",
+            "name": "XAVIOR Inc.",
+            "url": "https://xavior.ai/",
+            "founder": {"@id": "https://benobi.one/#bensigman"}
+          }
         },
         {
-          "@type": "Organization",
-          "@id": "https://libre.org/#org",
-          "name": "Libre",
-          "url": "https://libre.org/",
-          "founder": {"@id": "https://benobi.one/#bensigman"}
+          "@type": "OrganizationRole",
+          "roleName": "Founder",
+          "memberOf": {
+            "@type": "Organization",
+            "@id": "https://libre.org/#org",
+            "name": "Libre",
+            "url": "https://libre.org/",
+            "founder": {"@id": "https://benobi.one/#bensigman"}
+          }
         },
         {
-          "@type": "Organization",
-          "@id": "https://2718.fund/#org",
-          "name": "2718 Fund",
-          "url": "https://2718.fund/",
-          "founder": {"@id": "https://benobi.one/#bensigman"}
+          "@type": "OrganizationRole",
+          "roleName": "Managing Partner",
+          "memberOf": {
+            "@type": "Organization",
+            "@id": "https://2718.fund/#org",
+            "name": "2718 Capital LLC",
+            "url": "https://2718.fund/",
+            "founder": {"@id": "https://benobi.one/#bensigman"}
+          }
         }
       ]
     },
