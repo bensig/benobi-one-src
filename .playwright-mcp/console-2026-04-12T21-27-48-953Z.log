@@ -1,0 +1,10 @@
+[   59776ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/MemPalace/mempalace/issues/730/edit_form?textarea_id=issue-4249687280-body&comment_context=:0
+[   60898ms] [ERROR] Error: Not connected to alive
+    at a (https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:3346)
+    at https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:5780 @ https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:1
+[   60900ms] [ERROR] Error: Not connected to alive
+    at a (https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:3346)
+    at https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:5780 @ https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:1
+[   60900ms] [ERROR] Error: Not connected to alive
+    at a (https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:3346)
+    at https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:2:5780 @ https://github.githubassets.com/assets/49616-2bf6642d4747124e.js:1

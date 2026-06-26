@@ -1,0 +1,64 @@
+- main [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Benobi.one" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e6]:
+        - list:
+          - listitem [ref=e7]:
+            - link "About" [ref=e8] [cursor=pointer]:
+              - /url: https://benobi.one/about
+          - listitem [ref=e9]:
+            - link "Blog" [ref=e10] [cursor=pointer]:
+              - /url: https://benobi.one/posts
+          - listitem [ref=e11]:
+            - link "Projects" [ref=e12] [cursor=pointer]:
+              - /url: https://benobi.one/projects
+          - listitem [ref=e13]:
+            - link "Resources" [ref=e14] [cursor=pointer]:
+              - /url: https://benobi.one/resources
+          - listitem [ref=e15]:
+            - link "Workshop" [ref=e16] [cursor=pointer]:
+              - /url: https://benobi.one/automateyourself
+          - listitem [ref=e17]:
+            - link "MemPalace" [ref=e18] [cursor=pointer]:
+              - /url: https://benobi.one/mempalace
+          - listitem [ref=e19]:
+            - link "Contact" [ref=e20] [cursor=pointer]:
+              - /url: https://benobi.one/contact
+  - article [ref=e23]:
+    - heading "Bitcoin One Million" [level=1] [ref=e25]
+    - generic [ref=e26]:
+      - 'img "Bitcoin One Million — #1 Bestseller" [ref=e27]'
+      - paragraph [ref=e28]: The Final Chapter of Fiat
+      - paragraph [ref=e29]: By Fred Krueger & Ben Sigman
+      - paragraph [ref=e30]: The mathematical and economic case for Bitcoin reaching one million dollars — exploring the Power Law model with 95.65% accuracy over 16+ years of data, the history of monetary systems, and why Bitcoin is the apex predator of money.
+      - paragraph [ref=e31]: Available on Amazon in hardcover, paperback, and on all major audiobook platforms.
+      - link "Buy on Amazon →" [ref=e33] [cursor=pointer]:
+        - /url: https://amzn.to/4qCGJFs
+      - generic [ref=e34]:
+        - img "B1M App" [ref=e36]
+        - generic [ref=e37]:
+          - heading "The B1M App" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Track Bitcoin's mathematical journey to $1,000,000 in real time. The companion app features the Power Law model, interactive curve, live dashboard, and a retirement calculator.
+          - paragraph [ref=e40]: Available on web, iOS, and Android.
+          - link "Explore B1M.io →" [ref=e42] [cursor=pointer]:
+            - /url: https://b1m.io
+      - generic [ref=e43]:
+        - img "Big Bitcoin Book" [ref=e45]
+        - generic [ref=e46]:
+          - heading "Also by Ben Sigman" [level=2] [ref=e47]
+          - paragraph [ref=e48]:
+            - strong [ref=e49]: The Big Bitcoin Book
+            - text: — a visual history of Bitcoin's first 15 years. Co-authored with Fred Krueger. Surpassed $500k in sales in its first year.
+          - link "Learn More →" [ref=e51] [cursor=pointer]:
+            - /url: https://www.bigbitcoinbook.com
+  - list [ref=e54]:
+    - listitem [ref=e55]:
+      - link "Github" [ref=e56] [cursor=pointer]:
+        - /url: https://github.com/bensig/
+        - generic [ref=e57]: 
+    - listitem [ref=e58]:
+      - link "X" [ref=e59] [cursor=pointer]:
+        - /url: https://x.com/bensig/
+        - generic [ref=e60]: 

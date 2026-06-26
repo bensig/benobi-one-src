@@ -1,0 +1,25 @@
+{{Userbox
+| border-c = #f00
+| border-s = 2
+| id-c     = #fcc
+| id-s     = 14
+| id       = COI
+| info-c   = #fee
+| info-s   = 8
+| info     = This user has a [[WP:COI|conflict of interest]] regarding [[Ben Sigman]] and related topics.
+}}
+
+== About me ==
+I am Ben Sigman. I edit about myself and topics related to my work — [[XAVIOR (AI operating system)|XAVIOR]], [[Libre (Bitcoin lending platform)|Libre]], [[2718 Capital]], [[mempalace]], ''[[Bitcoin One Million]]'', and ''[[The Big Bitcoin Book]]''.
+
+== Conflict of Interest declaration ==
+Per [[WP:AUTOBIO]] and [[WP:COI]], I will:
+* Only create new content about myself or my projects via [[Wikipedia:Articles for creation|Articles for Creation]] (AfC)
+* Not directly edit live articles about myself or my projects
+* Use Talk page [[WP:EDITREQUEST|edit requests]] for any corrections after publication
+* Disclose my COI on every article Talk page where I participate
+
+== External profiles ==
+* Website: [https://benobi.one benobi.one]
+* Wikidata: [[d:Q139266967|Q139266967]]
+* GitHub: [https://github.com/bensig bensig]

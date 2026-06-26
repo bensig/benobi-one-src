@@ -1,0 +1,50 @@
+{{Short description|American entrepreneur and author}}
+{{Infobox person
+| name             = Ben Sigman
+| residence        = [[Santa Monica, California]]
+| nationality      = American
+| occupation       = {{hlist|Entrepreneur|author|software engineer}}
+| known_for        = Co-author of ''Bitcoin One Million''; co-creator of mempalace
+| website          = {{URL|benobi.one}}
+}}
+
+'''Ben Sigman''' is an American entrepreneur, author, and software engineer based in [[Santa Monica, California]]. He is the co-author, with [[Fred Krueger (author)|Fred Krueger]], of the Bitcoin economics books ''Bitcoin One Million'' (2025)<ref name="thoughtcatalog" /> and ''The Big Bitcoin Book'' (2024), and the co-creator of mempalace, an open-source memory system for [[Artificial intelligence|AI agents]].<ref name="forbes" />
+
+== Career ==
+
+=== AI and software ===
+In 2026, Sigman and actress [[Milla Jovovich]] released mempalace, an open-source memory system for AI agents that achieved 96.6% recall on the [[LongMemEval]] benchmark.<ref name="forbes">{{cite news |last=Pearce |first=Josh |title=Milla Jovovich Goes Open Source, Guns Blazing With Top AI Memory Code |url=https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/ |work=[[Forbes]] |date=2026-04-09 |access-date=2026-05-16}}</ref><ref name="bitcoinnews">{{cite news |title=Resident Evil Star Milla Jovovich Builds AI Memory Tool With Engineer Ben Sigman |url=https://news.bitcoin.com/resident-evil-star-milla-jovovich-builds-ai-memory-tool-with-engineer-ben-sigman/ |work=Bitcoin.com News |access-date=2026-05-16}}</ref><ref name="decrypt-mempalace">{{cite news |title=Fifth Element Star Milla Jovovich Open Sources AI Memory Code |url=https://tech.yahoo.com/ai/meta-ai/articles/fifth-element-star-milla-jovovich-192727774.html |work=[[Decrypt (website)|Decrypt]] |via=Yahoo Tech |access-date=2026-05-16}}</ref> Coverage of the release described Sigman as the engineer behind the system, with Jovovich credited for the underlying concept and architecture.<ref name="decrypt-mempalace" />
+
+=== Books ===
+With co-author Fred Krueger, Sigman wrote ''[[The Big Bitcoin Book]]'' (2024), described by its publisher as a visual history of Bitcoin's first fifteen years, and ''[[Bitcoin One Million|Bitcoin One Million: The Final Chapter of Fiat]]'' (2025). ''Bitcoin One Million'' was reviewed in ''Thought Catalog''<ref name="thoughtcatalog">{{cite web |last=Nelson |first=January |title=15 Things We Learned From The Book Predicting All Middle Class Jobs Will Be Gone By 2033 |url=https://thoughtcatalog.com/january-nelson/2026/02/15-things-we-learned-from-the-book-predicting-all-middle-class-jobs-will-be-gone-by-2033/ |work=Thought Catalog |date=2026-02-15 |access-date=2026-05-16}}</ref> and discussed by India's ''Free Press Journal'' for its widely-shared timeline projecting AI-driven displacement of professional occupations by 2033.<ref name="freepressjournal">{{cite news |title=Doctors, Soldiers, Teachers, Lawyers: Viral AI Timeline Predicts All These Jobs Could Vanish by 2033, Sparks Fear Globally |url=https://www.freepressjournal.in/tech/doctors-soldiers-teachers-lawyers-viral-ai-timeline-predicts-all-these-jobs-could-vanish-by-2033-sparks-fear-globally |work=[[Free Press Journal]] |access-date=2026-05-16}}</ref>
+
+=== Bitcoin Alpha ===
+Sigman is a co-creator of Bitcoin Alpha, an invite-only Bitcoin unconference held in [[Santa Monica, California]]. At the 2026 edition, the event unveiled an art installation titled ''Bitcoinius Maximus'', a shark sculpture presented as an alternative mascot to the financial "bull," which Sigman discussed in ''[[Decrypt (website)|Decrypt]]''.<ref name="decrypt">{{cite news |title=No Bull: Bitcoiners Tribute Predator Money Shark Statue |url=https://decrypt.co/345710/no-bull-bitcoiners-tribute-predator-money-shark-satutue |work=[[Decrypt (website)|Decrypt]] |access-date=2026-05-16}}</ref>
+
+=== Bitcoin and quantum computing ===
+Sigman has been quoted in cryptocurrency and technology press regarding the long-term risk of [[quantum computing]] to [[Bitcoin]]. He has argued that the practical timeline for a quantum threat to Bitcoin's cryptography is several decades away,<ref name="beincrypto-caltech">{{cite news |last=Kim |first=Oihyun |title=Caltech Says 10,000 Qubits Can Break Bitcoin |url=https://beincrypto.com/caltech-says-10000-qubits-can-break-bitcoin/ |work=[[BeInCrypto]] |date=2026-03-31 |access-date=2026-05-16}}</ref> and has stated that "the real threat isn't a quantum computer" but rather "the fear of one."<ref name="beincrypto-qday">{{cite news |last=Bashir |first=Kamina |title=Is Bitcoin Ready For Q-Day? CryptoQuant Argues It Comes Down To Consensus |url=https://finance.yahoo.com/news/bitcoin-ready-q-day-cryptoquant-131601641.html |work=[[BeInCrypto]] |date=2026-02-18 |via=Yahoo Finance |access-date=2026-05-16}}</ref> His commentary on the topic has also been referenced in ''[[The Block (website)|The Block]]''.<ref name="theblock">{{cite news |title=The Daily: Satoshi's thoughts on quantum computing, Trump would love Bitcoin to hit $150,000 and more |url=https://www.theblock.co/post/330237/the-daily-satoshis-thoughts-on-quantum-computing-trump-would-love-bitcoin-to-hit-150000-and-more |work=[[The Block (website)|The Block]] |access-date=2026-05-16}}</ref> Sigman has separately worked on integrating post-quantum cryptographic algorithms into a Bitcoin wallet.<ref name="ainvest">{{cite news |title=Ben Sigman Integrates Post-Quantum Algorithms into Bitcoin Wallet |url=https://www.ainvest.com/news/ben-sigman-integrates-post-quantum-algorithms-bitcoin-wallet-2506/ |work=AInvest |access-date=2026-05-16}}</ref>
+
+== Bibliography ==
+* {{cite book |last1=Krueger |first1=Fred |last2=Sigman |first2=Ben |title=The Big Bitcoin Book |edition=2nd |year=2024 |isbn=979-8218599799}}
+* {{cite book |last1=Krueger |first1=Fred |last2=Sigman |first2=Ben |title=Bitcoin One Million: The Final Chapter of Fiat |year=2025 |isbn=979-8218794842}}
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{official website|https://benobi.one}}
+* [[d:Q139266967|Ben Sigman on Wikidata]]
+
+{{DEFAULTSORT:Sigman, Ben}}
+[[Category:Living people]]
+[[Category:American Bitcoin people]]
+[[Category:American non-fiction writers]]
+[[Category:Writers from California]]
+[[Category:21st-century American writers]]
+
+<!-- ============================================================ -->
+<!-- READY TO SUBMIT:                                              -->
+<!-- 1. Add {{subst:submit}} at the VERY TOP of this page          -->
+<!-- 2. Save                                                       -->
+<!-- 3. A bot moves it to Draft:Ben Sigman for AfC review          -->
+<!-- ============================================================ -->

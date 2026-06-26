@@ -1,0 +1,14 @@
+[    3920ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://opengraph.xyz/:0
+[    4092ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://opengraph.xyz/favicon.ico:0
+[    4363ms] [LOG] Error @ https://opengraph.xyz/.well-known/vercel/security/static/challenge.v2.min.js:0
+[    5659ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.opengraph.xyz/:0
+[    5871ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.opengraph.xyz/favicon.ico:0
+[    6151ms] [LOG] Error @ https://www.opengraph.xyz/.well-known/vercel/security/static/challenge.v2.min.js:0
+[    7070ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.opengraph.xyz/manifest.json:0
+[    7156ms] [ERROR] Manifest fetch from https://www.opengraph.xyz/manifest.json failed, code 429 @ https://www.opengraph.xyz/:0
+[    8165ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.opengraph.xyz/manifest.json:0
+[    8171ms] [ERROR] Manifest fetch from https://www.opengraph.xyz/manifest.json failed, code 429 @ https://www.opengraph.xyz/:0
+[   15275ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A78%2C%22args%22%3A%5B%22useLazyQuery%22%2C%22variables%22%2C%22Pass%20all%20%60variables%60%20to%20the%20returned%20%60execute%60%20function%20instead.%22%5D%7D @ https://www.opengraph.xyz/_next/static/chunks/pages/_app-1a8630edc4a65358.js:68
+[   15918ms] [WARNING] An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A78%2C%22args%22%3A%5B%22useLazyQuery%22%2C%22variables%22%2C%22Pass%20all%20%60variables%60%20to%20the%20returned%20%60execute%60%20function%20instead.%22%5D%7D @ https://www.opengraph.xyz/_next/static/chunks/pages/_app-1a8630edc4a65358.js:68
+[   17011ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.opengraph.xyz/_next/static/chunks/pages/_app-1a8630edc4a65358.js:68
+[   18022ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://millaj.comfavicon.ico/:0
