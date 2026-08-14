@@ -13,6 +13,11 @@
           </a>
         </li>
       {{ end }}
+      <li class="social-item llms-item">
+        <a href="{{ "llms.txt" | absURL }}" aria-label="llms.txt — machine-readable summary of this site for AI agents" title="llms.txt — for the robots" rel="alternate" type="text/plain">
+          <i class="fas fa-robot" aria-hidden="true"></i>
+        </a>
+      </li>
     </ul>
     {{ end }}
     {{ if not .Site.Params.hideCopyright }} <p>© {{ .Site.LastChange.Format "2006" }} {{ .Site.Params.author }}</p> {{ end }}

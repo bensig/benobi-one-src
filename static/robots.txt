@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://benobi.one/sitemap.xml
+
+# Machine-readable summary of this site for AI agents and LLMs:
+# https://benobi.one/llms.txt

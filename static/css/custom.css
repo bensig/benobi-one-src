@@ -188,6 +188,18 @@ a:before, a:after {
   font-size: 1.5rem;
 }
 
+/* llms.txt link — present in the DOM for crawlers, visually understated for humans */
+.footer-social .llms-item a {
+  font-size: 1.1rem;
+  opacity: 0.25;
+  transition: opacity 0.2s ease;
+}
+
+.footer-social .llms-item a:hover,
+.footer-social .llms-item a:focus {
+  opacity: 1;
+}
+
 /* Portfolio styles */
 .portfolio-item {
   display: flex;

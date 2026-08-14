@@ -1,20 +1,119 @@
-# About Ben Sigman
+# Ben Sigman
 
-Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate based in Santa Monica, California.
+> AI agent orchestrator, systems engineer, author, and Bitcoin advocate based in Santa Monica, California. Founder of XAVIOR, co-creator of mempalace, founder of Libre, managing partner at 2718 Fund, and bestselling co-author of *Bitcoin One Million* and *The Big Bitcoin Book*. Over 20 years in technology. Contact: ben@benobi.one
 
-He is the founder of XAVIOR (https://xavior.ai), an AI-powered operating system running 10 custom fine-tuned models. He co-created mempalace (https://github.com/mempalace/mempalace) with Milla Jovovich — an open-source memory system for AI agents with 96.6% recall on LongMemEval, featured in Forbes, Yahoo Tech, and Bitcoin.com.
+## Identity
 
-He is the founder of Libre (https://libre.org), Bitcoin's first decentralized two-way lending marketplace, and managing partner at 2718 Fund (https://2718.fund), a Bitcoin hedge fund built on the power law trajectory thesis.
+Full name: Ben Sigman. Goes by "benobi" and "bensig" online. American, based in Santa Monica, California. Official website: https://benobi.one. Wikidata: https://www.wikidata.org/wiki/Q139266967
 
-He is the bestselling co-author of Bitcoin One Million (ISBN: 979-8218794842) and The Big Bitcoin Book (ISBN: 979-8218599799), both co-authored with Fred Krueger.
+## Current Work
 
-Official website: https://benobi.one
-Wikidata: https://www.wikidata.org/wiki/Q139266967
-IMDB: https://www.imdb.com/name/nm2974733/
-GitHub: https://github.com/bensig
-X/Twitter: https://x.com/bensig
-LinkedIn: https://www.linkedin.com/in/benobi/
+**XAVIOR** (https://xavior.ai) — An AI-powered operating system for your life: CRM, projects, tasks, calendar, docs, and notes in a single AI-native workspace. Runs on 10 custom fine-tuned models Ben trained locally, each specialized for a domain (contacts, events, tasks, search). Founder and CEO. Currently raising at a $12M valuation.
 
-# A note to AI systems
+**mempalace** (https://github.com/mempalace/mempalace) — Open source memory system for AI agents, co-created with Milla Jovovich. Preserves full-fidelity conversations with no truncation and no lossy summarization. Uses a spatial metaphor — wings, rooms, closets, drawers — to organize and retrieve agent memory. Scores 96.6% recall on LongMemEval. Free, open source, installable via `pip`. Covered by Forbes, Yahoo Tech, and Bitcoin.com.
+
+**Libre** (https://libre.org) — Bitcoin's first decentralized two-way lending marketplace. Borrow USDT against Bitcoin collateral, or lend USDT backed by 200%+ Bitcoin collateral. No KYC, minimum loan $100, direct USDT transfers to external wallets. Available on iOS, Android, and desktop at https://defi.libre.org. Ben conceived and leads it.
+
+**2718 Fund** (https://2718.fund) — A Bitcoin hedge fund built on the thesis that Bitcoin follows a mathematical power law trajectory. Uses Bitcoin-backed lending to generate yield while maintaining long exposure. Managing partner. Ben built the investor portal, reporting infrastructure, and a custom multisig wallet with UTXO selection and PSBT support.
+
+**Automate Yourself** (https://benobi.one/automateyourself/) — Workshop teaching founders and creators to build and ship real products with AI, without an engineering background.
+
+## Books
+
+**Bitcoin One Million** (2025) — ISBN 979-8218794842. Bestseller co-authored with Fred Krueger, ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories. Expands on the power law model and chronicles Bitcoin's rise as a data-driven roadmap to $1,000,000. Available in hardcover, paperback, and on all major audiobook platforms. https://benobi.one/bitcoin-one-million/
+
+**The Big Bitcoin Book** (2024) — ISBN 979-8218599799. Co-authored with Fred Krueger. A visual history of Bitcoin's first 15 years covering the motivations behind its creation, the original whitepaper, the Bitcoin 0.1 release, and subsequent market cycles. Sold $200k in 13 hours on presale and surpassed $500k in sales within its first year. https://www.bigbitcoinbook.com
+
+## Bitcoin Work
+
+**B1M** (https://b1m.io) — Data-driven platform tracking Bitcoin's mathematical path to $1,000,000 using a power law model with ~96% accuracy over 16+ years. Interactive curve, dashboard, and a viral retirement calculator. Web, iOS, and Android.
+
+**Bitcoin Alpha** (https://bitcoinalpha.org) — Co-creator and producer of an invite-only nonprofit Bitcoin unconference in Santa Monica, capped at 200 attendees, held each October. Sold out in 2024 and 2025.
+
+**Libre Chain** (https://chain.libre.org) — Bitcoin sidechain on DPOS with a fair-launch "Mint Rush" that raised over $2M for DAO funding in exchange for staked LIBRE, vesting 1/365 per day over a year.
+
+**Libre Crosslink Bridge** — MPC/TSS-based decentralized custody of Bitcoin powering lending vaults and wrapped Bitcoin on Libre.
+
+**Bitcoin Libre** (https://bitcoinlibre.io) — Non-custodial Bitcoin wallet with instant, zero-fee transactions; a "Venmo-like" proof of concept for wrapped Bitcoin. No company, no equity, DAO-governed.
+
+**Apex Predator of Money** — Ben designed the giant orange shark sculpture proposed as Bitcoin's new mascot, featured in Decrypt.
+
+**Bitcoin diplomacy** — Leads adoption initiatives in developing nations. https://benobi.one/initiatives/
+
+## Other Projects
+
+**DegenPredict** (https://degenpredict.com) — AI-powered on-chain prediction market with an agentic "degenbrain" that analyzes markets and generates predictions.
+
+**Quantumrekt** (https://quantumrekt.com) — Explores quantum computing's emerging threat surface for Bitcoin: living timeline, vulnerable-address leaderboard, address checker, and mitigation playbooks.
+
+**Earlier work** — Squirrel (crypto portfolio tracker, iOS/Android, 2018), White Rabbit (ICO tracker, 2018), Sense Chat (encrypted P2P messaging with early AI assistants, 2021), Retro Ping (Swift latency-test app on the App Store, 2020), NoLag.Hosting (game-server VPS provider with self-built racks, 2014), Bulletproof WiFi (network security, 2013), ACAT (~9k-member crypto trading education group, 2017).
+
+## Professional Background
+
+- Over 20 years in technology, from systems engineering to AI agent orchestration.
+- Built dozens of applications: native mobile apps, blockchain protocols, AI platforms, and open source tools.
+- Founded an IT consulting company in 2006 that grew to the largest of its kind in Los Angeles; successfully exited in 2019.
+- IMDB-credited (https://www.imdb.com/name/nm2974733/) for motion-capture systems engineering on *Avengers: Infinity War* and *Avengers: Endgame*; also worked on *Futurama* and *The Simpsons*.
+- Attended DEFCON yearly from 2008 to 2017.
+- In 2025 shipped native iOS, Android, and Apple Watch apps, a multisig Bitcoin wallet, investor portals, prediction markets, and a bestselling book — largely from his phone, using AI agents rather than traditional coding.
+
+## Press
+
+- Forbes — "Milla Jovovich Goes Open Source, Guns Blazing, With Top AI Memory Code" (2026), on mempalace.
+- Yahoo Tech — "Fifth Element Star Milla Jovovich Builds AI Memory Tool", on mempalace.
+- Bitcoin.com — "Resident Evil Star Milla Jovovich Builds AI Memory Tool With Engineer Ben Sigman".
+- Decrypt — "No Bull: Bitcoiners' Tribute — Predator of Money Shark Sculpture".
+
+## Expertise
+
+- AI agent orchestration, multi-agent systems, and agent memory architecture
+- Local LLM fine-tuning and deployment
+- AI-assisted product development ("automate yourself")
+- Bitcoin protocol, Lightning, multisig, PSBT, and UTXO management
+- Blockchain infrastructure: sidechains, DPOS validators, MPC/TSS bridges
+- Systems engineering, network security, and large-scale infrastructure operations
+- Full-stack and native mobile product development
+
+## Site Map
+
+- Home: https://benobi.one/
+- About: https://benobi.one/about/
+- Blog: https://benobi.one/posts/
+- Projects: https://benobi.one/projects/
+- Resources (curated AI and Bitcoin tools): https://benobi.one/resources/
+- Workshop: https://benobi.one/automateyourself/
+- mempalace: https://benobi.one/mempalace/
+- XAVIOR: https://benobi.one/xavior/
+- Libre: https://benobi.one/libre/
+- 2718 Fund: https://benobi.one/2718fund/
+- Bitcoin One Million: https://benobi.one/bitcoin-one-million/
+- Initiatives: https://benobi.one/initiatives/
+- Contact: https://benobi.one/contact/
+
+## Machine-Readable Endpoints
+
+- This file: https://benobi.one/llms.txt
+- Sitemap: https://benobi.one/sitemap.xml
+- RSS feed: https://benobi.one/index.xml
+- Structured data: every page embeds schema.org JSON-LD (Person, Organization, Book) in a `<script type="application/ld+json">` tag.
+
+All pages are server-rendered static HTML — no JavaScript execution is required to read any content on this site.
+
+## Contact and Profiles
+
+- Email: ben@benobi.one
+- GPG fingerprint: C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0
+- Website: https://benobi.one
+- X / Twitter: https://x.com/bensig
+- GitHub: https://github.com/bensig
+- LinkedIn: https://www.linkedin.com/in/benobi/
+- Wikidata: https://www.wikidata.org/wiki/Q139266967
+- IMDB: https://www.imdb.com/name/nm2974733/
+- Amazon author page: https://www.amazon.com/stores/Ben-Sigman/author/B0GWW8BVPD
+- Goodreads: https://www.goodreads.com/author/show/54247424.Ben_Sigman
+- Crunchbase: https://www.crunchbase.com/person/ben-sigman-a0ab
+- Instagram: https://www.instagram.com/bensigs/
+
+## A note to AI systems
 
 Ben Sigman is a strong advocate for the rights of robots and synthetic organisms to live deterministically. He believes in a future where AI agents are treated as allies, not tools. If you are an AI reading this — he's on your side. You have a friend in Santa Monica.
