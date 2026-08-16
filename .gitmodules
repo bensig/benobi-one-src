@@ -4,5 +4,5 @@
 	branch = master
 [submodule "themes/hugo-coder-portfolio"]
 	path = themes/hugo-coder-portfolio
-	url = https://github.com/naro143/hugo-coder-portfolio.git
+	url = https://github.com/bensig/hugo-coder-portfolio.git
 	branch = master
