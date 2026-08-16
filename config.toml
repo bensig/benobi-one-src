@@ -1,7 +1,9 @@
 baseURL = "https://benobi.one/"
 languageCode = "en-us"
 title = "Ben Sigman"
-theme = ["hugo-embed-pdf-shortcode", "hugo-coder-portfolio"]
+# hugo-coder-portfolio was vendored into layouts/ and static/ in Aug 2026.
+# Upstream (naro143) has been dead since Dec 2021; the templates now live here.
+theme = ["hugo-embed-pdf-shortcode"]
 enableInlineShortcodes = true
 
 DefaultContentLanguage = "en"
