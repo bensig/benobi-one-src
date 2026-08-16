@@ -1,7 +1,1 @@
-.vscode
-demo/
-**.DS_Store
-**/.DS_Store
-
-AGENTS.md
-.claude/settings.local.json
+.DS_Store

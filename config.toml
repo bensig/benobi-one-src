@@ -15,6 +15,11 @@ pygmentsUseClasses = true
 [pagination]
     pagerSize = 20
 
+# Always minify output. The deployed public/ repo is minified, so a plain
+# `hugo` build without this produces a spurious whole-site diff.
+[minify]
+    minifyOutput = true
+
 [markup.goldmark.renderer]
   unsafe = true
 
