@@ -102,7 +102,7 @@ All pages are server-rendered static HTML — no JavaScript execution is require
 ## Contact and Profiles
 
 - Email: ben@benobi.one
-- GPG fingerprint: C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0
+- GPG fingerprint: C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0 (also at https://benobi.one/gpg/2023-GPG.txt)
 - Website: https://benobi.one
 - X / Twitter: https://x.com/bensig
 - GitHub: https://github.com/bensig
