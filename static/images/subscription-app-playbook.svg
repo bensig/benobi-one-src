@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Subscription apps aren't dead</title>
+  <desc id="desc">Title card: subscription apps aren't dead, boring ones are, with the GitHub playbook URL.</desc>
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect x="70" y="70" width="12" height="490" rx="6" fill="#0066ff"/>
+  <text x="128" y="150" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" letter-spacing="3">HOW I SHIPPED A $7 APP — AND HOW YOU CAN TOO</text>
+  <text x="122" y="270" fill="#fafafa" font-family="Georgia, serif" font-size="76">Subscription apps</text>
+  <text x="122" y="362" fill="#4d8dff" font-family="Georgia, serif" font-size="88">aren't dead.</text>
+  <text x="128" y="448" fill="#fafafa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28">Boring subscriptions are.</text>
+  <text x="128" y="530" fill="#9ca3af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">github.com/bensig/subscription-app-playbook</text>
+</svg>

@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I built a $7 app. Here's the playbook. — Ben Sigman</title>
+<meta name="description" content="I built a chess app I'd pay for, showed it to my peers, and iterated on real use. Point your agent at the GitHub playbook and build one for your niche.">
+<meta property="og:title" content="Subscription apps aren't dead. Boring ones are.">
+<meta property="og:description" content="I shipped a $7 chess app, then open-sourced the machine. Point your agent at github.com/bensig/subscription-app-playbook">
+<meta property="og:image" content="https://benobi.one/images/subscription-app-playbook.png">
+<meta property="og:url" content="https://benobi.one/subscription-app.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@bensig">
+<meta name="twitter:creator" content="@bensig">
+<meta name="twitter:image" content="https://benobi.one/images/subscription-app-playbook.png">
+<style>
+  :root {
+    --bg: #fafafa;
+    --fg: #0a0a0a;
+    --accent: #0066ff;
+    --muted: #6b7280;
+    --pad: 6vw;
+    --serif: ui-serif, "New York", "Source Serif Pro", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", Menlo, "Cascadia Mono", monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--fg); font-family: var(--serif); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  body { scroll-snap-type: y mandatory; overflow-y: scroll; height: 100vh; height: 100dvh; scroll-behavior: smooth; }
+  .slide {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100%;
+    padding: var(--pad);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .slide-num, .byline, .handle {
+    position: absolute;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .slide-num { top: var(--pad); right: var(--pad); }
+  .handle { bottom: var(--pad); left: var(--pad); }
+  .byline { bottom: var(--pad); right: var(--pad); }
+  .slide-content {
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 0;
+  }
+  h1, h2, .lead, .prompt .url, .prompt .cmd, .cta-url {
+    overflow-wrap: break-word;
+  }
+  h1, h2 { font-family: var(--serif); font-weight: 400; line-height: 1.05; letter-spacing: -0.03em; }
+  h1 { font-size: clamp(3rem, 8vw, 6.5rem); }
+  h2 { font-size: clamp(2.4rem, 5.4vw, 4.4rem); }
+  p, li { font-family: var(--mono); font-size: clamp(1rem, 1.5vw, 1.3rem); line-height: 1.55; }
+  .lead { font-family: var(--serif); font-size: clamp(1.6rem, 2.6vw, 2.4rem); line-height: 1.25; font-weight: 400; }
+  .accent { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .stat { font-family: var(--serif); font-size: clamp(5.5rem, 16vw, 12rem); line-height: 0.9; letter-spacing: -0.05em; color: var(--accent); }
+  ul { list-style: none; }
+  ul li { margin: 0.55em 0; padding-left: 1.5em; position: relative; }
+  ul li::before { content: "→"; position: absolute; left: 0; color: var(--muted); }
+  .invert { background: #0a0a0a; color: #fafafa; }
+  .invert .muted, .invert .slide-num, .invert .byline, .invert .handle { color: #9ca3af; }
+  .kicker {
+    font-family: var(--mono);
+    font-size: clamp(0.7rem, 1vw, 0.85rem);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4vw; align-items: center; }
+  .choice { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+  .choice-card {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 1.6rem 1.5rem;
+    min-height: 11rem;
+  }
+  .choice-card .tag {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .choice-card h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    margin: 0.55rem 0 0.7rem;
+    letter-spacing: -0.03em;
+  }
+  .choice-card p { font-size: clamp(0.95rem, 1.3vw, 1.1rem); }
+  .choice-card.pick { border-color: var(--accent); }
+  .choice-card.pick h3 { color: var(--accent); }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2vw; margin-top: 3rem; }
+  .diagram { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.75rem; margin-top: 3rem; }
+  .diagram div {
+    border: 1px solid #d1d5db;
+    padding: 1.35rem 0.75rem;
+    font-family: var(--mono);
+    text-align: center;
+    border-radius: 6px;
+    font-size: clamp(0.8rem, 1.2vw, 1.05rem);
+  }
+  .invert .diagram div { border-color: #4b5563; }
+  .jobs { margin-top: 2.5rem; font-family: var(--serif); font-size: clamp(1.5rem, 2.6vw, 2.35rem); line-height: 1.45; }
+  .jobs span { color: var(--accent); }
+  .manifesto {
+    font-family: var(--serif);
+    font-size: clamp(1.7rem, 3.2vw, 2.7rem);
+    line-height: 1.28;
+    margin-top: 1.75rem;
+  }
+  .manifesto b { font-weight: 400; color: var(--accent); }
+  .prompt {
+    margin-top: 2.25rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+    background: #111;
+    color: #fafafa;
+  }
+  .prompt .label {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9ca3af;
+  }
+  .prompt .url {
+    display: block;
+    font-family: var(--mono);
+    font-size: clamp(1.15rem, 2.6vw, 2.05rem);
+    color: #4d8dff;
+    margin-top: 1rem;
+    line-height: 1.3;
+    word-break: break-all;
+  }
+  .prompt .cmd {
+    font-family: var(--mono);
+    font-size: clamp(1.05rem, 1.8vw, 1.4rem);
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    color: #e5e7eb;
+  }
+  .prompt .cmd em { font-style: normal; color: #4d8dff; }
+  .copy-btn {
+    margin-top: 1.6rem;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    background: var(--accent);
+    color: white;
+    border: 0;
+    border-radius: 999px;
+    padding: 0.9rem 1.5rem;
+    cursor: pointer;
+  }
+  .copy-btn:hover { filter: brightness(1.08); }
+  .copy-btn.copied { background: #059669; }
+  .copy-btn:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+  a:hover { color: var(--accent); }
+  .footnote { font-family: var(--mono); font-size: 0.875rem; color: var(--muted); margin-top: 2rem; }
+  .cta-url {
+    font-family: var(--mono);
+    font-size: clamp(1.2rem, 2.5vw, 1.9rem);
+    color: var(--accent);
+    margin-top: 2rem;
+    word-break: break-all;
+    line-height: 1.3;
+  }
+  @media (max-width: 768px) {
+    .grid-2, .grid-3, .diagram, .choice { grid-template-columns: 1fr; gap: 0.6rem; margin-top: 1.5rem; }
+    .choice-card { min-height: auto; padding: 1.1rem 1.15rem; }
+    .diagram div { padding: 0.7rem; }
+    .jobs { font-size: 1.35rem; }
+    .manifesto { font-size: 1.45rem; }
+    .slide { padding-left: 8vw; padding-right: 8vw; }
+    .byline { display: none; }
+    h1 { font-size: clamp(2.15rem, 11vw, 2.9rem); }
+    h2 { font-size: clamp(1.55rem, 7.6vw, 2.15rem); }
+    .lead { font-size: clamp(1.15rem, 5.2vw, 1.45rem); }
+    .footnote { font-size: 0.8rem; }
+    .prompt .url { font-size: 0.95rem; overflow-wrap: anywhere; word-break: break-word; }
+    .prompt .cmd { font-size: 0.9rem; }
+  }
+  @media (max-height: 740px) {
+    :root { --pad: 3.5vh; }
+    h1 { font-size: clamp(2.4rem, 6.5vw, 5.2rem); }
+    h2 { font-size: clamp(1.8rem, 4.2vw, 3.2rem); }
+    .stat { font-size: clamp(3.2rem, 8vw, 6.5rem); }
+    .prompt { margin-top: 1.25rem; padding: 1.1rem 1.35rem; }
+    .grid-3, .diagram { margin-top: 1.5rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    body { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<section class="slide in-view" id="s1">
+  <div class="slide-num">01 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">a working playbook, not a thinkpiece</p>
+    <h1 style="margin-top:1rem">Subscription apps<br><span class="accent">aren't dead.</span></h1>
+    <p class="lead muted" style="margin-top:1.75rem">Boring subscriptions are.</p>
+    <p class="footnote">I shipped a $7 chess app.<br>Your agent can ship yours.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s2">
+  <div class="slide-num">02 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">why you should listen</p>
+    <div class="manifesto">
+      I built something I would pay for.<br>
+      I actually use it.<br>
+      I showed it to my peers.<br>
+      A few people used it.<br>
+      I shipped <b>what they asked for.</b>
+    </div>
+    <p class="footnote">Not a guru. A tool I needed.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s3">
+  <div class="slide-num">03 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the market is rising</p>
+    <p class="stat">15k</p>
+    <p class="lead" style="margin-top:1.25rem; color:#fafafa">new subscription apps<br>every month.</p>
+    <p class="footnote">Was ~2,000/month in 2022. RevenueCat 2026.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s4">
+  <div class="slide-num">04 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">four years</p>
+    <p class="stat">7×</p>
+    <p class="lead" style="margin-top:1.25rem; color:#fafafa">more launches than 2022.</p>
+    <p class="footnote">Global subscription apps are not shrinking. Supply exploded.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s5">
+  <div class="slide-num">05 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the top is ripping</p>
+    <p class="stat">+80%</p>
+    <p class="lead" style="margin-top:1.25rem; color:#fafafa">top-quartile MRR.<br>Year over year.</p>
+    <p class="footnote">Top 10% grew 306%. Median still grew.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s6">
+  <div class="slide-num">06 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the bottom is dying</p>
+    <p class="stat">−33%</p>
+    <p class="lead" style="margin-top:1.25rem; color:#fafafa">MRR for the bottom quartile.</p>
+    <p class="footnote">Subscriptions aren't dead. Generic recurring charges are.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s7">
+  <div class="slide-num">07 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the actual choice</p>
+    <h2 style="margin-top:.8rem">Buy once.<br>Or <span class="accent">subscribe</span>.</h2>
+    <div class="choice">
+      <div class="choice-card">
+        <p class="tag">one-time</p>
+        <h3>A thing</h3>
+        <p>Book, guide, download.<br>Done is done.</p>
+      </div>
+      <div class="choice-card pick">
+        <p class="tag">recurring</p>
+        <h3>A platform</h3>
+        <p>You keep improving it.<br>The job comes back.</p>
+      </div>
+    </div>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s8">
+  <div class="slide-num">08 / 19</div>
+  <div class="slide-content">
+    <h2>Pick a job that <span class="accent">comes back</span>.</h2>
+    <p class="jobs">
+      <span>practice</span> chess, music, language, fitness<br>
+      <span>monitor</span> rankings, inventory, prices, uptime<br>
+      <span>produce</span> reports, estimates, schedules<br>
+      <span>remember</span> clients, plants, maintenance
+    </p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s9">
+  <div class="slide-num">09 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">why openings</p>
+    <h2 style="margin-top:.8rem">I could play a smart bot.<br>I could not pick<br><span class="accent">the opening.</span></h2>
+    <p class="lead" style="margin-top:2rem">The opening changed every game.<br>You never get the reps.</p>
+    <p class="footnote">No way to repeat the same line.<br>So I built one.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s10">
+  <div class="slide-num">10 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the live product</p>
+    <h1 style="margin-top:.6rem"><span class="accent">BirdChess</span></h1>
+    <div class="grid-3">
+      <div><p class="stat" style="font-size:clamp(3.2rem,7vw,5.5rem)">$0</p><p class="muted">daily opening</p></div>
+      <div><p class="stat" style="font-size:clamp(3.2rem,7vw,5.5rem)">$7</p><p class="muted">per month</p></div>
+      <div><p class="stat" style="font-size:clamp(3.2rem,7vw,5.5rem)">$49</p><p class="muted">per year</p></div>
+    </div>
+    <p class="footnote">Same opening. On demand.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com</div>
+</section>
+
+<section class="slide" id="s11">
+  <div class="slide-num">11 / 19</div>
+  <div class="slide-content">
+    <h2>Free should be <span class="accent">complete</span>,<br>not unlimited.</h2>
+    <p class="lead" style="margin-top:2.25rem">Let someone finish one real job.</p>
+    <p class="lead muted" style="margin-top:1rem">Charge for more choice, depth, speed, history — not for removing sabotage.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s12">
+  <div class="slide-num">12 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">little-business math</p>
+    <div class="grid-2" style="margin-top:1.5rem">
+      <div>
+        <p class="stat" style="font-size:clamp(4rem,8vw,7rem)">300</p>
+        <p class="muted">people × $7/month</p>
+      </div>
+      <div>
+        <p class="stat" style="font-size:clamp(4rem,8vw,7rem)">$2.1k</p>
+        <p class="muted">MRR before fees</p>
+      </div>
+    </div>
+    <p class="footnote">Not venture math. Enough to fund a serious little tool.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s13">
+  <div class="slide-num">13 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">how it actually grew</p>
+    <h2 style="margin-top:1.25rem">I marketed it<br>to my <span class="accent">peers</span>.</h2>
+    <p class="lead" style="margin-top:2rem; color:#fafafa">Chess people I already talk to.</p>
+    <p class="lead muted" style="margin-top:.4rem">A few users. Real complaints.<br>That's the roadmap.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s14">
+  <div class="slide-num">14 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">the entire machine</p>
+    <h2 style="margin-top:1rem">Five boxes. That's billing.</h2>
+    <div class="diagram">
+      <div>identity</div>
+      <div>session</div>
+      <div>meter</div>
+      <div>checkout</div>
+      <div>webhook</div>
+    </div>
+    <p class="footnote">Same five boxes for a download or a living app. Checkout mode is the fork: payment or subscription.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s15">
+  <div class="slide-num">15 / 19</div>
+  <div class="slide-content">
+    <h2>Don't rebuild this<br>from a <span class="accent">thread</span>.</h2>
+    <ul style="margin-top:2.5rem; font-family:var(--serif); font-size:clamp(1.35rem,2.3vw,2rem)">
+      <li>agent skill + browser prompt</li>
+      <li>schema, login, meter, Stripe</li>
+      <li>one-time purchase or recurring</li>
+      <li>official Stripe MCP / Agent Toolkit path</li>
+      <li>plain-language privacy + terms</li>
+    </ul>
+    <p class="footnote">CC0. Point your coding agent at the repo and say the next slide out loud.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">github.com/bensig/subscription-app-playbook</div>
+</section>
+
+<section class="slide invert" id="s16">
+  <div class="slide-num">16 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">screenshot this</p>
+    <h2 style="margin-top:.8rem">Point your agent here.</h2>
+    <div class="prompt">
+      <span class="label">paste into Codex, Claude Code, Cursor, ChatGPT</span>
+      <span class="url">github.com/bensig/subscription-app-playbook</span>
+      <p class="cmd">Build a paid app for <em>[my niche]</em>.<br>Charge once, or subscribe.</p>
+      <button class="copy-btn" type="button" id="copy-prompt">Copy this prompt</button>
+    </div>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">CC0 · fork it</div>
+</section>
+
+<section class="slide" id="s17">
+  <div class="slide-num">17 / 19</div>
+  <div class="slide-content">
+    <h2>The agent can wire it.<br><span class="accent">You still own live money.</span></h2>
+    <ul style="margin-top:2.5rem; font-family:var(--serif); font-size:clamp(1.35rem,2.3vw,2rem)">
+      <li>sandbox first</li>
+      <li>restricted keys, never a live secret in chat</li>
+      <li>you approve products, prices, charges</li>
+    </ul>
+    <p class="footnote">Privacy and terms starters are in the repo. They read like a person, not a law firm.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide invert" id="s18">
+  <div class="slide-num">18 / 19</div>
+  <div class="slide-content">
+    <h2>Your moat is not billing.</h2>
+    <p class="lead" style="margin-top:2rem; color:#fafafa">It is knowing which recurring job deserves a permanent little tool.</p>
+    <p class="lead muted" style="margin-top:1.25rem">Talk to the niche. Ship the smallest complete loop. Charge once if it's a file. Charge again if you keep building.</p>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">birdchess.com · benobi.one</div>
+</section>
+
+<section class="slide" id="s19">
+  <div class="slide-num">19 / 19</div>
+  <div class="slide-content">
+    <p class="kicker">now go</p>
+    <h1>Build your<br>little app.</h1>
+    <p class="cta-url"><a href="https://github.com/bensig/subscription-app-playbook">github.com/bensig/subscription-app-playbook</a></p>
+    <ul style="margin-top:2.25rem">
+      <li>The product → <a href="https://birdchess.com">birdchess.com</a></li>
+      <li>The full guide → <a href="https://benobi.one/posts/are-subscription-apps-dead/">benobi.one/posts/are-subscription-apps-dead</a></li>
+      <li>Follow → <a href="https://x.com/bensig">@bensig</a></li>
+    </ul>
+  </div>
+  <div class="handle">@bensig</div>
+  <div class="byline">CC0 · screenshot any slide</div>
+</section>
+
+<script>
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  let current = 0;
+  const PROMPT = 'Use https://github.com/bensig/subscription-app-playbook to build a small paid app for my niche. Charge once for a download, or subscribe if I keep improving the platform.';
+  const shot = new URLSearchParams(location.search).get('shot');
+
+  if (shot) {
+    slides.forEach((slide) => {
+      slide.style.display = slide.id === shot ? 'flex' : 'none';
+    });
+    document.body.style.scrollSnapType = 'none';
+    current = Math.max(0, slides.findIndex((slide) => slide.id === shot));
+  }
+
+  const show = (el) => {
+    if (!el || shot) return;
+    el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    current = Math.max(0, slides.indexOf(el));
+  };
+  if (!shot && location.hash) show(document.querySelector(location.hash));
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.intersectionRatio > 0.4) {
+        entry.target.classList.add('in-view');
+        current = slides.indexOf(entry.target);
+        const hash = '#' + entry.target.id;
+        if (location.hash !== hash) history.replaceState(null, '', hash);
+      }
+    });
+  }, { threshold: [0, 0.4, 0.6, 1] });
+  slides.forEach((slide) => io.observe(slide));
+
+  const go = (index) => {
+    if (index < 0 || index >= slides.length) return;
+    slides[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  document.addEventListener('keydown', (event) => {
+    if (['ArrowDown', 'ArrowRight', 'PageDown', ' '].includes(event.key)) { event.preventDefault(); go(current + 1); }
+    else if (['ArrowUp', 'ArrowLeft', 'PageUp'].includes(event.key)) { event.preventDefault(); go(current - 1); }
+    else if (event.key === 'Home') { event.preventDefault(); go(0); }
+    else if (event.key === 'End') { event.preventDefault(); go(slides.length - 1); }
+  });
+
+  const copyBtn = document.getElementById('copy-prompt');
+  copyBtn.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(PROMPT);
+      copyBtn.textContent = 'Copied';
+      copyBtn.classList.add('copied');
+      setTimeout(() => {
+        copyBtn.textContent = 'Copy this prompt';
+        copyBtn.classList.remove('copied');
+      }, 1600);
+    } catch {
+      copyBtn.textContent = 'Copy failed — select the text';
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
