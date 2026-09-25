@@ -96,56 +96,15 @@ Add this to the `<head>` of every page on your site. It tells Google exactly who
 
 ---
 
-## 2. Wikidata Entry
+## 2. Do not create a Wikidata item for SEO
 
-> ⚠️ **The single most important rule on Wikidata: every statement needs a `reference URL (P854)`.**
->
-> Wikidata items and statements *without* references are flagged for deletion within days. Editors actively patrol the New Items queue looking for unreferenced biographical claims. If your item gets nominated for deletion before you've added references, you may lose weeks of work.
->
-> **The rule:**
-> - Every `instance of (P31)`, `occupation (P106)`, `notable work (P800)`, `educated at (P69)`, `residence (P551)`, identifier (P2002 X, P2037 GitHub, etc.) — each one must have at least one `P854 reference URL` attached.
-> - Acceptable sources: any independent press (Forbes, Decrypt), Amazon book pages, your `/about` page, the social profile URL itself for identifier statements.
-> - The `described at URL (P973)` property on the *entity* does NOT count as statement-level referencing.
-> - Add `retrieved (P813) = today` alongside each P854 — Wikidata's UI prompts for it.
->
-> If you only do one thing right on Wikidata, do this.
+We did. Admins deleted it.
 
-Go to https://www.wikidata.org/wiki/Special:NewItem
+On 2026-06-29, [User:Ziv](https://www.wikidata.org/wiki/User:Ziv) deleted person item Q139266967 after an [RfD](https://www.wikidata.org/wiki/Wikidata:Requests_for_deletions): notability, plus **spam / advertising**, citing this playbook at [benobi.one/panel](https://benobi.one/panel). The book items and Fred Krueger item went with it.
 
-**Create your item:**
-- Label: `Your Full Name`
-- Description: `American entrepreneur and author` (or similar)
-- Aliases: any nicknames, handles, alternate spellings
+Wikidata is not a Knowledge Graph CDN. Recreating the same cluster will get the same RfD. Independent press first. A thin person item later, if ever.
 
-**Add statements (each is a separate "add statement" click):**
-
-| Property | Value |
-|----------|-------|
-| instance of (P31) | human (Q5) |
-| sex or gender (P21) | male (Q6581097) |
-| occupation (P106) | entrepreneur (Q131524) |
-| occupation (P106) | writer (Q36180) |
-| country of citizenship (P27) | United States (Q30) |
-| official website (P856) | https://yoursite.com |
-| X username (P2002) | your_handle |
-| GitHub username (P2037) | your_handle |
-| LinkedIn personal profile ID (P6634) | your_linkedin_slug |
-| IMDb ID (P345) | nmXXXXXXX |
-| Amazon author ID (P4862) | BXXXXXXXXXX |
-| notable work (P800) | link to your book item (create it first) |
-
-**For books, create separate Wikidata items first:**
-1. Create the book: Label = book title, Description = "2025 non-fiction book about..."
-2. Add statements: instance of → book (Q571), author → your item, ISBN-13, language → English, publication date
-3. Then go back to your person item and add notable work → link to the book
-
-**Add references!** Under each statement, click "add reference" and add:
-- reference URL (P854) → link to Forbes article, Amazon page, or other independent source
-- This is what prevents your item from being deleted
-
-**Tips:**
-- New Wikidata accounts get spam-filtered easily. Make 5-10 small edits to existing items first (add a missing ISBN to a book, etc.) before creating your own items
-- The spam filter blocks some keywords. If "Bitcoin One Million" gets blocked, try a different description like "2025 non-fiction book on Bitcoin economics"
+Keep `sameAs` to profiles you control. Do not point `sameAs` at a deleted QID.
 
 ---
 
@@ -170,7 +129,7 @@ Go to https://www.wikidata.org/wiki/Special:NewItem
 3. Add your bio (plain text, no URLs, no HTML, under 1000 characters)
 4. Upload your headshot
 5. Takes 1-2 days to go live
-6. Once live, your author ID (the BXXXXXXXXXX in the URL) goes into your schema markup and Wikidata
+6. Once live, your author ID (the BXXXXXXXXXX in the URL) goes into your schema markup
 
 ---
 
@@ -178,7 +137,6 @@ Go to https://www.wikidata.org/wiki/Special:NewItem
 
 Make sure your name, description, and key facts match across:
 - Your website (schema + visible content)
-- Wikidata
 - LinkedIn
 - Amazon Author Central
 - Crunchbase
@@ -222,27 +180,29 @@ This is an emerging standard that some AI crawlers read.
 
 Once Google creates your panel (usually 2-6 weeks after all signals are in place):
 
-1. Search your name on Google
+1. Search your name on Google while signed into the Google account you actually use
 2. Scroll to the bottom of the Knowledge Panel
 3. Click "Claim this knowledge panel"
-4. Verify via one of your linked social accounts (X, YouTube, etc.)
+4. Verify via a linked social account (X, YouTube, etc.)
+
+Google often **never sends the email**. Check spam on the Gmail/Workspace account you were signed in as — not your site's contact@ address. Stay logged in and retry from the panel. There is no separate "claim inbox" on your domain.
 
 ---
 
 ## Timeline
 
-- Day 1: Schema markup + Wikidata + Search Console
+- Day 1: Schema markup + Search Console
 - Day 2-3: Amazon Author Central, LinkedIn update, Crunchbase
 - Week 1: Google reindexes your site
 - Week 2-6: Knowledge Panel appears (if notability signals are strong enough)
 
-The strongest signals are: independent press coverage mentioning you by name, published books on Amazon, and a complete Wikidata entry with references.
+The strongest signals are: independent press coverage mentioning you by name, and published books on Amazon. Not a self-made Wikidata graph.
 
 ---
 
 ## 9. Validation Workflow
 
-After deploying schema or making Wikidata changes, run validators in this order:
+After deploying schema, run validators in this order:
 
 1. **Schema.org Validator** — https://validator.schema.org/
    - Reads everything in your JSON-LD. Aim for 0 errors / 0 warnings.
@@ -255,7 +215,7 @@ After deploying schema or making Wikidata changes, run validators in this order:
 
 3. **Search Console** → URL Inspection → **Request Indexing**
    - Single most important nudge after schema changes.
-   - Tells Google to re-crawl with the latest `sameAs` Wikidata link.
+   - Tells Google to re-crawl with the latest `sameAs` links.
 
 ### Common false alarms
 
@@ -265,40 +225,9 @@ After deploying schema or making Wikidata changes, run validators in this order:
 
 ---
 
-## 10. Wikidata Reference Audit
+## 10. Wikidata is not a step
 
-Wikidata items without references on individual statements are deletion-bait. Each statement (P31, P106, P800, etc.) needs its own P854 reference URL — the `described at URL` property on the entity does NOT count as statement-level referencing.
-
-### Quick audit query
-
-To check your item programmatically:
-
-```bash
-curl -s "https://www.wikidata.org/wiki/Special:EntityData/Qxxxxxxx.json" | python3 -c "
-import json, sys
-d = json.load(sys.stdin)
-claims = d['entities']['Qxxxxxxx']['claims']
-for prop, vals in claims.items():
-    for v in vals:
-        refs = len(v.get('references', []))
-        print(f'{prop}: refs={refs}')
-"
-```
-
-Replace `Qxxxxxxx` with your Q-number. Any line with `refs=0` needs a reference added.
-
-### Statement → reference URL mapping (template)
-
-| Statement | Best reference source |
-|-----------|----------------------|
-| instance of, sex/gender, citizenship | Independent press URL (Forbes, Decrypt, etc.) |
-| occupation | Press URL that uses the occupation noun about you |
-| notable work → Book | Amazon page for that book |
-| notable work → Software | GitHub repo or press URL covering the project |
-| official website | Your /about page |
-| Identifiers (GitHub, X, IMDb, Amazon, etc.) | The profile URL itself |
-
-Always add **retrieved (P813) = today** when adding a P854 reference.
+Skip it. See §2. The person item Q139266967 is gone; do not recreate it as part of this playbook.
 
 ---
 
@@ -351,7 +280,7 @@ It will be copied verbatim to `public/robots.txt` on `hugo --minify`.
 
 - Cloudflare may report `cf-cache-status: DYNAMIC` (not caching) but the `Age:` header from origin can be 30–60 minutes stale on individual edges, because Fastly TTL on Pages HTML defaults to ~10 min and per-edge purges aren't always thorough.
 - A single Googlebot fetch hitting one of those stale edges will index the OLD content, even though every other request returns the new version.
-- Once Google has a stale snapshot, it sticks until the next crawl — could be days. Knowledge Graph signals (especially the new `sameAs` Wikidata link) are NOT counted from a stale snapshot.
+- Once Google has a stale snapshot, it sticks until the next crawl — could be days. Knowledge Graph signals are NOT counted from a stale snapshot.
 
 **Real example:** benobi.one schema was deployed at 9 PM. Googlebot crawled at 5:47 AM (~9 hours later) and got the OLD version because that specific edge still had a stale Fastly cache. 20/20 manual Googlebot fetches at the same time returned the NEW version. Cache was purged via Cloudflare → next crawl was clean.
 
@@ -413,11 +342,8 @@ Always run TEST LIVE URL first to confirm Google's own fetcher gets the new cont
 Use this as a reference for what "complete" looks like before the Knowledge Panel waiting game:
 
 - [x] JSON-LD with @graph: Person + multiple Books + SoftwareApplication + WebSite, all linked via `@id`
-- [x] Person `sameAs` includes Wikidata Q-URL (the bridge between site ↔ Wikidata)
-- [x] Wikidata Q-item: 14+ properties, every statement P854-referenced
-- [x] Each notable work (P800) is a Q-item, not a string — and the work's own Q-item is fully populated (author, ISBN, language, publication date, etc.)
-- [x] residence (P551) on Wikidata matches `homeLocation` in JSON-LD matches llms.txt
-- [x] Identifiers in Wikidata sidebar: Amazon author, GitHub, IMDb, LinkedIn, X, Crunchbase
+- [x] Person `sameAs` is live profiles you control (X, GitHub, LinkedIn, Amazon) — not a deleted Wikidata QID
+- [x] `homeLocation` in JSON-LD matches llms.txt and every public profile
 - [x] llms.txt at site root with name, description, all sameAs URLs
 - [x] robots.txt at site root with sitemap reference
 - [x] sitemap.xml served and submitted to Search Console
@@ -440,29 +366,29 @@ This is the actual story of how Ben Sigman's Knowledge Panel went live, includin
 |---|---|
 | **2026-04-12 23:26 PT** | **First JSON-LD schema deployed** — initial `Person` markup for Knowledge Panel. Within hours: LinkedIn URL fix, Amazon author ID fix. |
 | **2026-04-13 00:50–00:55 PT** | Schema refactored to `@graph` format with `@id` references; Crunchbase added to sameAs; Amazon URLs + ISBNs added for both books. |
-| **2026-04-13 06:34 UTC** | **Wikidata item Q139266967 created.** |
+| **2026-04-13 06:34 UTC** | Wikidata item Q139266967 created (later deleted). |
 | **2026-04-13 11:28 PT** | Schema fix: `affiliation` with nested `founder` on Organization (the canonical pattern). |
 | **2026-04-14 22:45 PT** | `llms.txt` deployed at site root. |
 | **2026-04-16 08:50 PT** | Amazon author page added to `sameAs`. |
-| **2026-05-07 21:09 PT** | Santa Monica + Wikidata Q-URL added to schema `sameAs`. Marina del Rey → Santa Monica consistency fix. |
+| **2026-05-07 21:09 PT** | Santa Monica added to schema. Marina del Rey → Santa Monica consistency fix. Wikidata Q-URL also added to `sameAs` (later removed). |
 | **2026-05-07 21:32 PT** | `robots.txt` deployed. |
 | **2026-05-08** | Search Console "View Crawled Page" still showed stale Marina del Rey snapshot. Cloudflare full-purge unstuck it. |
-| **2026-05-11** | Wikidata fully wired: book Q-items (Q139267317 Bitcoin One Million, Q139701498 Big Bitcoin Book, Q139267340 mempalace), Fred Krueger Q-item linked (Q139267325), every statement P854-referenced. Description: "American entrepreneur, author, and Bitcoin advocate." |
+| **2026-05-11** | Wikidata cluster expanded (books + Fred Krueger). Do not copy this step — deleted 18 days later. |
 | **2026-05-16 14:16 PT** | **Big schema upgrade**: structured `PostalAddress`, `nationality`, `gender`, `alumniOf` UCLA, `OrganizationRole` with `roleName`. |
 | **2026-05-16 14:37 PT** | Goodreads added to `sameAs`. |
 | **2026-05-16 15:27 PT** | Instagram added to `sameAs`. |
 | **2026-05-16 15:30 PT** | b1m.io added as `SoftwareApplication` node. |
 | **2026-05-16 16:11 PT** | Schema correction: Libre → Libre Labs at bitcoinlibre.io, role = Founder & CEO. |
-| **2026-05-16** | **Wikimedia Commons image upload + P18 added to Wikidata.** Wikipedia article submitted via AfC. |
+| **2026-05-16** | **Wikimedia Commons image upload + schema image.** Wikipedia article submitted via AfC. (P18 was also set; that is not a step to copy.) |
 | **2026-05-18** | Wikipedia AfC **declined** by reviewer Bonadea (notability sources + LLM-detection flag). |
 | **~2026-06-23** | **Knowledge Panel went live.** |
 | **2026-06-24** | Confirmed visible. |
+| **2026-06-29** | Wikidata person + book items deleted (RfD: notability / advertising). |
 
 ### What the dates actually mean
 
 - **~73 days (10.5 weeks) from first JSON-LD commit (Apr 12) to panel live (~Jun 23).** This is the "started from zero" number — if you have no schema, plan for ~10 weeks.
-- **~38 days (5.5 weeks) from Wikidata + Commons image (May 16) to panel live.** This is the "all signals in place" number — once everything in §12 checklist is done, expect ~5–6 weeks.
-- **Wikidata item was created April 13 but kept being enriched for over a month** before Google instantiated the panel. The Wikidata item existing isn't enough — it needs to be near-complete with image, residence, all references, and notable-work Q-items linked.
+- **~38 days (5.5 weeks) from Commons + schema image (May 16) to panel live.** Treat Wikidata as coincidental, not causal — the person item was deleted 6 days after the panel went live.
 
 The original guide's "2–6 weeks" estimate is correct *only* measured from full-completion to panel. From bare-schema-start, plan ~10 weeks.
 
@@ -471,14 +397,13 @@ The original guide's "2–6 weeks" estimate is correct *only* measured from full
 The Knowledge Panel materialized **without** Wikipedia, despite the Wikipedia article being the goal of significant effort. The combination that was sufficient:
 
 1. **Comprehensive JSON-LD `@graph`** linking Person → Books → SoftwareApplications → WebSite via shared `@id`s
-2. **Wikidata Q-item with 17+ referenced statements**, including P18 (image from Commons), P551 (residence), P735/P734 (name parts), P69 (education), all identifier properties
-3. **Bidirectional bridge** — Wikidata Q-URL in JSON-LD `sameAs` AND benobi.one in Wikidata P856 (official website)
-4. **Cross-platform consistency** — Santa Monica everywhere, role descriptions aligned across LinkedIn / X / about.me / Crunchbase / Amazon Author
-5. **One independent press piece per claim** — Forbes (Pearce) on mempalace was the biggest single lever, with secondary coverage from Decrypt, Bitcoin.com News, BeInCrypto, The Block, Thought Catalog, Free Press Journal
+2. **Cross-platform consistency** — Santa Monica everywhere, role descriptions aligned across LinkedIn / X / about.me / Crunchbase / Amazon Author
+3. **One independent press piece per claim** — Forbes (Pearce) on mempalace was the biggest single lever, with secondary coverage from Decrypt, Bitcoin.com News, BeInCrypto, The Block, Thought Catalog, Free Press Journal
+4. **Wikidata did not survive.** Person + book items were RfD'd as SEO/advertising on 2026-06-29. Do not copy that step.
 
 ### The single highest-impact lever, in hindsight
 
-**Wikimedia Commons image upload + adding Wikidata P18 with that filename.** Until P18 was set on 2026-05-16, the panel didn't appear. ~5 weeks later, it did. This may be coincidence, but the pattern is consistent across other personal Knowledge Panels: Google waits for a definitive, declarative image source before instantiating the panel.
+**A stable `schema.org/image` Google can fetch** (we also put a CC-BY-SA file on Commons). Do not add a Wikidata P18 as an SEO move.
 
 ### What we tried that didn't work
 
@@ -496,7 +421,7 @@ Submitted 2026-05-16, declined 2026-05-18. Two reasons cited by reviewer:
 
 #### Organization Q-items for XAVIOR, Libre Labs, 2718 Capital
 
-Deferred — none had independent press at the time. Wikidata items for organizations without press get nominated for deletion fast. Lesson: wait until each org has at least one independent article naming it before creating its Q-item. Without press, even a perfectly-formed Q-item is deletion-bait.
+Skipped. Same RfD risk as the person item. Do not create org Q-items as an SEO step.
 
 ### Schema additions worth shipping (not in original guide §1)
 
@@ -539,28 +464,13 @@ For affiliations, convert plain `Organization` to **`OrganizationRole`** with `r
 
 This makes the role explicit and queryable. Plain `Organization` works but is less expressive.
 
-### Wikidata statements worth adding beyond the basics (not in §2)
-
-The original guide covers the core statements. These additional ones shipped on Q139266967 and contributed:
-
-| Property | Value type | Notes |
-|---|---|---|
-| **P18** image | Commons filename | **Highest-impact addition. Upload your headshot to Commons under CC-BY-SA, then add this.** |
-| **P735** given name | Q-item for your name | Add both legal (e.g., Q4925477 Benjamin) and common (e.g., Q14619767 Ben) if different. ⚠️ Don't confuse with Spanish accented forms (Q19830690 Benjamín). |
-| **P734** family name | Q-item for surname | Search Wikidata; if no item, leave as string. |
-| **P69** educated at | University Q-item | Add **P582** end-time qualifier with graduation year. |
-| **P551** residence | City Q-item | Should match `homeLocation` in your JSON-LD exactly. |
-| **P2963** Goodreads author ID | Numeric part only | E.g., for `goodreads.com/author/show/54247424.X`, value is `54247424`. |
-| **P2003** Instagram username | Just the handle | No URL, no `@`. |
-| **P2397** YouTube channel ID | `UCxxxx...` portion | From the channel URL. |
-
 ### Common pitfalls we hit
 
 1. **Cloudflare + Fastly stale-edge after schema deploy.** The `Age:` header on edge responses was 30–60 min stale even when `cf-cache-status: DYNAMIC`. Googlebot hit a stale edge once and indexed the old schema. Fix: always **Cloudflare → Purge Everything** after schema commits, then verify with `curl -A "Googlebot"` 10–20×.
 
-2. **{{Wikidata}} template in Wikipedia draft caused Lua errors.** That template is for *computing data from* Wikidata, not linking *to* a Wikidata item. Use the plain interwiki link instead: `[[d:Q139266967|Ben Sigman on Wikidata]]`.
+2. **{{Wikidata}} template in Wikipedia draft caused Lua errors.** That template is for *computing data from* Wikidata, not linking *to* a Wikidata item. Do not add a Wikidata interwiki as an SEO move — our person QID is gone.
 
-3. **"Marina del Rey" vs "Santa Monica" inconsistency.** Initial schema and llms.txt disagreed. Google reads both. Pick one canonical city and ensure it matches across ALL platforms (schema, llms.txt, Wikidata P551, LinkedIn, X, Crunchbase, Amazon).
+3. **"Marina del Rey" vs "Santa Monica" inconsistency.** Initial schema and llms.txt disagreed. Google reads both. Pick one canonical city and ensure it matches across ALL platforms (schema, llms.txt, LinkedIn, X, Crunchbase, Amazon).
 
 4. **Fred Krueger wikilink in Wikipedia draft pointed to the wrong target.** Plain `[[Fred Krueger]]` resolves to the *Nightmare on Elm Street* character. Use a disambiguated red link: `[[Fred Krueger (author)|Fred Krueger]]`.
 
@@ -577,21 +487,21 @@ For a person with:
 - No Wikipedia article
 - No existing Knowledge Graph entity
 
-…**Expect ~5 weeks from full Wikidata + Commons image (P18) to live Knowledge Panel**, assuming all signals in §12 checklist are in place.
+…**Expect ~5 weeks from Commons + schema image to live Knowledge Panel**, assuming all signals in §12 checklist are in place. Do not treat Wikidata as a required step.
 
 Faster timelines are possible with:
-- A Wikipedia article (auto-links via Wikidata, often instant)
+- A Wikipedia article (often instant if it exists)
 - Tier-1 press (NYT, WSJ, Reuters — extremely hard but instant signal)
 - Existing Knowledge Graph entity that just needs reactivation
 
 Slower timelines if:
 - Press is below tier-3 (crypto exchange news, aggregators)
 - Cross-platform consistency has gaps
-- Wikidata item is deletion-flagged
+- Recreating a Wikidata person cluster for SEO (ours was RfD'd)
 
 ### After the panel goes live
 
-1. **Claim it.** Search your name → bottom of panel → "Claim this knowledge panel" → verify via X or LinkedIn.
+1. **Claim it.** Search your name while signed into the Google account you actually use → bottom of panel → "Claim this knowledge panel" → verify via X or LinkedIn. Google often never sends the email. Retry from the panel; check spam on that Google account, not contact@.
 2. **Screenshot it** for baseline. Panels can disappear if signals weaken; you want a reference.
 3. **Note where Google sourced each fact** — sometimes the panel pulls from unexpected places (Crunchbase, IMDb, old conference bios). If anything's wrong, fix that source.
 4. **Don't keep tweaking.** Once live, leave it alone for a few months. Constant changes can cause Google to re-evaluate and occasionally retract.

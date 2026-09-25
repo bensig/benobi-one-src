@@ -151,15 +151,6 @@ With these added, the article can support **4 substantive sections**:
 
 ---
 
-## Wikidata — additions to make
+## Wikidata — do not recreate for SEO
 
-On Q139266967, add as **P973 described at URL** (no qualifier needed):
-- Yahoo Tech mempalace (Decrypt syndication)
-- Yahoo Tech quantum (BeInCrypto)
-- Yahoo Finance Q-Day (BeInCrypto)
-- Yahoo Finance shark sculpture (Decrypt syndication)
-- Free Press Journal
-- AInvest
-- KuCoin
-
-That's 7 more "described at URL" entries — strong signal of broad press coverage.
+Person item Q139266967 and the book items were deleted 2026-06-29 (RfD: notability / advertising). Do not rebuild the cluster as an SEO step. Independent press first; a thin person item later, if ever.

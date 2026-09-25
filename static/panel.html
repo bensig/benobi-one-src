@@ -143,9 +143,9 @@
     <h2>The <span class="accent">5-step recipe</span>.</h2>
     <ul style="margin-top:3rem; font-family:var(--serif); font-size:clamp(1.75rem,2.8vw,2.5rem)">
       <li style="padding-left:0">Schema on your site.</li>
-      <li style="padding-left:0">A Wikidata Q-item.</li>
-      <li style="padding-left:0">An image uploaded to Wikimedia Commons.</li>
+      <li style="padding-left:0">A real headshot Google can fetch.</li>
       <li style="padding-left:0">Consistency across every profile.</li>
+      <li style="padding-left:0">Independent press that names you.</li>
       <li style="padding-left:0">Wait.</li>
     </ul>
   </div>
@@ -155,10 +155,10 @@
 <section class="slide" id="s5">
   <div class="slide-num">05 / 20</div>
   <div class="slide-content">
-    <h2>Step 1 + 2:<br>the <span class="accent">foundation</span>.</h2>
+    <h2>Step 1:<br>the <span class="accent">foundation</span>.</h2>
     <p class="lead" style="margin-top:2.5rem">JSON-LD <code style="font-family:var(--mono); color:var(--accent)">Person</code> on your homepage.</p>
-    <p class="lead" style="margin-top:1rem">A Wikidata Q-item, every claim referenced to an independent source.</p>
-    <p class="footnote" style="margin-top:2rem">~3 hours of focused work. The site-side bridge to Wikidata is your <code style="font-family:var(--mono)">sameAs</code> array.</p>
+    <p class="lead" style="margin-top:1rem"><code style="font-family:var(--mono)">sameAs</code> to profiles you actually control: X, GitHub, LinkedIn, Amazon.</p>
+    <p class="footnote" style="margin-top:2rem">Do not create a Wikidata item as an SEO move. Ours was deleted for that.</p>
   </div>
   <div class="byline">ben sigman · benobi.one</div>
 </section>
@@ -169,7 +169,7 @@
     <p class="muted" style="font-family:var(--mono); letter-spacing:0.1em; text-transform:uppercase; font-size:0.875rem">step 3 — the unlock</p>
     <h1 style="margin-top:1.5rem">I uploaded my headshot<br>to <span class="accent">Wikimedia Commons</span>.</h1>
     <p class="lead" style="margin-top:2.5rem; color:#fafafa">5 weeks later, the panel appeared.</p>
-    <p class="footnote" style="color:#9ca3af">License: CC-BY-SA. File added to Wikidata as property <code style="font-family:var(--mono); color:var(--accent)">P18</code>. This was the single highest-impact step.</p>
+    <p class="footnote" style="color:#9ca3af">License: CC-BY-SA if you use Commons. Put the same file on your site as <code style="font-family:var(--mono); color:#fafafa">schema.org/image</code>. Do not wire it to Wikidata for ranking.</p>
   </div>
   <div class="byline">ben sigman · benobi.one</div>
 </section>
@@ -191,11 +191,12 @@
     <h2>The timeline.</h2>
     <div style="margin-top:3rem; display:grid; grid-template-columns:auto 1fr; gap:1.5rem 2rem; font-family:var(--mono); font-size:1rem">
       <div class="muted">Apr 12</div><div>First JSON-LD schema deployed</div>
-      <div class="muted">Apr 13</div><div>Wikidata Q139266967 created</div>
+      <div class="muted">Apr 13</div><div>Wikidata item created — later deleted</div>
       <div class="muted">Apr 14</div><div>llms.txt deployed</div>
-      <div class="muted">May 7</div><div>Santa Monica + Wikidata in <code>sameAs</code></div>
-      <div class="muted">May 16</div><div><span class="accent">Wikimedia Commons image + P18 added</span></div>
+      <div class="muted">May 7</div><div>Santa Monica in schema</div>
+      <div class="muted">May 16</div><div><span class="accent">Headshot on Commons + schema image</span></div>
       <div class="muted">Jun 23</div><div><strong>Knowledge Panel went live</strong></div>
+      <div class="muted">Jun 29</div><div>Wikidata person item deleted (RfD: SEO / notability)</div>
     </div>
     <p class="footnote" style="margin-top:2.5rem"><span class="stat" style="font-size:clamp(2rem,4vw,3rem); display:inline">73 days</span> from first commit to panel.</p>
   </div>
@@ -244,19 +245,10 @@
 <section class="slide" id="s12">
   <div class="slide-num">12 / 20</div>
   <div class="slide-content">
-    <h2>The Wikidata P-codes that mattered.</h2>
-    <div style="margin-top:2.5rem; display:grid; grid-template-columns:auto 1fr; gap:0.6rem 2rem; font-family:var(--mono); font-size:1.125rem">
-      <div class="accent">P31</div><div>instance of → human</div>
-      <div class="accent">P106</div><div>occupation → entrepreneur, writer, software engineer</div>
-      <div class="accent">P800</div><div>notable work → your books / projects (as Q-items, not strings)</div>
-      <div class="accent">P18</div><div>image → Commons file <em>(the unlock)</em></div>
-      <div class="accent">P551</div><div>residence → your city (Q-item)</div>
-      <div class="accent">P856</div><div>official website → your site</div>
-    </div>
-    <div style="margin-top:2.5rem; padding:1.25rem 1.5rem; border-left:3px solid var(--accent); background:rgba(0,102,255,0.05); font-family:var(--mono); font-size:1rem; line-height:1.6">
-      <strong style="color:var(--accent)">Every statement needs a P854 reference URL.</strong><br>
-      Unreferenced claims get nominated for deletion. The Forbes article, the Amazon page, your /about — anything independent counts. No reference, no statement, no item.
-    </div>
+    <h2>Do not use Wikidata for SEO.</h2>
+    <p class="lead" style="margin-top:2rem">We built a person item plus book items. Admins deleted them.</p>
+    <p class="lead" style="margin-top:1rem">Reason: notability + they found this playbook.</p>
+    <p class="footnote" style="margin-top:2rem">Wikidata is not a Knowledge Graph CDN. Recreating the same cluster will get the same RfD. Independent press first, thin item later — if ever.</p>
   </div>
   <div class="byline">ben sigman · benobi.one</div>
 </section>
@@ -269,9 +261,9 @@
       <li>commons.wikimedia.org/wiki/Special:UploadWizard</li>
       <li>"It is entirely my own work" — CC-BY-SA 4.0</li>
       <li>Descriptive filename: <code>Your Name headshot 2026.jpg</code></li>
-      <li>On Wikidata: add property <span class="accent">P18</span>, paste the filename</li>
+      <li>Use that same file as <code>schema.org/image</code> on your site</li>
     </ol>
-    <p class="footnote" style="margin-top:2rem">Google often pulls the panel image from P18 directly. Until P18 is set, the panel may not instantiate at all.</p>
+    <p class="footnote" style="margin-top:2rem">Skip wiring it to a Wikidata P18. That step is what got our person item deleted.</p>
   </div>
   <div class="byline">ben sigman · benobi.one</div>
 </section>
@@ -283,7 +275,6 @@
     <p class="lead" style="margin-top:2rem">Same city. Same title. Same bio. Everywhere.</p>
     <div style="margin-top:2rem; display:grid; grid-template-columns:auto 1fr; gap:0.4rem 2rem; font-family:var(--mono); font-size:1rem">
       <div class="muted">Your site schema</div><div>homeLocation, jobTitle, description</div>
-      <div class="muted">Wikidata</div><div>P551 residence, P106 occupation</div>
       <div class="muted">LinkedIn</div><div>headline, location, about</div>
       <div class="muted">X</div><div>bio, location</div>
       <div class="muted">Crunchbase</div><div>person page</div>
@@ -331,7 +322,7 @@
     <p class="lead" style="margin-top:2rem">I submitted an article. It got declined.</p>
     <p class="lead" style="margin-top:1rem">The panel went live anyway.</p>
     <p style="margin-top:2rem">Reviewer flagged it as LLM-drafted (fair — it was) and the sources cited me in passing rather than profiling me.</p>
-    <p class="footnote" style="margin-top:2rem">Wikipedia is a nice-to-have, not a requirement. The schema + Wikidata + image combo was sufficient.</p>
+    <p class="footnote" style="margin-top:2rem">Wikipedia is a nice-to-have, not a requirement. Schema + image + consistency was enough. Wikidata was not.</p>
   </div>
   <div class="byline">ben sigman · benobi.one</div>
 </section>
@@ -341,7 +332,8 @@
   <div class="slide-content">
     <h2>What to <span class="accent">skip</span>.</h2>
     <ul style="margin-top:2.5rem; font-family:var(--serif); font-size:clamp(1.5rem,2.4vw,2.25rem)">
-      <li>Org Q-items for companies without independent press → deletion-bait</li>
+      <li>Wikidata person/book items as an SEO step → ours got RfD'd as advertising</li>
+      <li>Waiting on a claim email → Google often never sends one. Retry signed in.</li>
       <li>LLM-drafted Wikipedia articles → flagged on sight</li>
       <li>Bestselling / pioneering / leading in your own bio → reviewers strip these</li>
       <li>Tweaking after the panel goes live → can cause Google to retract it</li>
@@ -356,7 +348,7 @@
     <h2>Timing benchmark.</h2>
     <div style="margin-top:3rem">
       <p class="stat">~5 wks</p>
-      <p class="muted" style="margin-top:0.5rem; font-family:var(--mono)">from Commons upload + P18 → panel live</p>
+      <p class="muted" style="margin-top:0.5rem; font-family:var(--mono)">from Commons + schema image → panel live</p>
     </div>
     <div style="margin-top:3rem">
       <p class="stat" style="color:var(--fg)">~10 wks</p>
@@ -374,7 +366,7 @@
     <ul style="margin-top:3rem; font-family:var(--serif); font-size:clamp(1.5rem,2.4vw,2.25rem)">
       <li>Full guide → <a href="https://benobi.one/posts/google-knowledge-panel-guide/">benobi.one/posts/google-knowledge-panel-guide</a></li>
       <li>Install the Claude skill → <a href="https://github.com/bensig/knowledge-panel-playbook">github.com/bensig/knowledge-panel-playbook</a></li>
-      <li>My Wikidata item → <a href="https://www.wikidata.org/wiki/Q139266967">Q139266967</a></li>
+      <li>Wikidata deletion log → <a href="https://www.wikidata.org/w/index.php?title=Special:Log&amp;page=Q139266967">Q139266967 gone</a></li>
       <li>Follow → <a href="https://x.com/bensig">@bensig</a></li>
     </ul>
     <p class="footnote" style="margin-top:3rem">If this helped — share it. Looksmax your search results, friends.</p>

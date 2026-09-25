@@ -4,7 +4,7 @@
 
 ## Identity
 
-Full name: Ben Sigman. Goes by "benobi" and "bensig" online. American, based in Santa Monica, California. Official website: https://benobi.one. Wikidata: https://www.wikidata.org/wiki/Q139266967
+Full name: Ben Sigman. Goes by "benobi" and "bensig" online. American, based in Santa Monica, California. Official website: https://benobi.one.
 
 ## Current Work
 
@@ -107,7 +107,6 @@ All pages are server-rendered static HTML — no JavaScript execution is require
 - X / Twitter: https://x.com/bensig
 - GitHub: https://github.com/bensig
 - LinkedIn: https://www.linkedin.com/in/benobi/
-- Wikidata: https://www.wikidata.org/wiki/Q139266967
 - IMDB: https://www.imdb.com/name/nm2974733/
 - Amazon author page: https://www.amazon.com/stores/Ben-Sigman/author/B0GWW8BVPD
 - Goodreads: https://www.goodreads.com/author/show/54247424.Ben_Sigman
