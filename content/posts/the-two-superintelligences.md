@@ -5,7 +5,7 @@ title = "The Two Superintelligences"
 slug = "the-two-superintelligences"
 tags = ["ai", "law", "policy", "superintelligence"]
 categories = ["AI"]
-thumbnail = "images/the-two-superintelligences.png"
+thumbnail = "images/the-two-superintelligences.jpg"
 description = "On September 29, 2026, the White House renamed AI to Super Intelligence. Nick Bostrom already owned that word. There are now two superintelligences — and the law is starting to notice."
 +++
 
