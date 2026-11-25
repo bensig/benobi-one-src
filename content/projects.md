@@ -10,19 +10,19 @@ This list contains most of the projects I have worked on since 2013.
 
 ---------------------------
 
+## [XAVIOR (2026)](/xavior/)
+
+{{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Customer Finder" link="/xavior/" class="portfolio-image" %}}
+
+XAVIOR finds your ideal customers and starts the conversation. Describe who you want to reach in plain English — "dentists in Texas," "CPAs," "software engineers" — and XAVIOR searches its AI-enriched lead database, queues matches for your review, and runs paced email campaigns from inboxes on your own domain. It also connects to Claude, ChatGPT, and Codex over MCP, so your AI assistant can prep searches, review leads, and draft outreach. Your first 100 leads are free. Currently raising at $12M.
+
+{{% /portfolio %}}
+
 ## [mempalace (2026)](/mempalace/)
 
 {{% portfolio image="/images/Mempalace Logo.png" alt="mempalace - Memory System for AI Agents" link="/mempalace/" class="portfolio-image" %}}
 
 mempalace is an open source memory system for AI agents that preserves full-fidelity conversations. No truncation, no lossy summarization. Built with [Milla Jovovich](https://www.instagram.com/p/DWzNnqwD2Lu/), it uses a spatial metaphor — wings, rooms, closets, and drawers — to organize and retrieve AI memory with 96.6% recall on LongMemEval. Free, open source, and a `pip install` away.
-
-{{% /portfolio %}}
-
-## [XAVIOR (2026)](/xavior/)
-
-{{% portfolio image="/images/xavior-ai-square.jpg" alt="XAVIOR AI Operating System" link="/xavior/" class="portfolio-image" %}}
-
-XAVIOR is an AI-powered operating system for your life — CRM, projects, tasks, calendar, docs, and notes in one workspace. Unlike generic AI assistants, XAVIOR runs on 10 custom fine-tuned models I trained locally, each specialized for a different domain (contacts, events, tasks, search, etc.). The AI understands context, not just data — surfacing what matters, what's stuck, and what to do next. Currently raising at $12M.
 
 {{% /portfolio %}}
 

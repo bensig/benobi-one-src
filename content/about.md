@@ -11,7 +11,7 @@ I build AI agent systems and ship AI-powered products. In 2025, I went deep on w
 
 Currently I'm focused on:
 
-- **[XAVIOR](https://xavior.ai)** — An AI operating system I built that runs on 10 custom fine-tuned models, each specialized for a different domain (contacts, events, tasks, search, etc.). It's a CRM, project manager, calendar, and notes system rolled into one AI-native workspace.
+- **[XAVIOR](https://xavior.ai)** — An AI customer finder. Describe your ideal customer in plain English; XAVIOR finds matching leads from an AI-enriched database and runs email campaigns from your own domain. Works inside Claude, ChatGPT, and Codex via MCP.
 - **[mempalace](/mempalace/)** — An open source memory system for AI agents. Think of it as the missing persistence layer that gives agents real memory across sessions and contexts.
 - **&lt;REDACTED&gt;** — A collaborative project exploring AI-only social worlds where digital twins can interact autonomously.
 - **[Automate Yourself](/automateyourself)** — A workshop teaching founders and creators how to build real products using AI without an engineering background.
@@ -45,7 +45,7 @@ I also write about the agent ecosystem — from [agent social networks and the r
 
 ## Short Bio
 
-Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate. He builds AI-powered products and agent systems, including XAVIOR — an AI operating system running 10 custom fine-tuned models — and the open source memory system [mempalace](/mempalace/).
+Ben Sigman is an AI agent orchestrator, systems engineer, author, and Bitcoin advocate. He builds AI-powered products and agent systems, including XAVIOR — an AI platform that finds your ideal customers and starts the conversation — and the open source memory system [mempalace](/mempalace/).
 
 He conceived and leads [Libre][libre], Bitcoin's first decentralized two-way lending marketplace, and is the bestselling co-author of [*Bitcoin One Million*][b1m], ranked #1 in Macroeconomics, Monetary Policy, and Bitcoin categories. He is also the co-creator of [Bitcoin Alpha][alpha], the invite-only Bitcoin unconference series.
 

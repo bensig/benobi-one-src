@@ -1,6 +1,6 @@
 AI agent orchestrator, systems engineer, and Bitcoin advocate. 20+ years building and shipping products — native apps, blockchain protocols, AI platforms.
 
-Building XAVIOR, an AI-powered operating system running 10 custom fine-tuned models — each specialized for a different domain — across CRM, projects, tasks, calendar, docs, and notes. One workspace that thinks.
+Building XAVIOR, an AI platform that finds your ideal customers and starts the conversation. Describe who you want to reach in plain English — XAVIOR finds the leads and runs the outreach from your own domain. Works inside Claude, ChatGPT, and Codex via MCP.
 
 Co-creator of mempalace, an open-source memory system for AI agents that preserves full-fidelity conversations with zero truncation or summarization. 96.6% recall on LongMemEval.
 

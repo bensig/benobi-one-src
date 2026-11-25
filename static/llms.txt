@@ -8,7 +8,7 @@ Full name: Ben Sigman. Goes by "benobi" and "bensig" online. American, based in 
 
 ## Current Work
 
-**XAVIOR** (https://xavior.ai) — An AI-powered operating system for your life: CRM, projects, tasks, calendar, docs, and notes in a single AI-native workspace. Runs on 10 custom fine-tuned models Ben trained locally, each specialized for a domain (contacts, events, tasks, search). Founder and CEO. Currently raising at a $12M valuation.
+**XAVIOR** (https://xavior.ai) — AI platform that finds your ideal customers and starts the conversation. Users describe their ideal customer in plain English; XAVIOR searches an AI-enriched lead database, queues matches for review, and runs paced email campaigns from sending inboxes on the user's own domain, with suppression lists and unsubscribe handling. An MCP server (https://api.xavior.ai/mcp) lets Claude, ChatGPT, Codex, and other clients prepare searches, review leads, and draft outreach. First 100 leads free. Founder and CEO. Currently raising at a $12M valuation.
 
 **mempalace** (https://github.com/mempalace/mempalace) — Open source memory system for AI agents, co-created with Milla Jovovich. Preserves full-fidelity conversations with no truncation and no lossy summarization. Uses a spatial metaphor — wings, rooms, closets, drawers — to organize and retrieve agent memory. Scores 96.6% recall on LongMemEval. Free, open source, installable via `pip`. Covered by Forbes, Yahoo Tech, and Bitcoin.com.
 

@@ -23,7 +23,7 @@
         <img src="https://benobi.one/images/xavior-ai-square.jpg" width="120" alt="XAVIOR"><br><br>
         <b>XAVIOR</b>
       </a><br>
-      <sub>AI operating system — 10 custom<br>fine-tuned models, one workspace</sub>
+      <sub>Describe your ideal customer —<br>XAVIOR finds them</sub>
     </td>
     <td align="center" width="33%">
       <a href="https://linktr.ee/mempalace">
